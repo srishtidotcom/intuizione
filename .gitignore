@@ -1,0 +1,24 @@
+# Security & Environments
+.env
+.env.local
+*.pem
+*.key
+venv/
+.venv/
+
+# Python Clutter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# OS & Editors
+.vscode/
+.idea/
+.DS_Store
+*.swp
