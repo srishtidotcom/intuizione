@@ -1,0 +1,1001 @@
+transaction_id,transaction_timestamp,transaction_date,hour_of_day,day_of_week,amount,category,payment_method,device_type,network_type,state,city,age_group,user_id,merchant_id,success,failure_reason,fraud_flag,is_reviewed,latency_ms,session_id
+1,2024-03-14 23:33:14,2024-03-14,23,Thursday,605.03,Utilities,UPI,Android,4G,West Bengal,Kolkata,45-54,499669,78742,True,,False,False,380,6347476
+2,2024-12-22 12:09:19.000137,2024-12-22,12,Sunday,6021.95,Travel,Card,Android,4G,Maharashtra,Nagpur,25-34,313214,53288,True,,False,True,203,2326581
+3,2024-08-18 20:05:34.000274,2024-08-18,20,Sunday,1163.66,Grocery,UPI,iOS,4G,Karnataka,Mysuru,35-44,449138,49739,True,,False,False,596,1257256
+4,2024-04-18 22:47:07.000411,2024-04-18,22,Thursday,787.64,Grocery,Card,Web,4G,Karnataka,Hubli,35-44,423404,44283,True,,False,False,493,7033835
+5,2024-09-19 21:29:06.000548,2024-09-19,21,Thursday,524.87,Grocery,Card,Android,WiFi,Uttar Pradesh,Noida,18-24,712401,85909,True,,False,False,64,8005797
+6,2024-05-31 08:21:14.000685,2024-05-31,8,Friday,907.57,Travel,NetBanking,Android,4G,West Bengal,Kolkata,35-44,933592,56160,True,,False,False,518,3839807
+7,2024-03-12 17:31:11.000822,2024-03-12,17,Tuesday,4427.22,Education,UPI,Android,5G,Kerala,Kochi,18-24,109585,38668,True,,False,True,285,9484790
+8,2024-08-21 11:39:40.000959,2024-08-21,11,Wednesday,1085.11,Retail,Card,Android,WiFi,Maharashtra,Mumbai,18-24,945328,33496,True,,False,False,1123,2795437
+9,2024-02-19 13:15:12.001096,2024-02-19,13,Monday,1578.06,Retail,UPI,Android,4G,Tamil Nadu,Salem,18-24,184532,95686,True,,False,False,342,1531577
+10,2024-02-17 11:24:35.001233,2024-02-17,11,Saturday,1679.43,Utilities,Card,Android,5G,Maharashtra,Pune,45-54,340927,37710,True,,False,False,1583,8977571
+11,2024-05-18 05:04:43.001370,2024-05-18,5,Saturday,4351.78,Education,NetBanking,Android,5G,Karnataka,Mangaluru,55+,352153,84277,True,,False,True,148,7528964
+12,2024-12-12 21:21:24.001507,2024-12-12,21,Thursday,731.38,Grocery,UPI,POS,4G,Telangana,Warangal,25-34,614435,39902,True,,False,False,320,6969521
+13,2024-10-10 22:27:11.001644,2024-10-10,22,Thursday,950.07,Grocery,Card,iOS,4G,Maharashtra,Nagpur,45-54,432061,57277,True,,False,False,700,2787627
+14,2024-02-16 00:19:28.001781,2024-02-16,0,Friday,2738.48,Travel,UPI,iOS,5G,Karnataka,Bengaluru,25-34,503951,11617,False,network_timeout,False,False,647,5896386
+15,2024-07-30 11:05:46.001918,2024-07-30,11,Tuesday,2476.78,Education,NetBanking,POS,4G,West Bengal,Siliguri,18-24,541557,49289,True,,False,False,132,9124053
+16,2024-02-09 11:15:46.002055,2024-02-09,11,Friday,1798.67,Retail,Card,iOS,5G,Gujarat,Ahmedabad,25-34,955088,95332,True,,False,False,367,3283789
+17,2024-06-02 10:44:12.002192,2024-06-02,10,Sunday,1965.57,Utilities,UPI,Android,WiFi,Karnataka,Bengaluru,45-54,309505,87624,True,,False,False,397,4018677
+18,2024-12-15 18:01:46.002329,2024-12-15,18,Sunday,1333.79,Utilities,Card,Android,WiFi,Gujarat,Surat,35-44,927406,59412,True,,False,False,740,2240929
+19,2024-08-17 23:30:37.002466,2024-08-17,23,Saturday,1879.3,Utilities,UPI,Web,4G,Uttar Pradesh,Lucknow,35-44,906306,42536,True,,False,False,706,6956059
+20,2024-03-26 15:02:36.002603,2024-03-26,15,Tuesday,389.12,Subscriptions,Card,Android,4G,Maharashtra,Nagpur,55+,703178,38971,True,,False,False,549,8478923
+21,2024-07-10 11:49:43.002740,2024-07-10,11,Wednesday,670.74,Retail,UPI,Android,5G,Uttar Pradesh,Lucknow,18-24,559450,69303,True,,False,False,510,6350413
+22,2024-02-04 10:51:45.002877,2024-02-04,10,Sunday,296.27,Food,NetBanking,Android,4G,West Bengal,Kolkata,18-24,293411,34430,True,,False,False,286,8250013
+23,2024-07-21 03:39:56.003014,2024-07-21,3,Sunday,1957.51,Entertainment,Card,Android,4G,Delhi,New Delhi,18-24,375097,97910,True,,False,False,364,9212178
+24,2024-09-27 22:20:38.003151,2024-09-27,22,Friday,1258.58,Travel,UPI,iOS,WiFi,Karnataka,Mysuru,25-34,428399,25448,True,,False,False,637,5002586
+25,2024-06-05 07:23:44.003288,2024-06-05,7,Wednesday,482.67,Food,UPI,Android,4G,Haryana,Gurugram,25-34,402865,28388,True,,False,False,237,4138993
+26,2024-06-10 20:39:03.003425,2024-06-10,20,Monday,2064.01,Healthcare,Wallet,Android,5G,Delhi,New Delhi,25-34,275377,20835,True,,False,False,836,1517756
+27,2024-04-22 10:17:14.003562,2024-04-22,10,Monday,1299.34,Retail,UPI,Android,4G,Maharashtra,Mumbai,45-54,962570,15453,True,,False,False,1163,8404902
+28,2024-10-06 09:27:06.003699,2024-10-06,9,Sunday,291.29,Grocery,Card,iOS,3G,Maharashtra,Nashik,18-24,746081,28249,True,,False,False,851,4466502
+29,2024-04-15 19:36:22.003836,2024-04-15,19,Monday,3238.04,Retail,Card,iOS,3G,Rajasthan,Jaipur,25-34,162165,46349,True,,False,False,1188,3128830
+30,2024-12-25 20:15:09.003973,2024-12-25,20,Wednesday,838.36,Grocery,NetBanking,Android,4G,Gujarat,Ahmedabad,25-34,197616,62802,True,,False,False,699,9650558
+31,2024-05-22 17:56:23.004110,2024-05-22,17,Wednesday,1728.24,Utilities,UPI,Android,4G,Uttar Pradesh,Lucknow,45-54,964915,37767,True,,False,False,427,9299939
+32,2024-05-17 10:18:21.004247,2024-05-17,10,Friday,1874.46,Retail,UPI,Web,4G,Uttar Pradesh,Lucknow,55+,548580,36518,False,merchant_error,False,False,483,3213134
+33,2024-11-28 10:55:59.004384,2024-11-28,10,Thursday,2463.81,Healthcare,UPI,Android,5G,Telangana,Warangal,35-44,195629,22475,True,,False,False,941,1018225
+34,2024-04-19 12:08:37.004521,2024-04-19,12,Friday,1554.01,Entertainment,Card,iOS,4G,Punjab,Ludhiana,45-54,207402,23526,True,,False,False,413,6257165
+35,2024-07-07 21:08:24.004658,2024-07-07,21,Sunday,593.33,Grocery,Card,iOS,3G,Tamil Nadu,Chennai,18-24,258727,63963,True,,False,False,1104,8421969
+36,2024-04-21 06:06:08.004795,2024-04-21,6,Sunday,484.4,Grocery,Card,Android,3G,Gujarat,Vadodara,25-34,916808,13515,True,,False,False,832,6060836
+37,2024-04-15 13:32:12.004932,2024-04-15,13,Monday,662.49,Grocery,UPI,iOS,3G,Rajasthan,Jaipur,55+,478638,51480,True,,False,False,716,3214305
+38,2024-07-17 20:36:26.005069,2024-07-17,20,Wednesday,2357.1,Travel,Card,Android,3G,Gujarat,Surat,45-54,390946,20957,True,,False,False,729,6199374
+39,2024-02-10 13:13:51.005206,2024-02-10,13,Saturday,588.04,Food,UPI,Android,4G,Rajasthan,Jaipur,35-44,555589,25202,True,,False,False,291,8606317
+40,2024-11-09 15:19:42.005343,2024-11-09,15,Saturday,906.89,Grocery,Card,iOS,4G,Gujarat,Ahmedabad,35-44,381819,25473,True,,False,False,196,1492516
+41,2024-06-20 19:17:33.005480,2024-06-20,19,Thursday,436.47,Food,Card,Android,5G,West Bengal,Howrah,25-34,701790,98358,True,,False,False,305,2934976
+42,2024-04-26 18:00:02.005617,2024-04-26,18,Friday,2621.51,Healthcare,UPI,iOS,WiFi,Maharashtra,Pune,55+,225200,75803,True,,False,False,1174,1883692
+43,2024-04-01 09:33:02.005754,2024-04-01,9,Monday,817.2,Fuel,UPI,Android,WiFi,Karnataka,Mangaluru,45-54,586462,58270,False,insufficient_funds,False,False,345,9277218
+44,2024-04-10 18:34:48.005891,2024-04-10,18,Wednesday,1394.97,Grocery,UPI,POS,5G,Delhi,New Delhi,35-44,422448,23624,False,network_timeout,False,False,407,4442590
+45,2024-09-28 23:26:31.006028,2024-09-28,23,Saturday,476.35,Fuel,Wallet,iOS,WiFi,Maharashtra,Nagpur,18-24,768169,61688,True,,False,False,624,2255447
+46,2024-10-30 14:27:42.006165,2024-10-30,14,Wednesday,1864.61,Fuel,UPI,iOS,WiFi,Karnataka,Mysuru,45-54,917823,86638,True,,False,False,145,2828260
+47,2024-03-20 07:28:29.006302,2024-03-20,7,Wednesday,2081.31,Travel,UPI,Android,4G,Maharashtra,Mumbai,25-34,732608,15286,True,,False,False,345,4607450
+48,2024-06-16 07:45:15.006439,2024-06-16,7,Sunday,1919.27,Fuel,UPI,iOS,WiFi,Karnataka,Mysuru,45-54,227352,11567,True,,False,False,173,2034637
+49,2024-04-23 07:52:25.006576,2024-04-23,7,Tuesday,2133.62,Travel,Card,Android,4G,Gujarat,Rajkot,25-34,583388,16637,True,,False,False,368,3818391
+50,2024-10-20 12:46:25.006713,2024-10-20,12,Sunday,898.2,Utilities,UPI,Android,WiFi,Tamil Nadu,Chennai,55+,623125,64000,True,,False,False,674,9036805
+51,2024-02-01 06:24:08.006850,2024-02-01,6,Thursday,1180.67,Utilities,Card,Android,WiFi,Tamil Nadu,Madurai,55+,460745,84141,True,,False,False,506,9428760
+52,2024-06-13 11:11:01.006987,2024-06-13,11,Thursday,2527.15,Travel,UPI,Web,4G,Karnataka,Hubli,18-24,330069,85457,True,,False,False,124,7516648
+53,2024-06-30 22:54:11.007124,2024-06-30,22,Sunday,1145.97,Food,Card,Web,4G,Karnataka,Mysuru,55+,614259,14975,True,,False,False,520,2514267
+54,2024-01-29 09:14:01.007261,2024-01-29,9,Monday,1391.65,Retail,UPI,Web,5G,Haryana,Faridabad,18-24,482614,19506,False,otp_failed,False,False,994,7267813
+55,2024-12-26 22:25:37.007398,2024-12-26,22,Thursday,653.24,Food,UPI,iOS,5G,West Bengal,Siliguri,55+,283869,59595,True,,False,False,279,6147639
+56,2024-12-18 10:11:46.007535,2024-12-18,10,Wednesday,609.64,Food,Card,Android,4G,Gujarat,Ahmedabad,45-54,209167,75035,True,,False,False,666,3359604
+57,2024-06-18 18:15:22.007672,2024-06-18,18,Tuesday,1259.13,Subscriptions,UPI,Web,5G,Karnataka,Mysuru,35-44,369125,24160,True,,False,False,300,1021494
+58,2024-01-25 11:46:26.007809,2024-01-25,11,Thursday,551.34,Fuel,NetBanking,Android,WiFi,Uttar Pradesh,Noida,35-44,177289,14379,True,,False,False,791,5947745
+59,2024-01-11 10:06:04.007946,2024-01-11,10,Thursday,4134.49,Travel,NetBanking,iOS,5G,Karnataka,Mangaluru,55+,785386,31626,True,,False,True,825,8284673
+60,2024-03-21 05:21:13.008083,2024-03-21,5,Thursday,1140.51,Fuel,UPI,Android,3G,Tamil Nadu,Coimbatore,35-44,157152,57294,True,,False,False,749,1064014
+61,2024-08-06 06:52:42.008220,2024-08-06,6,Tuesday,2424.18,Retail,UPI,iOS,5G,Punjab,Jalandhar,35-44,377877,21945,True,,False,False,497,7501626
+62,2024-04-04 11:24:23.008357,2024-04-04,11,Thursday,929.92,Entertainment,UPI,Android,WiFi,West Bengal,Kolkata,45-54,534096,87296,True,,False,False,756,4817030
+63,2024-10-10 05:24:52.008494,2024-10-10,5,Thursday,887.67,Retail,Wallet,Android,3G,Gujarat,Ahmedabad,35-44,641922,84905,True,,False,False,123,3473761
+64,2024-03-02 22:28:11.008631,2024-03-02,22,Saturday,433.26,Fuel,UPI,iOS,5G,West Bengal,Howrah,18-24,998235,46202,True,,False,False,593,9718920
+65,2024-08-22 21:00:50.008768,2024-08-22,21,Thursday,705.29,Grocery,Card,Android,5G,Rajasthan,Jaipur,18-24,923914,47498,True,,False,False,176,9986438
+66,2024-06-25 21:16:24.008905,2024-06-25,21,Tuesday,1523.48,Retail,Card,Android,5G,Uttar Pradesh,Lucknow,25-34,151685,72287,True,,False,False,1460,5506097
+67,2024-07-09 02:52:50.009042,2024-07-09,2,Tuesday,2831.6,Travel,UPI,Android,4G,Karnataka,Mangaluru,18-24,297064,67896,True,,False,False,444,4546544
+68,2024-07-27 18:48:33.009179,2024-07-27,18,Saturday,1826.53,Healthcare,NetBanking,Android,5G,Maharashtra,Pune,25-34,973390,36309,True,,False,False,87,1966829
+69,2024-05-07 04:03:58.009316,2024-05-07,4,Tuesday,1802.41,Travel,UPI,Android,WiFi,Delhi,New Delhi,25-34,460971,31432,True,,False,False,501,5339593
+70,2024-12-18 06:01:24.009453,2024-12-18,6,Wednesday,518.63,Food,NetBanking,Android,5G,Karnataka,Hubli,25-34,815338,11166,True,,False,False,1367,8954031
+71,2024-03-08 15:38:51.009590,2024-03-08,15,Friday,681.55,Food,UPI,Web,WiFi,Karnataka,Mysuru,55+,810091,78241,True,,False,False,302,7663113
+72,2024-10-26 07:32:42.009727,2024-10-26,7,Saturday,1155.69,Fuel,NetBanking,Android,4G,Haryana,Faridabad,25-34,787991,95389,True,,False,False,363,6012883
+73,2024-04-06 08:48:15.009864,2024-04-06,8,Saturday,5241.66,Education,NetBanking,Web,4G,Kerala,Thiruvananthapuram,35-44,507135,14629,True,,False,True,308,4186247
+74,2024-06-24 18:14:43.010001,2024-06-24,18,Monday,1736.64,Retail,Card,Web,4G,Delhi,New Delhi,25-34,899977,33995,True,,False,False,308,6630978
+75,2024-12-01 06:22:14.010138,2024-12-01,6,Sunday,298.46,Grocery,UPI,Android,WiFi,West Bengal,Howrah,25-34,174675,71894,True,,False,False,628,4263903
+76,2024-09-13 07:43:24.010275,2024-09-13,7,Friday,1008.94,Retail,UPI,Web,5G,Tamil Nadu,Salem,55+,266131,74169,True,,False,False,992,2477088
+77,2024-03-07 15:40:27.010412,2024-03-07,15,Thursday,995.22,Utilities,Wallet,Android,5G,Kerala,Thiruvananthapuram,18-24,757128,42613,True,,False,False,251,4796108
+78,2024-12-21 21:19:08.010549,2024-12-21,21,Saturday,1008.82,Food,UPI,iOS,5G,Telangana,Nizamabad,18-24,240288,54922,True,,False,False,460,9223833
+79,2024-07-02 18:10:58.010686,2024-07-02,18,Tuesday,4103.7,Education,UPI,iOS,4G,Karnataka,Mangaluru,18-24,150290,96765,True,,False,True,567,2813842
+80,2024-11-30 20:03:44.010823,2024-11-30,20,Saturday,352.45,Food,UPI,iOS,WiFi,Karnataka,Bengaluru,35-44,834764,27978,False,network_timeout,False,False,550,8026730
+81,2024-02-23 13:39:07.010960,2024-02-23,13,Friday,675.2,Entertainment,Card,Android,4G,Gujarat,Surat,45-54,113368,98032,True,,False,False,507,2493219
+82,2024-02-26 20:42:31.011097,2024-02-26,20,Monday,346.96,Food,UPI,Android,4G,Karnataka,Bengaluru,18-24,283188,15170,True,,False,False,491,5874908
+83,2024-07-03 19:20:27.011234,2024-07-03,19,Wednesday,901.25,Grocery,UPI,Android,5G,Gujarat,Surat,45-54,197466,58840,True,,False,False,681,6749933
+84,2024-04-03 07:25:29.011371,2024-04-03,7,Wednesday,1162.85,Entertainment,UPI,Web,4G,Kerala,Thiruvananthapuram,35-44,941235,84572,True,,False,False,444,8351152
+85,2024-04-02 15:49:22.011508,2024-04-02,15,Tuesday,1048.92,Retail,NetBanking,Web,4G,Tamil Nadu,Coimbatore,55+,112960,98857,True,,False,False,133,9804983
+86,2024-10-22 17:14:42.011645,2024-10-22,17,Tuesday,2297.76,Healthcare,UPI,Android,4G,Karnataka,Bengaluru,25-34,742686,17152,True,,False,False,216,1195368
+87,2024-11-25 22:32:54.011782,2024-11-25,22,Monday,1139.6,Utilities,UPI,iOS,4G,Punjab,Amritsar,25-34,182659,70174,True,,False,False,410,8452252
+88,2024-10-20 12:54:31.011919,2024-10-20,12,Sunday,973.07,Utilities,UPI,Android,4G,Telangana,Warangal,18-24,633030,83706,False,insufficient_funds,False,False,677,4470388
+89,2024-12-01 16:21:23.012056,2024-12-01,16,Sunday,2729.88,Healthcare,NetBanking,Web,WiFi,Maharashtra,Pune,45-54,102303,54742,True,,False,False,169,6958243
+90,2024-11-20 22:18:35.012193,2024-11-20,22,Wednesday,2133.43,Retail,Card,iOS,5G,Maharashtra,Mumbai,18-24,511981,38257,True,,False,False,249,8667959
+91,2024-04-07 17:06:48.012330,2024-04-07,17,Sunday,1307.84,Utilities,NetBanking,Web,4G,Maharashtra,Nashik,45-54,150931,82512,True,,False,False,527,8261353
+92,2024-10-26 12:32:49.012467,2024-10-26,12,Saturday,1994.36,Education,UPI,Android,4G,Gujarat,Ahmedabad,18-24,826155,42537,True,,False,False,415,5590177
+93,2024-07-22 22:18:28.012604,2024-07-22,22,Monday,1295.9,Grocery,UPI,Android,3G,Uttar Pradesh,Agra,35-44,319899,91810,True,,False,False,755,5875114
+94,2024-12-17 11:43:08.012741,2024-12-17,11,Tuesday,468.74,Subscriptions,Card,POS,WiFi,Tamil Nadu,Chennai,35-44,537757,98374,True,,False,False,611,9957402
+95,2024-05-26 21:27:51.012878,2024-05-26,21,Sunday,227.34,Food,UPI,Android,5G,Maharashtra,Mumbai,18-24,922458,48684,True,,False,False,214,4422567
+96,2024-10-04 04:52:28.013015,2024-10-04,4,Friday,543.48,Food,NetBanking,Android,4G,Tamil Nadu,Madurai,45-54,500118,60797,True,,False,False,332,7988821
+97,2024-12-16 10:35:03.013152,2024-12-16,10,Monday,872.92,Food,UPI,Android,4G,Punjab,Jalandhar,45-54,302897,48558,True,,False,False,655,8529864
+98,2024-03-31 23:04:11.013289,2024-03-31,23,Sunday,881.02,Fuel,Card,iOS,5G,Telangana,Warangal,25-34,141880,30146,True,,True,True,493,6412833
+99,2024-11-01 05:59:40.013426,2024-11-01,5,Friday,1628.03,Retail,Card,Android,4G,Punjab,Amritsar,25-34,536135,81182,True,,False,False,138,7768215
+100,2024-02-17 11:56:13.013563,2024-02-17,11,Saturday,1061.74,Retail,UPI,iOS,3G,Rajasthan,Udaipur,35-44,352023,94182,True,,False,False,237,5090740
+101,2024-01-21 16:20:24.013700,2024-01-21,16,Sunday,2037.46,Education,Wallet,Android,WiFi,Maharashtra,Pune,25-34,275526,80513,True,,False,False,543,9945709
+102,2024-01-04 15:13:42.013837,2024-01-04,15,Thursday,1164.67,Retail,UPI,Android,4G,Uttar Pradesh,Lucknow,18-24,364144,83149,True,,False,False,144,2181822
+103,2024-10-21 19:58:16.013974,2024-10-21,19,Monday,1486.47,Utilities,UPI,Android,WiFi,West Bengal,Kolkata,25-34,819195,49498,True,,False,False,531,2451316
+104,2024-05-24 18:28:24.014111,2024-05-24,18,Friday,1472.21,Travel,Card,Android,WiFi,Telangana,Warangal,18-24,933635,94926,True,,False,False,212,7260091
+105,2024-01-06 14:35:09.014248,2024-01-06,14,Saturday,297.76,Food,UPI,Android,WiFi,Karnataka,Mangaluru,55+,637450,28671,True,,False,False,441,3700366
+106,2024-04-04 09:53:16.014385,2024-04-04,9,Thursday,794.54,Entertainment,UPI,Android,4G,West Bengal,Siliguri,45-54,610856,53365,True,,False,False,169,6991787
+107,2024-03-06 16:15:06.014522,2024-03-06,16,Wednesday,1370.18,Entertainment,UPI,iOS,WiFi,Maharashtra,Nagpur,25-34,276831,10633,True,,False,False,1102,6254872
+108,2024-05-06 19:45:47.014659,2024-05-06,19,Monday,1049.16,Retail,UPI,Android,4G,Tamil Nadu,Salem,25-34,185955,46780,True,,False,False,180,3348838
+109,2024-10-02 08:46:56.014796,2024-10-02,8,Wednesday,2068.18,Retail,Card,Web,4G,Tamil Nadu,Madurai,35-44,665892,71879,True,,False,False,99,3493647
+110,2024-07-06 11:57:49.014933,2024-07-06,11,Saturday,1164.38,Retail,NetBanking,iOS,WiFi,Haryana,Gurugram,18-24,253300,73373,True,,False,False,605,7019590
+111,2024-01-21 09:31:14.015070,2024-01-21,9,Sunday,402.89,Food,UPI,iOS,5G,Rajasthan,Udaipur,55+,969948,45847,True,,False,False,823,5417710
+112,2024-10-23 13:11:24.015207,2024-10-23,13,Wednesday,496.22,Retail,UPI,Android,4G,Karnataka,Bengaluru,35-44,626214,28214,True,,False,False,509,8380275
+113,2024-03-25 09:32:41.015344,2024-03-25,9,Monday,1147.64,Entertainment,UPI,iOS,4G,Telangana,Warangal,45-54,719489,31134,True,,False,False,769,7893744
+114,2024-01-12 09:08:36.015481,2024-01-12,9,Friday,972.46,Retail,UPI,Android,3G,Karnataka,Bengaluru,18-24,961198,47152,True,,False,False,1865,2438621
+115,2024-04-20 12:30:55.015618,2024-04-20,12,Saturday,2354.14,Utilities,UPI,Android,5G,Kerala,Kochi,35-44,725510,87410,True,,False,False,788,2154992
+116,2024-04-27 11:08:06.015755,2024-04-27,11,Saturday,585.07,Food,UPI,Web,4G,Rajasthan,Jodhpur,45-54,665482,10157,True,,False,False,741,8239315
+117,2024-09-24 12:55:02.015892,2024-09-24,12,Tuesday,540.31,Grocery,UPI,POS,WiFi,Delhi,New Delhi,45-54,366881,72539,True,,False,False,618,4900918
+118,2024-02-12 10:56:34.016029,2024-02-12,10,Monday,1768.2,Utilities,UPI,Android,4G,West Bengal,Siliguri,35-44,365953,44249,True,,False,False,221,9994347
+119,2024-08-04 14:39:17.016166,2024-08-04,14,Sunday,255.45,Subscriptions,UPI,iOS,WiFi,Gujarat,Surat,35-44,517469,28096,True,,False,False,620,2997927
+120,2024-04-27 12:44:10.016303,2024-04-27,12,Saturday,682.84,Food,UPI,Android,4G,Karnataka,Mangaluru,35-44,594580,88675,True,,False,False,1090,8304421
+121,2024-02-15 05:14:23.016440,2024-02-15,5,Thursday,533.65,Food,UPI,Android,3G,Uttar Pradesh,Agra,35-44,560295,11403,True,,False,False,1472,4384085
+122,2024-12-02 22:33:18.016577,2024-12-02,22,Monday,1332.48,Entertainment,Card,Android,4G,Telangana,Nizamabad,35-44,518836,56285,True,,False,False,158,7629401
+123,2024-07-26 14:33:00.016714,2024-07-26,14,Friday,1189.58,Grocery,UPI,iOS,WiFi,Uttar Pradesh,Agra,45-54,523579,85354,True,,False,False,659,1078038
+124,2024-05-13 08:32:06.016851,2024-05-13,8,Monday,962.86,Retail,UPI,Android,5G,Telangana,Warangal,35-44,607122,41886,True,,False,False,469,6698561
+125,2024-08-22 16:57:37.016988,2024-08-22,16,Thursday,926.19,Healthcare,UPI,iOS,WiFi,Maharashtra,Nagpur,45-54,834861,44517,True,,False,False,387,5165071
+126,2024-05-27 06:43:47.017125,2024-05-27,6,Monday,2885.12,Healthcare,UPI,POS,WiFi,Delhi,New Delhi,25-34,378297,37102,True,,False,False,259,4845464
+127,2024-04-13 20:53:39.017262,2024-04-13,20,Saturday,2573.0,Travel,Card,iOS,5G,Maharashtra,Nashik,55+,702427,46009,True,,False,False,355,9234347
+128,2024-04-03 23:58:32.017399,2024-04-03,23,Wednesday,885.16,Entertainment,UPI,Android,5G,Haryana,Panipat,45-54,226215,77922,True,,False,False,789,8718703
+129,2024-06-10 17:00:43.017536,2024-06-10,17,Monday,850.31,Entertainment,Card,Android,4G,Kerala,Kochi,25-34,320759,64931,True,,False,False,398,7246319
+130,2024-07-05 20:17:28.017673,2024-07-05,20,Friday,359.59,Food,UPI,Android,5G,Rajasthan,Jaipur,18-24,256812,71995,True,,False,False,213,1163448
+131,2024-03-31 12:08:57.017810,2024-03-31,12,Sunday,1859.51,Healthcare,UPI,Android,4G,Delhi,New Delhi,25-34,599687,92557,True,,False,False,129,2615677
+132,2024-08-18 18:16:23.017947,2024-08-18,18,Sunday,1929.4,Travel,UPI,Web,WiFi,Maharashtra,Mumbai,25-34,918213,47304,True,,False,False,725,6957741
+133,2024-06-15 16:31:49.018084,2024-06-15,16,Saturday,574.63,Grocery,NetBanking,Android,WiFi,Kerala,Kochi,35-44,990136,19351,True,,False,False,696,2327277
+134,2024-03-23 10:20:20.018221,2024-03-23,10,Saturday,1562.08,Retail,Card,Android,WiFi,Haryana,Gurugram,55+,880009,20494,True,,False,False,288,4532803
+135,2024-03-26 11:06:04.018358,2024-03-26,11,Tuesday,1181.91,Fuel,UPI,iOS,4G,Maharashtra,Nashik,35-44,564687,92114,True,,False,False,284,3120836
+136,2024-03-08 13:10:01.018495,2024-03-08,13,Friday,594.17,Food,UPI,Web,4G,Telangana,Warangal,25-34,885290,93342,True,,False,False,638,8297709
+137,2024-09-25 15:34:19.018632,2024-09-25,15,Wednesday,3268.08,Education,UPI,iOS,5G,Maharashtra,Pune,25-34,661091,11090,False,otp_failed,False,True,205,9253243
+138,2024-09-01 10:49:27.018769,2024-09-01,10,Sunday,985.93,Grocery,Card,Android,WiFi,Uttar Pradesh,Lucknow,18-24,331307,44469,True,,False,False,719,2328918
+139,2024-08-04 15:33:48.018906,2024-08-04,15,Sunday,806.42,Grocery,Card,Android,WiFi,Uttar Pradesh,Kanpur,35-44,577461,90967,True,,False,False,205,8596173
+140,2024-05-19 17:31:12.019043,2024-05-19,17,Sunday,2421.28,Travel,UPI,POS,5G,Maharashtra,Mumbai,55+,923892,75325,True,,True,True,274,7231009
+141,2024-08-25 17:02:21.019180,2024-08-25,17,Sunday,593.69,Food,Card,iOS,WiFi,Telangana,Warangal,25-34,905459,42631,True,,False,False,412,7455837
+142,2024-08-14 09:02:12.019317,2024-08-14,9,Wednesday,1456.73,Utilities,Card,Android,3G,Gujarat,Ahmedabad,25-34,646230,26009,True,,False,False,136,5249882
+143,2024-09-03 15:12:23.019454,2024-09-03,15,Tuesday,3273.12,Education,NetBanking,iOS,5G,Karnataka,Mysuru,35-44,598357,88146,True,,False,True,106,3600333
+144,2024-07-09 18:15:10.019591,2024-07-09,18,Tuesday,766.67,Utilities,Card,Android,3G,Rajasthan,Jaipur,45-54,432125,83184,True,,False,False,228,6827024
+145,2024-08-12 18:01:44.019728,2024-08-12,18,Monday,2875.21,Travel,Card,iOS,5G,Tamil Nadu,Coimbatore,35-44,591147,46087,True,,False,False,578,3690116
+146,2024-02-05 13:28:18.019865,2024-02-05,13,Monday,1824.09,Healthcare,UPI,Android,4G,Karnataka,Mangaluru,25-34,958835,60789,True,,False,False,133,4185480
+147,2024-09-25 16:49:35.020002,2024-09-25,16,Wednesday,539.05,Food,UPI,Android,WiFi,Telangana,Nizamabad,18-24,613707,78920,True,,False,False,712,5293936
+148,2024-01-26 11:38:45.020139,2024-01-26,11,Friday,228.56,Food,NetBanking,iOS,WiFi,Uttar Pradesh,Noida,55+,963652,90862,True,,False,False,401,5459646
+149,2024-09-27 04:04:53.020276,2024-09-27,4,Friday,3233.44,Travel,Wallet,POS,5G,Karnataka,Bengaluru,45-54,885587,83156,True,,False,True,687,7965641
+150,2024-02-24 18:36:22.020413,2024-02-24,18,Saturday,889.53,Grocery,Card,Android,5G,Delhi,New Delhi,45-54,430463,82100,True,,False,False,650,6446792
+151,2024-07-09 11:40:27.020550,2024-07-09,11,Tuesday,1807.3,Healthcare,UPI,iOS,WiFi,Punjab,Ludhiana,25-34,117094,77844,True,,False,False,96,3266362
+152,2024-06-03 00:14:13.020687,2024-06-03,0,Monday,1708.58,Healthcare,UPI,Web,4G,West Bengal,Howrah,25-34,245131,44732,True,,False,False,100,7158628
+153,2024-10-25 09:16:51.020824,2024-10-25,9,Friday,1587.72,Travel,Card,Android,5G,Tamil Nadu,Madurai,18-24,199996,88018,True,,False,False,821,6039762
+154,2024-01-20 18:36:24.020961,2024-01-20,18,Saturday,358.51,Food,UPI,Android,WiFi,Telangana,Hyderabad,45-54,111989,93084,True,,False,False,730,7417066
+155,2024-01-28 10:02:20.021098,2024-01-28,10,Sunday,1359.05,Retail,UPI,Android,5G,Maharashtra,Nagpur,18-24,403859,61684,True,,False,False,533,3483236
+156,2024-03-08 10:30:36.021235,2024-03-08,10,Friday,1464.39,Grocery,UPI,iOS,WiFi,Karnataka,Mysuru,25-34,688426,90739,True,,False,False,425,9795418
+157,2024-05-06 09:17:49.021372,2024-05-06,9,Monday,1288.77,Utilities,Card,Android,5G,Delhi,New Delhi,25-34,941792,67961,True,,False,False,384,3446428
+158,2024-08-13 04:52:14.021509,2024-08-13,4,Tuesday,795.21,Entertainment,UPI,Android,4G,Gujarat,Ahmedabad,18-24,313701,81620,True,,True,True,267,9778944
+159,2024-05-12 13:39:46.021646,2024-05-12,13,Sunday,437.59,Subscriptions,Card,Android,WiFi,Karnataka,Mangaluru,55+,587546,95820,True,,False,False,809,1139824
+160,2024-02-04 11:17:42.021783,2024-02-04,11,Sunday,2148.37,Healthcare,Card,Web,5G,Karnataka,Bengaluru,45-54,726111,79672,True,,False,False,171,2476741
+161,2024-04-05 08:29:35.021920,2024-04-05,8,Friday,3091.93,Education,UPI,iOS,WiFi,Maharashtra,Pune,25-34,625600,46159,True,,False,True,687,2040350
+162,2024-11-16 09:24:56.022057,2024-11-16,9,Saturday,398.49,Subscriptions,Wallet,POS,3G,Gujarat,Ahmedabad,25-34,755910,99983,True,,False,False,705,4815608
+163,2024-08-01 09:09:27.022194,2024-08-01,9,Thursday,491.9,Fuel,NetBanking,Android,WiFi,Karnataka,Mangaluru,18-24,649249,27727,True,,False,False,349,8215281
+164,2024-03-15 16:36:58.022331,2024-03-15,16,Friday,549.02,Food,UPI,Android,4G,Kerala,Thiruvananthapuram,18-24,767782,45887,False,network_timeout,False,False,917,3549416
+165,2024-04-06 07:11:01.022468,2024-04-06,7,Saturday,389.71,Grocery,Card,iOS,WiFi,Rajasthan,Udaipur,25-34,734086,71441,True,,False,False,503,7273997
+166,2024-04-04 20:31:30.022605,2024-04-04,20,Thursday,346.11,Food,UPI,iOS,4G,Maharashtra,Mumbai,18-24,747033,74217,True,,False,False,1946,6450844
+167,2024-08-22 21:27:25.022742,2024-08-22,21,Thursday,1681.83,Grocery,Card,Web,4G,Karnataka,Mysuru,25-34,144476,42207,True,,False,False,180,9702386
+168,2024-10-02 11:47:02.022879,2024-10-02,11,Wednesday,1049.63,Retail,UPI,Android,5G,West Bengal,Howrah,25-34,157196,77760,True,,False,False,450,3386384
+169,2024-08-25 20:28:05.023016,2024-08-25,20,Sunday,533.6,Grocery,UPI,Android,3G,Karnataka,Bengaluru,35-44,311741,69596,True,,False,False,815,2512963
+170,2024-05-08 10:41:58.023153,2024-05-08,10,Wednesday,1005.64,Grocery,UPI,Android,5G,Maharashtra,Mumbai,35-44,146038,32398,True,,False,False,225,6623607
+171,2024-10-16 20:55:09.023290,2024-10-16,20,Wednesday,443.36,Food,UPI,Android,5G,Haryana,Gurugram,25-34,112800,70115,True,,False,False,35,9348805
+172,2024-09-12 13:00:38.023427,2024-09-12,13,Thursday,1425.72,Education,UPI,Android,WiFi,Gujarat,Ahmedabad,25-34,965339,37215,True,,False,False,678,1820721
+173,2024-04-04 07:41:22.023564,2024-04-04,7,Thursday,510.14,Food,NetBanking,Android,4G,Telangana,Hyderabad,25-34,925551,83685,True,,False,False,799,3976601
+174,2024-08-21 18:23:59.023701,2024-08-21,18,Wednesday,283.64,Food,Card,Android,3G,Uttar Pradesh,Noida,45-54,320038,37400,True,,False,False,469,1976175
+175,2024-02-25 14:40:33.023838,2024-02-25,14,Sunday,235.99,Subscriptions,UPI,Android,3G,Uttar Pradesh,Lucknow,55+,644951,92818,True,,False,False,255,9350710
+176,2024-09-09 19:56:39.023975,2024-09-09,19,Monday,2211.86,Entertainment,UPI,iOS,5G,Karnataka,Mangaluru,25-34,466634,83454,True,,False,False,442,4562439
+177,2024-01-06 15:44:18.024112,2024-01-06,15,Saturday,613.61,Entertainment,UPI,iOS,WiFi,Maharashtra,Mumbai,45-54,805139,72797,True,,False,False,254,8960796
+178,2024-01-19 15:30:09.024249,2024-01-19,15,Friday,871.72,Retail,NetBanking,Android,WiFi,Tamil Nadu,Coimbatore,45-54,661916,12453,True,,False,False,868,4494064
+179,2024-10-22 16:51:58.024386,2024-10-22,16,Tuesday,5066.39,Education,UPI,POS,WiFi,Tamil Nadu,Madurai,18-24,839525,51222,True,,False,True,1367,1530633
+180,2024-05-19 11:31:56.024523,2024-05-19,11,Sunday,1052.56,Entertainment,UPI,POS,5G,Telangana,Warangal,25-34,868020,78632,True,,False,False,251,6206955
+181,2024-06-16 07:55:06.024660,2024-06-16,7,Sunday,1532.79,Healthcare,NetBanking,Android,5G,Uttar Pradesh,Agra,45-54,589554,16047,True,,True,True,642,2729778
+182,2024-09-23 18:47:19.024797,2024-09-23,18,Monday,321.53,Food,Card,Android,5G,West Bengal,Siliguri,18-24,220020,11999,True,,False,False,319,9624506
+183,2024-02-22 08:22:35.024934,2024-02-22,8,Thursday,995.34,Travel,UPI,Android,WiFi,Punjab,Ludhiana,25-34,808308,16613,True,,False,False,199,2777158
+184,2024-07-15 05:27:25.025071,2024-07-15,5,Monday,670.4,Food,Card,Android,4G,Maharashtra,Nashik,35-44,892453,71039,True,,False,False,761,3211157
+185,2024-02-17 19:58:44.025208,2024-02-17,19,Saturday,892.08,Utilities,UPI,Android,4G,Tamil Nadu,Chennai,25-34,927094,52567,True,,False,False,815,8604827
+186,2024-09-06 03:30:07.025345,2024-09-06,3,Friday,1882.47,Travel,UPI,iOS,4G,Delhi,New Delhi,35-44,751034,41941,True,,False,False,430,3667917
+187,2024-09-03 11:21:13.025482,2024-09-03,11,Tuesday,1702.54,Healthcare,Card,Android,WiFi,Rajasthan,Jodhpur,45-54,585394,52647,True,,False,False,514,2638360
+188,2024-08-15 08:25:04.025619,2024-08-15,8,Thursday,1340.12,Retail,Card,Android,4G,Karnataka,Hubli,25-34,949178,10024,True,,False,False,624,3461642
+189,2024-12-04 08:34:18.025756,2024-12-04,8,Wednesday,4996.52,Travel,Card,iOS,4G,Karnataka,Mysuru,25-34,460987,21703,True,,False,True,461,1136218
+190,2024-11-09 23:25:54.025893,2024-11-09,23,Saturday,1089.43,Food,UPI,Android,WiFi,Tamil Nadu,Coimbatore,18-24,433580,60173,True,,False,False,820,7812097
+191,2024-07-14 12:13:42.026030,2024-07-14,12,Sunday,453.17,Food,UPI,Android,4G,Tamil Nadu,Madurai,25-34,250990,73792,True,,False,False,54,8327199
+192,2024-03-10 06:41:51.026167,2024-03-10,6,Sunday,838.02,Utilities,UPI,Android,4G,Karnataka,Mysuru,25-34,733941,10973,True,,False,False,389,9357686
+193,2024-05-01 17:17:26.026304,2024-05-01,17,Wednesday,2810.97,Education,Card,iOS,5G,Karnataka,Bengaluru,25-34,887042,46624,True,,False,False,880,8800337
+194,2024-09-21 06:56:39.026441,2024-09-21,6,Saturday,664.43,Food,UPI,Android,3G,Kerala,Kochi,18-24,591644,69511,True,,False,False,485,9601059
+195,2024-08-28 14:21:26.026578,2024-08-28,14,Wednesday,2898.53,Travel,Wallet,iOS,5G,Tamil Nadu,Coimbatore,35-44,700687,16765,True,,False,False,693,5894806
+196,2024-11-15 03:31:05.026715,2024-11-15,3,Friday,500.07,Food,UPI,Android,WiFi,Rajasthan,Jodhpur,35-44,283919,44242,True,,False,False,741,4962709
+197,2024-09-05 08:33:55.026852,2024-09-05,8,Thursday,1536.59,Food,Wallet,POS,4G,Gujarat,Vadodara,45-54,275409,37637,True,,False,False,743,6789409
+198,2024-01-28 15:48:52.026989,2024-01-28,15,Sunday,833.89,Food,UPI,Android,WiFi,Maharashtra,Nashik,45-54,555851,11554,True,,False,False,501,5845129
+199,2024-08-17 11:20:33.027126,2024-08-17,11,Saturday,379.82,Grocery,UPI,Web,4G,Punjab,Jalandhar,55+,786128,86569,True,,False,False,315,7562471
+200,2024-08-24 19:47:15.027263,2024-08-24,19,Saturday,469.34,Grocery,Card,iOS,WiFi,Rajasthan,Jaipur,35-44,330074,47132,True,,False,False,175,5226115
+201,2024-04-08 04:39:05.027400,2024-04-08,4,Monday,282.58,Food,Card,Web,5G,Punjab,Jalandhar,35-44,293743,24528,True,,False,False,722,4091420
+202,2024-05-09 10:42:59.027537,2024-05-09,10,Thursday,1009.42,Food,UPI,POS,4G,Haryana,Gurugram,35-44,507466,53601,True,,False,False,323,2007616
+203,2024-05-12 22:16:11.027674,2024-05-12,22,Sunday,1041.26,Utilities,UPI,Web,4G,Rajasthan,Udaipur,18-24,850151,43947,True,,False,False,715,2732870
+204,2024-01-18 06:36:46.027811,2024-01-18,6,Thursday,597.37,Entertainment,UPI,Web,5G,Karnataka,Mysuru,35-44,614514,72670,True,,False,False,545,8315833
+205,2024-07-25 20:49:51.027948,2024-07-25,20,Thursday,780.08,Grocery,UPI,iOS,3G,Telangana,Hyderabad,45-54,762985,94813,True,,False,False,999,2521139
+206,2024-07-06 13:21:05.028085,2024-07-06,13,Saturday,1549.01,Healthcare,Card,iOS,5G,Karnataka,Bengaluru,35-44,559259,34833,True,,False,False,514,3347853
+207,2024-01-19 08:46:37.028222,2024-01-19,8,Friday,647.81,Entertainment,UPI,Android,4G,Tamil Nadu,Coimbatore,25-34,648530,70079,True,,False,False,269,3499027
+208,2024-10-23 09:04:02.028359,2024-10-23,9,Wednesday,492.67,Grocery,UPI,iOS,3G,Maharashtra,Pune,35-44,167064,23937,False,otp_failed,False,False,852,2915617
+209,2024-09-11 14:39:14.028496,2024-09-11,14,Wednesday,473.33,Food,UPI,Android,4G,Tamil Nadu,Chennai,45-54,323589,15975,True,,False,False,360,3909968
+210,2024-06-20 05:17:09.028633,2024-06-20,5,Thursday,804.36,Grocery,UPI,Android,5G,Punjab,Amritsar,25-34,610622,20580,True,,False,False,407,1106528
+211,2024-01-04 08:05:45.028770,2024-01-04,8,Thursday,1411.64,Retail,NetBanking,Android,4G,Karnataka,Bengaluru,45-54,740195,14931,True,,False,False,440,4019906
+212,2024-09-12 15:05:40.028907,2024-09-12,15,Thursday,2449.98,Healthcare,UPI,Android,WiFi,Uttar Pradesh,Noida,18-24,318217,46231,True,,False,False,491,1890350
+213,2024-04-09 07:09:43.029044,2024-04-09,7,Tuesday,943.9,Healthcare,NetBanking,Android,5G,Tamil Nadu,Salem,55+,575159,15677,True,,False,False,674,2751895
+214,2024-01-27 21:11:10.029181,2024-01-27,21,Saturday,757.22,Grocery,UPI,iOS,3G,Tamil Nadu,Coimbatore,45-54,441974,39855,True,,False,False,465,2645243
+215,2024-05-01 18:55:12.029318,2024-05-01,18,Wednesday,2118.74,Travel,UPI,Android,WiFi,Haryana,Faridabad,55+,312033,54025,True,,False,False,697,3134259
+216,2024-01-17 17:03:17.029455,2024-01-17,17,Wednesday,1023.78,Food,NetBanking,Android,5G,Punjab,Jalandhar,25-34,679606,40107,True,,False,False,666,2450798
+217,2024-07-29 20:31:55.029592,2024-07-29,20,Monday,541.7,Subscriptions,Card,Web,WiFi,Gujarat,Rajkot,45-54,105324,64758,True,,False,False,216,1741958
+218,2024-01-21 23:46:49.029729,2024-01-21,23,Sunday,697.28,Utilities,UPI,Android,4G,Uttar Pradesh,Lucknow,35-44,328596,27394,True,,False,False,802,7013049
+219,2024-05-31 09:05:01.029866,2024-05-31,9,Friday,744.53,Utilities,UPI,Android,4G,Karnataka,Bengaluru,45-54,488414,92157,True,,False,False,434,8789590
+220,2024-12-26 15:55:40.030003,2024-12-26,15,Thursday,772.51,Food,NetBanking,Android,5G,Delhi,New Delhi,25-34,157474,77467,True,,False,False,1473,7106747
+221,2024-01-27 07:23:29.030140,2024-01-27,7,Saturday,1077.85,Retail,UPI,iOS,WiFi,Punjab,Amritsar,18-24,888819,86037,True,,False,False,184,4519758
+222,2024-04-25 10:57:17.030277,2024-04-25,10,Thursday,1262.51,Utilities,UPI,iOS,WiFi,Gujarat,Vadodara,25-34,573933,91389,True,,False,False,1171,7176462
+223,2024-12-10 22:51:56.030414,2024-12-10,22,Tuesday,432.89,Food,NetBanking,Android,5G,Telangana,Warangal,55+,815551,80966,True,,False,False,690,3215051
+224,2024-08-30 11:28:47.030551,2024-08-30,11,Friday,977.47,Retail,UPI,iOS,3G,Uttar Pradesh,Lucknow,25-34,982804,81888,True,,False,False,820,8470161
+225,2024-08-22 10:08:57.030688,2024-08-22,10,Thursday,635.17,Grocery,UPI,iOS,WiFi,Maharashtra,Nagpur,55+,283877,97340,True,,False,False,840,3575047
+226,2024-03-23 09:02:20.030825,2024-03-23,9,Saturday,796.64,Retail,UPI,Android,5G,Gujarat,Surat,35-44,672675,76507,True,,False,False,222,6557966
+227,2024-11-27 17:30:57.030962,2024-11-27,17,Wednesday,1572.31,Entertainment,Wallet,POS,4G,Telangana,Nizamabad,18-24,246195,98867,True,,False,False,883,2960855
+228,2024-06-06 03:39:53.031099,2024-06-06,3,Thursday,741.42,Entertainment,UPI,Android,4G,Rajasthan,Jodhpur,18-24,809952,98022,True,,False,False,155,2465941
+229,2024-09-19 11:31:20.031236,2024-09-19,11,Thursday,1573.53,Retail,UPI,iOS,4G,Karnataka,Mysuru,25-34,567220,83535,True,,True,True,380,2469661
+230,2024-04-20 18:28:47.031373,2024-04-20,18,Saturday,216.42,Subscriptions,NetBanking,iOS,4G,Haryana,Panipat,55+,597667,78852,True,,False,False,157,6627359
+231,2024-02-03 22:37:48.031510,2024-02-03,22,Saturday,1935.06,Travel,UPI,Android,WiFi,Maharashtra,Pune,18-24,416662,86704,True,,False,False,518,6098837
+232,2024-09-09 14:29:14.031647,2024-09-09,14,Monday,539.35,Food,UPI,iOS,3G,Karnataka,Mangaluru,45-54,356639,13728,True,,False,False,665,3002438
+233,2024-05-21 13:04:38.031784,2024-05-21,13,Tuesday,708.99,Grocery,Card,Android,4G,Gujarat,Vadodara,35-44,270757,86238,True,,False,False,617,1981641
+234,2024-03-15 10:56:44.031921,2024-03-15,10,Friday,425.44,Food,UPI,iOS,WiFi,West Bengal,Siliguri,55+,292148,22387,True,,False,False,543,3804075
+235,2024-10-05 10:20:52.032058,2024-10-05,10,Saturday,1741.88,Healthcare,Card,iOS,4G,Karnataka,Mangaluru,25-34,532007,54605,True,,False,False,326,3735175
+236,2024-02-22 09:32:14.032195,2024-02-22,9,Thursday,3637.13,Healthcare,Card,Android,4G,Maharashtra,Mumbai,55+,222227,27200,True,,False,True,445,1291577
+237,2024-09-02 11:44:23.032332,2024-09-02,11,Monday,392.64,Food,UPI,POS,WiFi,Kerala,Kochi,55+,821469,39697,True,,False,False,198,6157791
+238,2024-03-05 09:05:27.032469,2024-03-05,9,Tuesday,1240.49,Grocery,Card,iOS,4G,Karnataka,Mysuru,45-54,800015,11346,True,,False,False,303,2619061
+239,2024-03-04 21:13:37.032606,2024-03-04,21,Monday,2889.57,Education,UPI,Android,5G,Gujarat,Ahmedabad,45-54,203919,85777,True,,False,False,294,1234617
+240,2024-09-27 09:12:18.032743,2024-09-27,9,Friday,444.99,Food,Card,iOS,4G,Gujarat,Ahmedabad,55+,498055,65586,True,,False,False,178,4594921
+241,2024-09-20 09:07:48.032880,2024-09-20,9,Friday,602.99,Subscriptions,UPI,iOS,5G,Tamil Nadu,Chennai,45-54,729554,50895,True,,False,False,186,8448343
+242,2024-04-25 14:18:54.033017,2024-04-25,14,Thursday,1761.89,Utilities,NetBanking,Web,4G,Gujarat,Surat,55+,513989,62510,True,,False,False,771,2706614
+243,2024-03-27 05:12:21.033154,2024-03-27,5,Wednesday,976.99,Entertainment,NetBanking,Android,5G,Telangana,Hyderabad,25-34,519677,56674,True,,False,False,944,8983040
+244,2024-12-07 14:25:31.033291,2024-12-07,14,Saturday,2099.35,Retail,UPI,Android,5G,Haryana,Faridabad,25-34,753506,22626,False,insufficient_funds,False,False,365,2283746
+245,2024-12-04 18:49:31.033428,2024-12-04,18,Wednesday,403.61,Grocery,UPI,Android,WiFi,Karnataka,Bengaluru,25-34,224921,60283,True,,False,False,91,8551685
+246,2024-06-10 20:28:29.033565,2024-06-10,20,Monday,309.01,Food,UPI,Android,4G,Uttar Pradesh,Agra,55+,614382,96517,True,,False,False,965,8882244
+247,2024-08-31 14:10:32.033702,2024-08-31,14,Saturday,808.45,Food,UPI,Android,WiFi,Karnataka,Bengaluru,35-44,948878,86541,True,,False,False,197,1451304
+248,2024-11-16 10:06:27.033839,2024-11-16,10,Saturday,3253.68,Travel,UPI,Android,4G,Tamil Nadu,Salem,25-34,120669,80571,True,,False,True,346,6471332
+249,2024-01-20 12:55:27.033976,2024-01-20,12,Saturday,1941.92,Retail,NetBanking,iOS,4G,West Bengal,Siliguri,35-44,627191,97475,True,,False,False,768,6696526
+250,2024-03-26 15:23:27.034113,2024-03-26,15,Tuesday,862.8,Entertainment,Card,POS,5G,Delhi,New Delhi,45-54,196424,85784,True,,False,False,1091,2589366
+251,2024-10-30 10:04:36.034250,2024-10-30,10,Wednesday,402.95,Grocery,UPI,iOS,4G,Delhi,New Delhi,35-44,755322,77550,True,,False,False,259,8603914
+252,2024-12-09 18:11:56.034387,2024-12-09,18,Monday,330.09,Food,Card,Web,4G,Uttar Pradesh,Noida,18-24,693616,92150,True,,False,False,979,2004647
+253,2024-09-24 08:29:09.034524,2024-09-24,8,Tuesday,1691.94,Entertainment,Card,Android,4G,Maharashtra,Pune,25-34,347600,63197,True,,False,False,226,5001087
+254,2024-02-28 08:01:15.034661,2024-02-28,8,Wednesday,1058.1,Grocery,UPI,Android,3G,Telangana,Nizamabad,25-34,677457,33066,True,,False,False,1332,1708541
+255,2024-09-05 19:03:55.034798,2024-09-05,19,Thursday,7248.27,Education,UPI,iOS,5G,Punjab,Jalandhar,55+,347507,24671,True,,False,True,1235,9392777
+256,2024-03-02 13:53:37.034935,2024-03-02,13,Saturday,665.25,Fuel,NetBanking,iOS,3G,Punjab,Amritsar,25-34,251286,24000,True,,False,False,370,3938600
+257,2024-04-19 23:28:26.035072,2024-04-19,23,Friday,718.27,Entertainment,Card,Android,WiFi,Maharashtra,Nagpur,55+,480631,72288,True,,False,False,1463,7169641
+258,2024-06-06 02:57:38.035209,2024-06-06,2,Thursday,672.76,Food,Card,Android,5G,Karnataka,Mangaluru,55+,818534,25997,True,,False,False,817,9974312
+259,2024-05-01 20:24:00.035346,2024-05-01,20,Wednesday,4302.16,Education,UPI,POS,WiFi,Karnataka,Mysuru,18-24,526024,14440,True,,False,True,1464,5597569
+260,2024-02-11 20:31:30.035483,2024-02-11,20,Sunday,467.21,Grocery,NetBanking,Android,WiFi,Haryana,Faridabad,55+,674334,52830,True,,False,False,448,8604470
+261,2024-12-21 03:03:41.035620,2024-12-21,3,Saturday,1494.96,Retail,Card,Android,5G,Kerala,Kochi,25-34,970969,95089,True,,False,False,546,3182597
+262,2024-10-31 16:50:20.035757,2024-10-31,16,Thursday,1187.3,Utilities,NetBanking,iOS,5G,Kerala,Kochi,35-44,975224,84762,True,,False,False,423,4766269
+263,2024-01-11 22:59:35.035894,2024-01-11,22,Thursday,1059.89,Retail,Card,Web,3G,Tamil Nadu,Chennai,18-24,485792,32298,True,,False,False,395,2968815
+264,2024-01-08 17:27:49.036031,2024-01-08,17,Monday,4815.27,Education,UPI,Android,5G,Karnataka,Hubli,35-44,964119,47089,True,,False,True,1319,4176986
+265,2024-08-02 08:50:09.036168,2024-08-02,8,Friday,608.04,Food,Wallet,iOS,WiFi,Rajasthan,Jaipur,25-34,516866,37815,True,,False,False,1409,7433986
+266,2024-12-28 12:38:16.036305,2024-12-28,12,Saturday,422.72,Food,UPI,iOS,3G,West Bengal,Howrah,25-34,105621,43247,True,,False,False,1069,9464810
+267,2024-11-13 11:25:42.036442,2024-11-13,11,Wednesday,2603.04,Travel,Wallet,Android,4G,Gujarat,Surat,25-34,248683,44131,True,,False,False,356,2960284
+268,2024-06-09 04:08:31.036579,2024-06-09,4,Sunday,3037.25,Healthcare,NetBanking,Android,3G,Punjab,Ludhiana,25-34,430870,74392,True,,False,True,452,3537801
+269,2024-10-11 20:42:40.036716,2024-10-11,20,Friday,349.35,Grocery,UPI,iOS,5G,West Bengal,Kolkata,18-24,608768,69999,True,,False,False,390,9270975
+270,2024-02-27 20:55:09.036853,2024-02-27,20,Tuesday,495.66,Food,UPI,Web,5G,Maharashtra,Pune,18-24,651567,84814,True,,False,False,628,4029442
+271,2024-08-01 21:15:49.036990,2024-08-01,21,Thursday,779.2,Utilities,UPI,Android,WiFi,Rajasthan,Udaipur,55+,582589,96447,True,,False,False,362,9050632
+272,2024-08-20 15:17:38.037127,2024-08-20,15,Tuesday,1623.32,Retail,UPI,iOS,4G,Delhi,New Delhi,25-34,197046,62279,True,,False,False,582,5280939
+273,2024-04-01 09:49:55.037264,2024-04-01,9,Monday,1632.58,Travel,UPI,iOS,WiFi,West Bengal,Kolkata,25-34,732829,27208,True,,False,False,1870,7023763
+274,2024-12-06 06:23:32.037401,2024-12-06,6,Friday,614.66,Entertainment,UPI,Android,WiFi,Haryana,Gurugram,35-44,638277,54793,True,,False,False,695,8776656
+275,2024-12-12 09:43:45.037538,2024-12-12,9,Thursday,393.56,Food,UPI,Android,WiFi,Maharashtra,Mumbai,25-34,982416,42591,True,,False,False,197,9776028
+276,2024-08-06 10:03:35.037675,2024-08-06,10,Tuesday,625.57,Food,UPI,iOS,WiFi,Maharashtra,Pune,18-24,219470,96714,True,,False,False,153,8765820
+277,2024-04-01 19:53:25.037812,2024-04-01,19,Monday,833.34,Food,UPI,Android,WiFi,Maharashtra,Pune,45-54,733395,43989,True,,False,False,268,2783932
+278,2024-08-10 13:00:25.037949,2024-08-10,13,Saturday,500.2,Food,UPI,Android,4G,Gujarat,Vadodara,45-54,514184,49669,True,,False,False,766,2470273
+279,2024-03-05 07:12:07.038086,2024-03-05,7,Tuesday,1296.35,Healthcare,Card,iOS,5G,Karnataka,Mangaluru,25-34,907111,70742,True,,False,False,572,3485807
+280,2024-08-30 12:07:10.038223,2024-08-30,12,Friday,2425.93,Education,Card,Android,WiFi,Gujarat,Vadodara,18-24,207650,92629,True,,False,False,421,8244199
+281,2024-07-31 20:47:37.038360,2024-07-31,20,Wednesday,1328.03,Retail,UPI,iOS,WiFi,Uttar Pradesh,Lucknow,25-34,653971,12492,True,,False,False,515,8080061
+282,2024-10-22 10:04:17.038497,2024-10-22,10,Tuesday,2255.18,Education,UPI,Android,WiFi,Karnataka,Bengaluru,55+,330374,87025,False,network_timeout,False,False,379,6690043
+283,2024-11-04 20:45:42.038634,2024-11-04,20,Monday,1161.23,Utilities,NetBanking,Android,WiFi,Gujarat,Vadodara,25-34,190378,97432,True,,False,False,265,9101545
+284,2024-03-07 08:10:38.038771,2024-03-07,8,Thursday,1363.52,Utilities,Card,POS,WiFi,Karnataka,Bengaluru,25-34,219505,90945,True,,False,False,1099,4803231
+285,2024-03-02 14:31:16.038908,2024-03-02,14,Saturday,911.51,Subscriptions,Card,Android,4G,Telangana,Warangal,35-44,206816,83724,True,,False,False,664,1704130
+286,2024-09-16 07:40:07.039045,2024-09-16,7,Monday,1593.61,Healthcare,NetBanking,iOS,WiFi,Kerala,Thiruvananthapuram,25-34,989816,36462,True,,False,False,371,8367017
+287,2024-07-31 18:00:15.039182,2024-07-31,18,Wednesday,2126.32,Healthcare,UPI,iOS,5G,Rajasthan,Jodhpur,25-34,925455,39908,True,,False,False,936,3315160
+288,2024-08-07 11:26:57.039319,2024-08-07,11,Wednesday,755.42,Utilities,NetBanking,Android,WiFi,Maharashtra,Nashik,18-24,792244,94078,True,,False,False,130,3532555
+289,2024-10-21 05:40:45.039456,2024-10-21,5,Monday,2436.7,Grocery,NetBanking,POS,WiFi,Tamil Nadu,Coimbatore,55+,653429,90006,True,,False,False,379,3463932
+290,2024-12-24 11:41:13.039593,2024-12-24,11,Tuesday,7191.59,Education,Card,Android,WiFi,Karnataka,Mysuru,25-34,508937,26515,True,,False,True,155,9732032
+291,2024-10-03 10:05:32.039730,2024-10-03,10,Thursday,1836.17,Retail,UPI,Android,5G,Maharashtra,Mumbai,18-24,215806,17857,True,,False,False,872,7257547
+292,2024-05-12 15:22:07.039867,2024-05-12,15,Sunday,835.67,Food,Card,iOS,WiFi,Uttar Pradesh,Noida,45-54,398357,97414,True,,False,False,644,3348331
+293,2024-12-31 11:47:15.040004,2024-12-31,11,Tuesday,354.24,Food,UPI,iOS,4G,Gujarat,Rajkot,25-34,325217,68479,True,,False,False,452,2309842
+294,2024-07-08 16:25:37.040141,2024-07-08,16,Monday,1255.63,Retail,Card,Web,4G,Karnataka,Mangaluru,35-44,638113,79355,True,,False,False,484,2980687
+295,2024-12-21 09:30:02.040278,2024-12-21,9,Saturday,779.57,Grocery,Wallet,Android,3G,Uttar Pradesh,Noida,35-44,492649,49748,True,,False,False,281,5932187
+296,2024-09-05 03:09:09.040415,2024-09-05,3,Thursday,336.59,Grocery,UPI,POS,WiFi,Gujarat,Vadodara,25-34,424745,84155,False,otp_failed,False,False,110,8589583
+297,2024-06-21 19:30:53.040552,2024-06-21,19,Friday,676.66,Grocery,Card,Android,WiFi,Tamil Nadu,Salem,25-34,529526,60755,True,,False,False,1075,4906109
+298,2024-07-21 10:02:42.040689,2024-07-21,10,Sunday,4535.98,Education,Card,Android,4G,Maharashtra,Mumbai,35-44,301774,91094,True,,False,True,193,1887084
+299,2024-10-18 13:48:30.040826,2024-10-18,13,Friday,1092.59,Utilities,UPI,Android,WiFi,Maharashtra,Pune,55+,659461,89541,True,,False,False,622,6375942
+300,2024-07-24 14:31:55.040963,2024-07-24,14,Wednesday,954.37,Fuel,UPI,iOS,5G,Kerala,Kozhikode,35-44,905625,21747,True,,False,False,330,3587505
+301,2024-06-06 22:43:10.041100,2024-06-06,22,Thursday,721.76,Food,Wallet,iOS,4G,Kerala,Kozhikode,25-34,726004,86812,True,,False,False,119,4967662
+302,2024-09-09 13:32:24.041237,2024-09-09,13,Monday,856.45,Fuel,UPI,Android,WiFi,Gujarat,Vadodara,18-24,695848,63313,True,,False,False,728,8482340
+303,2024-02-12 20:32:13.041374,2024-02-12,20,Monday,744.01,Grocery,UPI,Android,5G,Rajasthan,Jodhpur,25-34,275512,10071,True,,False,False,680,2009569
+304,2024-09-03 10:16:53.041511,2024-09-03,10,Tuesday,673.98,Grocery,Wallet,Web,5G,Gujarat,Vadodara,45-54,970840,28304,True,,False,False,161,5688532
+305,2024-08-09 09:32:51.041648,2024-08-09,9,Friday,2579.7,Travel,Card,Android,WiFi,Maharashtra,Nagpur,45-54,116645,27527,True,,False,False,486,1034351
+306,2024-11-07 12:57:00.041785,2024-11-07,12,Thursday,1065.27,Grocery,UPI,Web,4G,Maharashtra,Pune,45-54,804237,68350,True,,False,False,90,3070570
+307,2024-06-29 23:24:52.041922,2024-06-29,23,Saturday,778.43,Retail,UPI,Web,4G,Delhi,New Delhi,55+,813612,56900,True,,True,True,911,4213032
+308,2024-02-16 19:40:19.042059,2024-02-16,19,Friday,606.79,Grocery,UPI,POS,3G,Kerala,Thiruvananthapuram,18-24,624629,74751,True,,True,True,232,3860131
+309,2024-10-09 08:47:36.042196,2024-10-09,8,Wednesday,906.07,Grocery,Card,iOS,4G,Uttar Pradesh,Noida,45-54,575976,10256,True,,False,False,671,8165791
+310,2024-11-24 16:41:03.042333,2024-11-24,16,Sunday,1569.17,Healthcare,UPI,Web,WiFi,Rajasthan,Jaipur,18-24,450964,20722,True,,False,False,356,1425670
+311,2024-04-25 23:27:04.042470,2024-04-25,23,Thursday,1880.11,Education,UPI,Android,5G,Kerala,Kochi,35-44,972957,17134,False,issuer_declined,False,False,500,6596685
+312,2024-09-23 19:04:49.042607,2024-09-23,19,Monday,467.82,Retail,UPI,iOS,WiFi,Karnataka,Bengaluru,18-24,157450,49514,True,,False,False,131,8245056
+313,2024-02-03 07:03:35.042744,2024-02-03,7,Saturday,613.81,Food,NetBanking,Android,4G,Karnataka,Hubli,25-34,782540,98575,True,,False,False,679,1435739
+314,2024-08-20 13:37:12.042881,2024-08-20,13,Tuesday,576.78,Food,UPI,Android,4G,Maharashtra,Pune,45-54,146211,17928,True,,False,False,248,3142127
+315,2024-06-08 14:32:41.043018,2024-06-08,14,Saturday,489.32,Grocery,UPI,Web,4G,Uttar Pradesh,Lucknow,18-24,160101,41114,True,,True,True,632,9507858
+316,2024-10-13 20:27:22.043155,2024-10-13,20,Sunday,1255.42,Entertainment,UPI,Web,4G,Kerala,Kochi,25-34,451965,90753,True,,False,False,368,6026983
+317,2024-08-02 10:06:29.043292,2024-08-02,10,Friday,2114.33,Healthcare,NetBanking,Android,3G,Tamil Nadu,Chennai,35-44,946485,59271,True,,False,False,1250,4444636
+318,2024-07-23 08:00:23.043429,2024-07-23,8,Tuesday,1578.44,Food,UPI,Android,5G,Gujarat,Rajkot,25-34,329580,44340,True,,False,False,259,3924009
+319,2024-06-22 20:15:11.043566,2024-06-22,20,Saturday,478.13,Entertainment,UPI,iOS,5G,Karnataka,Bengaluru,45-54,487596,58804,True,,False,False,268,3874940
+320,2024-09-26 23:39:56.043703,2024-09-26,23,Thursday,624.7,Utilities,Card,iOS,3G,Haryana,Panipat,18-24,148439,90744,True,,False,False,584,4172607
+321,2024-10-01 10:09:20.043840,2024-10-01,10,Tuesday,990.62,Entertainment,Card,iOS,5G,Rajasthan,Jodhpur,25-34,275566,76665,True,,False,False,1045,7511503
+322,2024-11-26 18:23:31.043977,2024-11-26,18,Tuesday,2344.77,Retail,UPI,Android,WiFi,Punjab,Jalandhar,25-34,317264,38773,True,,False,False,1044,4405783
+323,2024-08-19 20:25:13.044114,2024-08-19,20,Monday,2331.89,Travel,NetBanking,Android,3G,Rajasthan,Jaipur,25-34,587853,77143,True,,False,False,494,6643418
+324,2024-08-06 12:27:26.044251,2024-08-06,12,Tuesday,2017.6,Travel,UPI,iOS,5G,Kerala,Kochi,25-34,181955,46231,True,,False,False,530,4820869
+325,2024-02-20 07:23:02.044388,2024-02-20,7,Tuesday,703.32,Retail,UPI,Android,WiFi,Maharashtra,Nagpur,45-54,373820,11118,True,,False,False,849,6024342
+326,2024-05-24 19:50:25.044525,2024-05-24,19,Friday,1473.64,Fuel,NetBanking,Android,5G,Uttar Pradesh,Lucknow,35-44,679459,71438,True,,False,False,287,8741026
+327,2024-06-23 19:20:54.044662,2024-06-23,19,Sunday,1047.9,Entertainment,Card,Android,5G,Delhi,New Delhi,25-34,456329,39555,True,,False,False,1112,8032125
+328,2024-08-05 16:25:48.044799,2024-08-05,16,Monday,1272.62,Grocery,UPI,Android,5G,Haryana,Gurugram,45-54,499841,36765,True,,False,False,661,7553787
+329,2024-02-02 13:12:30.044936,2024-02-02,13,Friday,207.03,Food,Card,Android,3G,Uttar Pradesh,Agra,18-24,504639,47200,False,issuer_declined,False,False,318,4454299
+330,2024-04-29 10:33:04.045073,2024-04-29,10,Monday,760.21,Utilities,UPI,iOS,WiFi,Rajasthan,Jodhpur,55+,266494,89129,True,,False,False,1141,6206200
+331,2024-10-27 08:45:43.045210,2024-10-27,8,Sunday,1617.06,Utilities,UPI,POS,WiFi,Rajasthan,Jodhpur,45-54,140983,21941,True,,False,False,518,5830358
+332,2024-11-26 21:29:22.045347,2024-11-26,21,Tuesday,659.08,Grocery,Card,iOS,4G,Karnataka,Bengaluru,45-54,292355,84529,True,,False,False,484,2602797
+333,2024-07-20 17:02:15.045484,2024-07-20,17,Saturday,2616.25,Education,UPI,Web,WiFi,Uttar Pradesh,Noida,35-44,917376,52731,True,,False,False,942,7880270
+334,2024-08-18 08:13:32.045621,2024-08-18,8,Sunday,454.85,Food,UPI,Android,4G,Maharashtra,Pune,25-34,243110,52875,True,,False,False,301,8788747
+335,2024-09-05 12:05:35.045758,2024-09-05,12,Thursday,1231.89,Retail,Card,Android,WiFi,Rajasthan,Udaipur,25-34,111755,98785,True,,False,False,233,5584412
+336,2024-03-19 12:11:13.045895,2024-03-19,12,Tuesday,740.97,Grocery,NetBanking,Android,WiFi,Rajasthan,Jaipur,18-24,565553,16870,True,,False,False,174,1078278
+337,2024-01-25 19:49:12.046032,2024-01-25,19,Thursday,5695.47,Education,UPI,iOS,5G,Karnataka,Mysuru,25-34,935635,97046,True,,False,True,276,3816607
+338,2024-03-26 04:32:06.046169,2024-03-26,4,Tuesday,1265.49,Healthcare,UPI,Android,4G,Rajasthan,Jaipur,55+,789922,46497,True,,False,False,270,7190456
+339,2024-01-23 05:13:26.046306,2024-01-23,5,Tuesday,4814.93,Travel,Card,POS,5G,Telangana,Warangal,35-44,821027,51676,True,,False,True,369,9088805
+340,2024-02-04 10:38:58.046443,2024-02-04,10,Sunday,3006.67,Retail,UPI,Android,5G,Delhi,New Delhi,35-44,162833,28029,True,,False,False,946,7283463
+341,2024-09-12 10:09:24.046580,2024-09-12,10,Thursday,1047.41,Entertainment,UPI,Web,4G,Uttar Pradesh,Noida,55+,535047,94940,True,,False,False,955,5839473
+342,2024-01-13 09:46:21.046717,2024-01-13,9,Saturday,4637.59,Travel,UPI,iOS,3G,Karnataka,Bengaluru,55+,760374,10792,True,,False,True,706,2084091
+343,2024-09-08 06:12:03.046854,2024-09-08,6,Sunday,1143.23,Retail,UPI,iOS,5G,Maharashtra,Nagpur,35-44,285006,89410,True,,False,False,861,5177013
+344,2024-06-04 10:28:40.046991,2024-06-04,10,Tuesday,765.63,Entertainment,NetBanking,Android,3G,Karnataka,Mysuru,25-34,932106,73176,True,,False,False,589,1332374
+345,2024-07-14 12:05:48.047128,2024-07-14,12,Sunday,2503.2,Education,UPI,Android,WiFi,Delhi,New Delhi,18-24,849588,71506,True,,False,False,508,4283565
+346,2024-03-20 21:00:00.047265,2024-03-20,21,Wednesday,1168.45,Healthcare,Card,Android,WiFi,Rajasthan,Jaipur,25-34,230524,60439,True,,False,False,1504,3723988
+347,2024-04-09 18:16:49.047402,2024-04-09,18,Tuesday,4935.43,Education,Card,Android,WiFi,Punjab,Jalandhar,35-44,952624,57371,True,,False,True,294,1474058
+348,2024-12-23 16:09:16.047539,2024-12-23,16,Monday,1739.83,Retail,Wallet,iOS,WiFi,Karnataka,Hubli,35-44,840367,86829,True,,False,False,839,2348021
+349,2024-09-22 21:56:27.047676,2024-09-22,21,Sunday,1088.37,Food,UPI,Android,WiFi,West Bengal,Howrah,35-44,214582,93385,True,,False,False,1906,6777952
+350,2024-03-14 09:13:59.047813,2024-03-14,9,Thursday,678.83,Grocery,Card,iOS,5G,Tamil Nadu,Chennai,25-34,240857,35954,True,,False,False,240,9161633
+351,2024-04-03 13:07:28.047950,2024-04-03,13,Wednesday,1809.04,Retail,UPI,iOS,4G,Punjab,Ludhiana,45-54,189870,59509,True,,False,False,704,3091809
+352,2024-05-21 05:01:37.048087,2024-05-21,5,Tuesday,360.45,Entertainment,UPI,Android,5G,Telangana,Warangal,25-34,733729,66289,True,,False,False,513,6646375
+353,2024-07-08 16:21:20.048224,2024-07-08,16,Monday,1124.1,Healthcare,Wallet,Android,WiFi,Haryana,Panipat,18-24,245608,13365,True,,False,False,812,3061828
+354,2024-09-28 10:44:48.048361,2024-09-28,10,Saturday,1552.13,Healthcare,UPI,Android,4G,Maharashtra,Nashik,25-34,946785,52667,True,,False,False,393,8454220
+355,2024-04-29 15:25:47.048498,2024-04-29,15,Monday,858.85,Retail,UPI,Android,3G,Punjab,Jalandhar,55+,629149,14160,True,,False,False,784,3145157
+356,2024-09-11 19:19:53.048635,2024-09-11,19,Wednesday,382.87,Grocery,UPI,Web,5G,Karnataka,Bengaluru,25-34,193776,23824,True,,False,False,936,8296300
+357,2024-01-15 08:59:20.048772,2024-01-15,8,Monday,1644.36,Education,Card,iOS,WiFi,Punjab,Ludhiana,25-34,703950,88732,True,,False,False,799,2084932
+358,2024-11-25 10:58:45.048909,2024-11-25,10,Monday,781.85,Grocery,Card,Android,4G,Karnataka,Mangaluru,55+,720967,34662,True,,False,False,182,2947939
+359,2024-10-20 11:54:20.049046,2024-10-20,11,Sunday,950.84,Fuel,Card,iOS,5G,Maharashtra,Nashik,35-44,332932,23970,True,,False,False,550,7632241
+360,2024-01-05 13:29:20.049183,2024-01-05,13,Friday,552.49,Food,Wallet,Web,WiFi,Tamil Nadu,Coimbatore,25-34,423896,75847,True,,False,False,821,3071382
+361,2024-05-20 23:45:36.049320,2024-05-20,23,Monday,2025.89,Utilities,NetBanking,Android,4G,Uttar Pradesh,Lucknow,25-34,834430,16889,True,,False,False,886,4003461
+362,2024-09-06 18:19:52.049457,2024-09-06,18,Friday,1897.51,Retail,NetBanking,POS,WiFi,Delhi,New Delhi,25-34,997845,81828,True,,False,False,808,7606405
+363,2024-02-19 07:48:50.049594,2024-02-19,7,Monday,803.32,Retail,NetBanking,Web,4G,Gujarat,Rajkot,25-34,884735,35644,True,,False,False,212,1153218
+364,2024-07-04 18:36:06.049731,2024-07-04,18,Thursday,900.32,Grocery,Wallet,iOS,3G,Telangana,Hyderabad,25-34,784507,59200,False,insufficient_funds,False,False,1014,2503425
+365,2024-08-25 20:41:24.049868,2024-08-25,20,Sunday,719.16,Entertainment,Card,Android,5G,Tamil Nadu,Madurai,18-24,387021,22393,True,,False,False,614,4038296
+366,2024-07-15 12:41:44.050005,2024-07-15,12,Monday,1624.96,Utilities,Card,iOS,5G,Gujarat,Ahmedabad,55+,951649,79479,True,,False,False,593,9196731
+367,2024-02-02 13:37:34.050142,2024-02-02,13,Friday,998.19,Grocery,Card,iOS,4G,Karnataka,Hubli,55+,229022,15130,True,,False,False,591,3161173
+368,2024-10-21 08:10:05.050279,2024-10-21,8,Monday,867.83,Retail,NetBanking,iOS,3G,West Bengal,Kolkata,25-34,566532,28331,True,,False,False,1305,9228265
+369,2024-12-21 10:58:22.050416,2024-12-21,10,Saturday,1558.08,Retail,UPI,Android,4G,Maharashtra,Pune,18-24,864521,91567,True,,False,False,639,8080237
+370,2024-02-08 14:16:24.050553,2024-02-08,14,Thursday,621.89,Retail,UPI,Android,3G,Haryana,Panipat,35-44,691021,96155,True,,False,False,919,9580328
+371,2024-11-05 08:52:09.050690,2024-11-05,8,Tuesday,1957.84,Travel,Card,Android,3G,Telangana,Hyderabad,25-34,449718,45815,True,,False,False,469,3455003
+372,2024-04-25 10:06:24.050827,2024-04-25,10,Thursday,976.9,Fuel,UPI,POS,4G,Uttar Pradesh,Noida,18-24,699951,46961,True,,False,False,167,5547530
+373,2024-11-07 06:03:10.050964,2024-11-07,6,Thursday,4307.94,Travel,Card,iOS,4G,Uttar Pradesh,Noida,35-44,820013,77314,True,,False,True,640,3608710
+374,2024-12-02 07:24:36.051101,2024-12-02,7,Monday,529.35,Grocery,UPI,Android,3G,West Bengal,Kolkata,35-44,548544,78235,True,,False,False,679,4838024
+375,2024-06-05 15:05:19.051238,2024-06-05,15,Wednesday,1466.89,Utilities,UPI,iOS,5G,Tamil Nadu,Chennai,45-54,866296,27881,True,,False,False,451,9047291
+376,2024-09-11 13:43:56.051375,2024-09-11,13,Wednesday,729.14,Retail,UPI,iOS,5G,Maharashtra,Pune,45-54,653764,99663,True,,False,False,1854,1710615
+377,2024-11-06 12:10:43.051512,2024-11-06,12,Wednesday,750.04,Fuel,Card,Web,5G,West Bengal,Kolkata,25-34,454375,99006,True,,False,False,234,5190365
+378,2024-10-03 20:54:07.051649,2024-10-03,20,Thursday,391.32,Entertainment,UPI,iOS,5G,Delhi,New Delhi,35-44,585550,90969,True,,False,False,545,9191751
+379,2024-01-30 11:39:29.051786,2024-01-30,11,Tuesday,1760.95,Travel,UPI,iOS,3G,Delhi,New Delhi,18-24,229858,73886,True,,False,False,696,1115938
+380,2024-03-20 18:16:14.051923,2024-03-20,18,Wednesday,1592.76,Utilities,UPI,Android,3G,Rajasthan,Jaipur,35-44,843670,36013,True,,False,False,48,2856661
+381,2024-04-07 10:08:25.052060,2024-04-07,10,Sunday,674.96,Utilities,UPI,iOS,4G,Uttar Pradesh,Agra,55+,918243,62412,True,,False,False,197,9419789
+382,2024-07-18 07:06:50.052197,2024-07-18,7,Thursday,667.01,Food,UPI,Android,4G,Delhi,New Delhi,25-34,609533,20828,True,,False,False,461,8196619
+383,2024-05-06 15:46:32.052334,2024-05-06,15,Monday,1256.89,Entertainment,UPI,iOS,WiFi,Delhi,New Delhi,35-44,740785,33748,True,,False,False,174,4165340
+384,2024-10-29 15:09:14.052471,2024-10-29,15,Tuesday,682.35,Food,UPI,iOS,5G,Tamil Nadu,Madurai,18-24,547818,94393,True,,False,False,453,1866635
+385,2024-06-04 07:23:17.052608,2024-06-04,7,Tuesday,625.16,Fuel,Card,iOS,3G,Tamil Nadu,Chennai,18-24,615151,57655,True,,False,False,586,6608323
+386,2024-06-04 07:42:00.052745,2024-06-04,7,Tuesday,1281.61,Grocery,Card,iOS,WiFi,Delhi,New Delhi,45-54,191468,23941,True,,False,False,322,3189181
+387,2024-11-18 18:07:02.052882,2024-11-18,18,Monday,1655.94,Retail,NetBanking,Android,5G,Maharashtra,Nashik,35-44,145939,26755,True,,False,False,261,4216305
+388,2024-08-02 14:16:57.053019,2024-08-02,14,Friday,1317.22,Healthcare,NetBanking,Web,3G,Tamil Nadu,Madurai,55+,628345,12867,True,,False,False,572,3800706
+389,2024-11-02 10:08:18.053156,2024-11-02,10,Saturday,454.49,Food,Card,Android,4G,Haryana,Gurugram,45-54,502810,83727,True,,False,False,230,7547256
+390,2024-07-24 15:13:11.053293,2024-07-24,15,Wednesday,521.67,Food,Card,Android,5G,West Bengal,Howrah,55+,334807,15978,True,,False,False,316,9951748
+391,2024-05-01 10:40:09.053430,2024-05-01,10,Wednesday,590.74,Fuel,UPI,iOS,3G,Kerala,Thiruvananthapuram,18-24,741185,48652,True,,False,False,399,6446473
+392,2024-01-30 15:00:52.053567,2024-01-30,15,Tuesday,4368.78,Travel,Card,iOS,WiFi,Gujarat,Ahmedabad,18-24,785584,43730,True,,False,True,863,4458774
+393,2024-08-14 09:17:13.053704,2024-08-14,9,Wednesday,1681.58,Retail,NetBanking,Android,5G,Delhi,New Delhi,25-34,284665,34754,True,,False,False,244,9229532
+394,2024-04-02 16:01:19.053841,2024-04-02,16,Tuesday,274.04,Food,UPI,Android,4G,Gujarat,Ahmedabad,18-24,862067,11545,True,,False,False,171,2673190
+395,2024-07-12 11:07:52.053978,2024-07-12,11,Friday,979.16,Food,NetBanking,POS,5G,Maharashtra,Nashik,45-54,189092,36518,False,issuer_declined,False,False,1142,3335893
+396,2024-09-02 18:57:28.054115,2024-09-02,18,Monday,1308.49,Healthcare,UPI,Android,WiFi,Delhi,New Delhi,35-44,535457,28590,False,insufficient_funds,False,False,174,1020307
+397,2024-04-24 03:27:24.054252,2024-04-24,3,Wednesday,352.06,Food,Card,iOS,3G,Tamil Nadu,Madurai,25-34,188923,15681,True,,False,False,861,3535087
+398,2024-04-01 12:21:38.054389,2024-04-01,12,Monday,657.25,Entertainment,UPI,Web,4G,Gujarat,Surat,35-44,927175,10285,True,,False,False,1698,3493814
+399,2024-12-01 07:09:24.054526,2024-12-01,7,Sunday,1044.24,Utilities,Card,POS,4G,West Bengal,Kolkata,18-24,469737,51853,True,,False,False,197,9291408
+400,2024-08-05 12:26:38.054663,2024-08-05,12,Monday,714.75,Grocery,UPI,Web,4G,Telangana,Hyderabad,25-34,709184,65291,True,,False,False,1155,9840685
+401,2024-10-22 19:51:47.054800,2024-10-22,19,Tuesday,758.49,Entertainment,UPI,Android,5G,Tamil Nadu,Chennai,45-54,246118,48626,True,,False,False,1282,8724035
+402,2024-03-14 20:35:59.054937,2024-03-14,20,Thursday,2799.44,Education,UPI,Web,5G,Karnataka,Bengaluru,18-24,177353,72498,True,,False,False,818,3653705
+403,2024-01-16 07:09:05.055074,2024-01-16,7,Tuesday,944.43,Entertainment,UPI,Web,WiFi,Telangana,Warangal,45-54,565540,94521,True,,False,False,497,1221617
+404,2024-05-26 07:03:56.055211,2024-05-26,7,Sunday,402.85,Retail,Card,iOS,5G,Kerala,Kozhikode,25-34,420899,39794,True,,False,False,307,8108007
+405,2024-03-21 09:05:33.055348,2024-03-21,9,Thursday,1258.53,Travel,Wallet,Android,WiFi,Uttar Pradesh,Noida,18-24,600607,51050,True,,False,False,148,7796448
+406,2024-07-13 08:51:23.055485,2024-07-13,8,Saturday,997.66,Retail,UPI,iOS,5G,Karnataka,Bengaluru,35-44,678490,36440,True,,False,False,945,1543024
+407,2024-05-03 09:36:36.055622,2024-05-03,9,Friday,497.47,Food,Wallet,Android,5G,Maharashtra,Nashik,18-24,447412,63383,True,,False,False,199,9448643
+408,2024-02-21 13:49:09.055759,2024-02-21,13,Wednesday,202.24,Food,Card,Android,4G,Telangana,Warangal,18-24,247705,31108,True,,False,False,272,9415785
+409,2024-09-21 23:38:41.055896,2024-09-21,23,Saturday,1387.14,Retail,Card,Android,5G,Gujarat,Ahmedabad,25-34,424578,81714,True,,False,False,62,2462431
+410,2024-09-12 06:20:10.056033,2024-09-12,6,Thursday,314.98,Fuel,UPI,iOS,WiFi,Delhi,New Delhi,18-24,781880,28408,True,,False,False,305,3079808
+411,2024-10-18 13:23:54.056170,2024-10-18,13,Friday,831.88,Entertainment,UPI,Android,4G,Rajasthan,Jaipur,25-34,815711,15593,True,,False,False,441,1957285
+412,2024-05-05 17:35:00.056307,2024-05-05,17,Sunday,618.49,Food,UPI,Android,4G,Uttar Pradesh,Lucknow,45-54,516226,66769,True,,False,False,243,4346568
+413,2024-07-24 10:20:21.056444,2024-07-24,10,Wednesday,375.95,Subscriptions,UPI,Android,WiFi,West Bengal,Howrah,25-34,947808,57381,True,,False,False,652,8216043
+414,2024-08-30 09:13:55.056581,2024-08-30,9,Friday,335.15,Food,Card,Android,WiFi,Karnataka,Mangaluru,18-24,324505,97771,True,,False,False,478,5352802
+415,2024-04-04 20:05:57.056718,2024-04-04,20,Thursday,3151.87,Education,UPI,Android,5G,Karnataka,Bengaluru,25-34,826559,84752,True,,False,True,809,7528651
+416,2024-01-06 14:57:38.056855,2024-01-06,14,Saturday,2420.77,Entertainment,Card,Android,5G,Maharashtra,Pune,35-44,254650,75463,True,,False,False,60,6308442
+417,2024-02-28 19:43:26.056992,2024-02-28,19,Wednesday,1309.2,Entertainment,Card,POS,3G,Karnataka,Mangaluru,45-54,830276,81576,True,,False,False,1174,3786712
+418,2024-11-03 11:22:13.057129,2024-11-03,11,Sunday,1271.85,Fuel,Wallet,Android,5G,Telangana,Hyderabad,45-54,469320,81102,True,,False,False,482,8144563
+419,2024-09-24 23:21:07.057266,2024-09-24,23,Tuesday,2386.0,Education,UPI,Android,WiFi,Rajasthan,Jodhpur,18-24,998626,23005,True,,False,False,700,2470022
+420,2024-02-23 06:01:39.057403,2024-02-23,6,Friday,1241.88,Fuel,UPI,Android,4G,Maharashtra,Mumbai,35-44,220063,35632,True,,False,False,1001,8878148
+421,2024-03-04 11:50:58.057540,2024-03-04,11,Monday,1213.59,Utilities,NetBanking,Android,4G,Tamil Nadu,Coimbatore,25-34,806007,41661,True,,False,False,1655,1069752
+422,2024-07-31 04:01:09.057677,2024-07-31,4,Wednesday,398.11,Grocery,NetBanking,Android,4G,Gujarat,Surat,25-34,512423,16760,True,,False,False,421,8199144
+423,2024-03-06 22:24:46.057814,2024-03-06,22,Wednesday,740.86,Food,NetBanking,Android,WiFi,Karnataka,Hubli,18-24,372871,82470,True,,False,False,1251,3668469
+424,2024-06-14 08:05:01.057951,2024-06-14,8,Friday,1015.94,Utilities,Card,Android,5G,West Bengal,Howrah,35-44,351366,95527,True,,False,False,696,4720435
+425,2024-06-01 08:53:15.058088,2024-06-01,8,Saturday,474.45,Grocery,NetBanking,Android,WiFi,Telangana,Hyderabad,18-24,318074,61222,True,,False,False,1258,2688991
+426,2024-09-08 19:26:04.058225,2024-09-08,19,Sunday,1596.73,Utilities,Card,iOS,WiFi,Karnataka,Mysuru,55+,222900,54932,True,,False,False,696,6818065
+427,2024-09-04 23:38:34.058362,2024-09-04,23,Wednesday,609.32,Food,UPI,iOS,5G,West Bengal,Howrah,35-44,130930,52931,True,,False,False,397,3324735
+428,2024-04-22 06:44:08.058499,2024-04-22,6,Monday,637.9,Entertainment,UPI,POS,WiFi,Maharashtra,Nashik,35-44,281361,35936,True,,False,False,429,5715786
+429,2024-07-20 07:50:49.058636,2024-07-20,7,Saturday,978.17,Retail,UPI,iOS,4G,Uttar Pradesh,Lucknow,25-34,309422,84336,True,,False,False,178,6920939
+430,2024-07-10 21:52:04.058773,2024-07-10,21,Wednesday,2585.91,Utilities,NetBanking,POS,WiFi,Uttar Pradesh,Lucknow,25-34,948340,52294,True,,False,False,427,8203915
+431,2024-04-05 11:04:13.058910,2024-04-05,11,Friday,768.28,Retail,UPI,Android,5G,Maharashtra,Nagpur,25-34,652874,38503,True,,False,False,416,2726714
+432,2024-10-14 10:38:56.059047,2024-10-14,10,Monday,584.13,Grocery,Card,Android,4G,Tamil Nadu,Coimbatore,35-44,387745,65212,True,,False,False,521,3000834
+433,2024-03-04 12:38:20.059184,2024-03-04,12,Monday,1428.09,Retail,UPI,iOS,5G,Karnataka,Mangaluru,45-54,453778,94512,True,,False,False,566,1273003
+434,2024-02-05 12:53:51.059321,2024-02-05,12,Monday,1474.51,Utilities,UPI,Android,WiFi,Haryana,Faridabad,18-24,984028,59008,True,,False,False,711,2723751
+435,2024-01-15 09:52:00.059458,2024-01-15,9,Monday,557.04,Food,Wallet,Web,4G,Telangana,Nizamabad,25-34,376537,53165,True,,False,False,114,7367900
+436,2024-05-18 17:59:08.059595,2024-05-18,17,Saturday,1891.35,Retail,UPI,Android,5G,Maharashtra,Nagpur,35-44,394169,52193,True,,False,False,505,9098468
+437,2024-04-25 06:49:18.059732,2024-04-25,6,Thursday,2097.19,Grocery,UPI,Web,WiFi,Karnataka,Mysuru,35-44,590891,60470,True,,False,False,270,4152731
+438,2024-09-06 07:13:52.059869,2024-09-06,7,Friday,1076.91,Retail,UPI,Web,4G,Rajasthan,Jaipur,25-34,574409,91327,True,,False,False,275,9614497
+439,2024-04-13 19:12:04.060006,2024-04-13,19,Saturday,1108.41,Entertainment,UPI,iOS,4G,Tamil Nadu,Coimbatore,35-44,574628,56131,True,,False,False,87,5455671
+440,2024-03-01 22:05:22.060143,2024-03-01,22,Friday,875.55,Utilities,UPI,Android,WiFi,Uttar Pradesh,Agra,18-24,522253,33153,True,,False,False,450,5629265
+441,2024-09-28 15:33:27.060280,2024-09-28,15,Saturday,873.06,Food,UPI,iOS,5G,West Bengal,Kolkata,18-24,833491,63026,True,,False,False,321,7575126
+442,2024-07-20 06:46:52.060417,2024-07-20,6,Saturday,1031.37,Healthcare,UPI,iOS,4G,Punjab,Jalandhar,25-34,599917,50019,True,,False,False,532,5003370
+443,2024-03-28 10:04:10.060554,2024-03-28,10,Thursday,760.83,Entertainment,NetBanking,iOS,5G,Gujarat,Surat,25-34,722859,56156,True,,False,False,776,8949550
+444,2024-10-25 00:55:15.060691,2024-10-25,0,Friday,812.3,Utilities,UPI,iOS,4G,Haryana,Faridabad,25-34,451983,69325,True,,False,False,171,9231939
+445,2024-06-28 23:16:42.060828,2024-06-28,23,Friday,1466.96,Utilities,UPI,iOS,WiFi,Kerala,Thiruvananthapuram,35-44,997859,38869,True,,False,False,73,3376209
+446,2024-07-01 13:15:36.060965,2024-07-01,13,Monday,241.51,Grocery,Wallet,Android,4G,Gujarat,Vadodara,18-24,510020,87220,True,,False,False,776,8001036
+447,2024-05-21 10:02:37.061102,2024-05-21,10,Tuesday,1118.95,Retail,UPI,Android,WiFi,Uttar Pradesh,Lucknow,25-34,402262,18469,True,,False,False,749,5944694
+448,2024-01-08 12:13:18.061239,2024-01-08,12,Monday,2606.96,Healthcare,UPI,Android,5G,Telangana,Nizamabad,25-34,553038,86706,True,,False,False,210,2354222
+449,2024-05-28 09:30:59.061376,2024-05-28,9,Tuesday,1509.54,Travel,NetBanking,Android,WiFi,Rajasthan,Udaipur,55+,438144,85781,True,,False,False,602,3334991
+450,2024-12-15 18:16:08.061513,2024-12-15,18,Sunday,1302.59,Utilities,UPI,iOS,WiFi,Gujarat,Ahmedabad,55+,827851,51059,True,,False,False,167,9452615
+451,2024-12-16 17:29:22.061650,2024-12-16,17,Monday,2793.3,Utilities,UPI,Android,5G,Kerala,Kochi,35-44,637087,58904,True,,False,False,344,3135317
+452,2024-11-13 13:36:56.061787,2024-11-13,13,Wednesday,769.18,Entertainment,Card,Android,WiFi,Uttar Pradesh,Lucknow,18-24,202130,48086,True,,False,False,725,9077690
+453,2024-12-19 10:03:07.061924,2024-12-19,10,Thursday,780.57,Grocery,Card,Android,5G,Telangana,Hyderabad,18-24,106764,73564,True,,False,False,343,4367185
+454,2024-02-28 05:09:38.062061,2024-02-28,5,Wednesday,1453.65,Healthcare,UPI,iOS,5G,Karnataka,Hubli,18-24,346339,81659,True,,False,False,511,5366631
+455,2024-11-09 16:54:42.062198,2024-11-09,16,Saturday,1736.12,Retail,UPI,Android,5G,Karnataka,Mysuru,45-54,799961,23109,True,,False,False,503,9270565
+456,2024-07-07 16:25:24.062335,2024-07-07,16,Sunday,563.1,Grocery,UPI,Android,WiFi,Gujarat,Rajkot,18-24,246070,71329,False,network_timeout,False,False,107,8689839
+457,2024-05-21 01:10:22.062472,2024-05-21,1,Tuesday,1317.86,Utilities,NetBanking,iOS,3G,Uttar Pradesh,Noida,35-44,924911,28355,True,,False,False,770,5669772
+458,2024-12-03 10:25:04.062609,2024-12-03,10,Tuesday,8727.58,Education,Card,Android,WiFi,Telangana,Hyderabad,35-44,708934,55625,True,,False,True,199,7774201
+459,2024-02-04 04:54:46.062746,2024-02-04,4,Sunday,1075.3,Food,UPI,iOS,3G,Gujarat,Vadodara,25-34,892528,65057,True,,False,False,304,2079947
+460,2024-02-01 15:07:02.062883,2024-02-01,15,Thursday,2598.62,Healthcare,UPI,Android,4G,Karnataka,Bengaluru,45-54,558767,98978,True,,False,False,259,5799782
+461,2024-04-25 08:10:27.063020,2024-04-25,8,Thursday,2112.26,Healthcare,NetBanking,iOS,4G,Maharashtra,Pune,35-44,673131,19432,True,,False,False,393,6716187
+462,2024-04-04 16:58:46.063157,2024-04-04,16,Thursday,943.05,Retail,UPI,Web,4G,Delhi,New Delhi,25-34,494388,19288,True,,False,False,137,2311035
+463,2024-03-06 19:19:06.063294,2024-03-06,19,Wednesday,312.51,Food,UPI,Android,WiFi,Karnataka,Hubli,25-34,740939,75542,True,,False,False,617,6238506
+464,2024-07-23 15:34:44.063431,2024-07-23,15,Tuesday,2199.94,Education,Card,POS,3G,Delhi,New Delhi,35-44,956437,53202,True,,False,False,164,2045698
+465,2024-04-30 13:51:36.063568,2024-04-30,13,Tuesday,3689.79,Education,Card,Android,5G,Telangana,Hyderabad,55+,137329,75089,True,,False,True,317,9516186
+466,2024-04-25 16:27:30.063705,2024-04-25,16,Thursday,7186.81,Travel,NetBanking,POS,5G,Maharashtra,Pune,18-24,679334,73199,True,,False,True,781,1874771
+467,2024-07-17 18:44:08.063842,2024-07-17,18,Wednesday,2322.36,Utilities,UPI,iOS,WiFi,Karnataka,Hubli,55+,717210,11317,True,,False,False,126,4810540
+468,2024-07-30 18:56:51.063979,2024-07-30,18,Tuesday,655.53,Grocery,Card,POS,5G,West Bengal,Howrah,35-44,406616,27002,True,,False,False,734,7674289
+469,2024-09-02 16:42:04.064116,2024-09-02,16,Monday,483.84,Food,NetBanking,iOS,4G,West Bengal,Siliguri,45-54,463473,63848,True,,False,False,575,9157211
+470,2024-05-23 06:58:08.064253,2024-05-23,6,Thursday,3137.64,Healthcare,UPI,iOS,WiFi,Maharashtra,Pune,18-24,122323,75392,False,insufficient_funds,False,True,965,1566334
+471,2024-05-18 10:24:19.064390,2024-05-18,10,Saturday,2302.69,Healthcare,UPI,iOS,4G,Tamil Nadu,Salem,25-34,154798,96560,True,,False,False,246,6119535
+472,2024-01-17 13:22:59.064527,2024-01-17,13,Wednesday,898.07,Food,Card,Web,3G,Telangana,Warangal,55+,548317,17486,True,,False,False,1520,2832243
+473,2024-10-10 11:46:59.064664,2024-10-10,11,Thursday,969.47,Grocery,NetBanking,POS,WiFi,Tamil Nadu,Coimbatore,35-44,238278,11990,True,,False,False,917,5709366
+474,2024-12-15 22:05:15.064801,2024-12-15,22,Sunday,750.18,Grocery,UPI,Android,5G,Karnataka,Hubli,25-34,792874,52072,True,,False,False,56,5437867
+475,2024-04-01 12:01:28.064938,2024-04-01,12,Monday,455.75,Food,UPI,Android,4G,Tamil Nadu,Coimbatore,35-44,561834,33567,True,,False,False,587,5328638
+476,2024-05-21 09:31:08.065075,2024-05-21,9,Tuesday,968.27,Entertainment,UPI,Web,4G,Kerala,Kozhikode,25-34,339025,17970,True,,False,False,356,5346217
+477,2024-05-11 02:54:54.065212,2024-05-11,2,Saturday,1372.62,Healthcare,UPI,iOS,5G,Gujarat,Vadodara,18-24,814097,64521,True,,False,False,611,2197778
+478,2024-11-24 12:18:09.065349,2024-11-24,12,Sunday,463.09,Food,Card,Android,3G,West Bengal,Kolkata,55+,428315,76951,True,,False,False,227,9525883
+479,2024-10-24 17:13:24.065486,2024-10-24,17,Thursday,2254.94,Healthcare,UPI,Android,WiFi,Rajasthan,Udaipur,55+,868654,25891,True,,False,False,583,9854283
+480,2024-01-27 15:42:33.065623,2024-01-27,15,Saturday,530.96,Retail,UPI,iOS,4G,Uttar Pradesh,Agra,55+,826739,41594,True,,False,False,354,8465986
+481,2024-07-28 11:22:35.065760,2024-07-28,11,Sunday,1051.67,Utilities,NetBanking,Android,4G,Tamil Nadu,Coimbatore,25-34,527417,98356,True,,False,False,570,3317607
+482,2024-11-06 09:18:21.065897,2024-11-06,9,Wednesday,4591.23,Travel,UPI,Android,3G,Maharashtra,Pune,35-44,592684,23237,True,,False,True,399,3120605
+483,2024-01-18 20:01:44.066034,2024-01-18,20,Thursday,509.24,Food,UPI,Android,WiFi,Delhi,New Delhi,25-34,964776,54124,True,,False,False,336,2808110
+484,2024-01-24 06:58:22.066171,2024-01-24,6,Wednesday,1577.89,Fuel,NetBanking,Android,4G,Uttar Pradesh,Kanpur,25-34,634117,20982,True,,False,False,636,3554438
+485,2024-01-04 14:23:43.066308,2024-01-04,14,Thursday,923.51,Retail,UPI,Android,WiFi,Rajasthan,Jaipur,35-44,547416,47389,True,,False,False,623,6415686
+486,2024-07-15 10:11:09.066445,2024-07-15,10,Monday,417.54,Food,Wallet,Web,4G,Haryana,Faridabad,25-34,277545,47811,True,,False,False,514,5352496
+487,2024-11-06 18:59:14.066582,2024-11-06,18,Wednesday,2578.98,Retail,UPI,iOS,4G,Tamil Nadu,Coimbatore,45-54,698910,65902,True,,True,True,262,8462919
+488,2024-09-23 07:29:18.066719,2024-09-23,7,Monday,3139.1,Education,Card,Web,5G,Uttar Pradesh,Kanpur,55+,942678,20363,True,,False,True,757,4731953
+489,2024-02-08 10:32:21.066856,2024-02-08,10,Thursday,410.41,Entertainment,Card,Android,4G,Gujarat,Surat,35-44,756493,14670,True,,False,False,1243,1133724
+490,2024-05-05 07:24:55.066993,2024-05-05,7,Sunday,1274.99,Fuel,Card,iOS,5G,Gujarat,Ahmedabad,45-54,318677,33345,True,,False,False,137,1651169
+491,2024-08-02 17:39:24.067130,2024-08-02,17,Friday,2703.29,Retail,UPI,Android,WiFi,Karnataka,Hubli,55+,409767,22652,True,,False,False,647,4673044
+492,2024-02-27 22:57:48.067267,2024-02-27,22,Tuesday,912.48,Grocery,UPI,Android,WiFi,Karnataka,Mysuru,25-34,612936,88781,True,,False,False,1483,7912261
+493,2024-12-17 09:18:17.067404,2024-12-17,9,Tuesday,1182.71,Utilities,NetBanking,Android,5G,Tamil Nadu,Salem,45-54,381351,73636,True,,False,False,428,4673341
+494,2024-06-22 15:02:19.067541,2024-06-22,15,Saturday,1657.41,Utilities,UPI,Web,WiFi,Maharashtra,Mumbai,45-54,918343,53684,True,,False,False,74,6917334
+495,2024-10-10 05:03:33.067678,2024-10-10,5,Thursday,1263.44,Entertainment,UPI,POS,4G,Delhi,New Delhi,25-34,360784,11787,True,,False,False,441,1605237
+496,2024-01-11 18:33:06.067815,2024-01-11,18,Thursday,1351.62,Utilities,Card,iOS,WiFi,West Bengal,Siliguri,18-24,958045,45389,False,issuer_declined,False,False,409,2424664
+497,2024-02-09 06:46:45.067952,2024-02-09,6,Friday,275.69,Grocery,UPI,iOS,4G,Tamil Nadu,Chennai,35-44,439452,65725,True,,False,False,658,9595901
+498,2024-01-12 10:29:12.068089,2024-01-12,10,Friday,387.59,Food,Wallet,Android,WiFi,Karnataka,Mangaluru,25-34,500984,12256,True,,False,False,821,9338861
+499,2024-07-20 22:48:34.068226,2024-07-20,22,Saturday,809.51,Grocery,UPI,Android,5G,Telangana,Hyderabad,45-54,187697,22502,True,,False,False,211,3839639
+500,2024-04-16 20:31:37.068363,2024-04-16,20,Tuesday,1043.71,Entertainment,UPI,Android,WiFi,Maharashtra,Nagpur,45-54,257928,14785,True,,False,False,351,6392918
+501,2024-12-18 14:26:55.068500,2024-12-18,14,Wednesday,405.34,Food,Card,Android,4G,Gujarat,Vadodara,35-44,868678,20673,True,,False,False,544,2762343
+502,2024-08-05 17:24:08.068637,2024-08-05,17,Monday,783.23,Grocery,UPI,Android,5G,Maharashtra,Nashik,25-34,518807,11213,True,,False,False,925,5978656
+503,2024-03-01 12:18:46.068774,2024-03-01,12,Friday,3312.64,Education,Card,Android,4G,Tamil Nadu,Chennai,25-34,644609,89235,True,,False,True,670,5215097
+504,2024-08-29 12:59:21.068911,2024-08-29,12,Thursday,3314.89,Education,Card,Web,5G,Gujarat,Vadodara,35-44,827759,22300,True,,False,True,352,8693923
+505,2024-06-18 06:39:29.069048,2024-06-18,6,Tuesday,985.02,Retail,UPI,Android,3G,Maharashtra,Nagpur,25-34,721427,29978,True,,False,False,911,2727655
+506,2024-04-20 10:16:36.069185,2024-04-20,10,Saturday,796.79,Food,Card,Android,4G,West Bengal,Kolkata,25-34,596403,37434,True,,False,False,1409,3820239
+507,2024-01-02 19:13:05.069322,2024-01-02,19,Tuesday,2431.81,Education,Card,iOS,WiFi,Maharashtra,Mumbai,18-24,911513,60532,True,,False,False,293,8960419
+508,2024-06-30 10:33:20.069459,2024-06-30,10,Sunday,2750.35,Retail,NetBanking,Web,3G,Telangana,Nizamabad,55+,818660,25760,True,,False,False,662,8305024
+509,2024-11-29 11:01:55.069596,2024-11-29,11,Friday,3895.36,Travel,UPI,Android,4G,Maharashtra,Pune,18-24,651553,35544,True,,False,True,52,1094196
+510,2024-10-27 10:06:58.069733,2024-10-27,10,Sunday,1425.47,Travel,UPI,Web,4G,Tamil Nadu,Coimbatore,18-24,963319,13988,False,issuer_declined,False,False,687,8898869
+511,2024-11-07 15:31:11.069870,2024-11-07,15,Thursday,487.44,Utilities,NetBanking,Android,4G,Karnataka,Mysuru,18-24,158770,68114,True,,False,False,447,2045647
+512,2024-06-09 06:34:17.070007,2024-06-09,6,Sunday,694.59,Subscriptions,UPI,Android,5G,Delhi,New Delhi,45-54,641422,11857,True,,False,False,632,7764121
+513,2024-08-01 20:42:03.070144,2024-08-01,20,Thursday,389.77,Food,NetBanking,Android,4G,Uttar Pradesh,Kanpur,18-24,978559,10422,True,,False,False,237,6220474
+514,2024-05-20 14:07:21.070281,2024-05-20,14,Monday,1456.92,Utilities,NetBanking,iOS,3G,Tamil Nadu,Salem,18-24,859459,42339,True,,False,False,904,6163730
+515,2024-12-14 15:57:55.070418,2024-12-14,15,Saturday,813.77,Entertainment,Card,iOS,5G,Uttar Pradesh,Noida,35-44,285715,48657,True,,False,False,249,5351239
+516,2024-12-23 12:05:31.070555,2024-12-23,12,Monday,3193.83,Travel,UPI,Android,WiFi,Rajasthan,Jodhpur,45-54,836296,66866,True,,False,True,222,6820377
+517,2024-11-26 19:50:18.070692,2024-11-26,19,Tuesday,759.92,Entertainment,Card,Android,4G,Karnataka,Mysuru,45-54,715326,52335,False,insufficient_funds,False,False,248,7245868
+518,2024-10-15 11:37:57.070829,2024-10-15,11,Tuesday,421.64,Food,Card,Android,4G,Maharashtra,Pune,18-24,122806,67541,True,,False,False,493,8657887
+519,2024-10-30 14:27:46.070966,2024-10-30,14,Wednesday,3116.41,Travel,NetBanking,iOS,WiFi,Maharashtra,Pune,25-34,631586,24136,True,,False,True,962,8062972
+520,2024-08-06 19:36:25.071103,2024-08-06,19,Tuesday,1822.03,Retail,UPI,iOS,WiFi,Telangana,Warangal,35-44,926874,17051,True,,False,False,208,2516637
+521,2024-06-07 19:09:51.071240,2024-06-07,19,Friday,1329.95,Travel,UPI,Android,4G,Punjab,Ludhiana,18-24,261625,99746,True,,False,False,463,7279004
+522,2024-01-03 12:22:06.071377,2024-01-03,12,Wednesday,3106.25,Utilities,Card,Android,3G,Delhi,New Delhi,35-44,240012,62413,True,,False,False,253,6488025
+523,2024-05-24 19:46:55.071514,2024-05-24,19,Friday,1414.8,Utilities,UPI,iOS,WiFi,West Bengal,Howrah,45-54,963227,10208,True,,False,False,401,7680364
+524,2024-02-09 15:08:31.071651,2024-02-09,15,Friday,806.64,Entertainment,UPI,Android,WiFi,Uttar Pradesh,Noida,35-44,542223,33529,True,,False,False,96,3743794
+525,2024-07-22 16:53:06.071788,2024-07-22,16,Monday,999.61,Utilities,UPI,Android,5G,West Bengal,Kolkata,45-54,521216,65372,True,,False,False,513,1914547
+526,2024-06-04 12:47:40.071925,2024-06-04,12,Tuesday,1481.0,Food,NetBanking,Web,WiFi,Uttar Pradesh,Noida,45-54,896509,60262,True,,False,False,242,2342330
+527,2024-03-17 00:59:45.072062,2024-03-17,0,Sunday,712.05,Retail,UPI,Web,4G,Haryana,Gurugram,25-34,819729,58404,True,,False,False,399,5233341
+528,2024-08-05 10:18:49.072199,2024-08-05,10,Monday,1032.69,Healthcare,UPI,iOS,WiFi,Karnataka,Bengaluru,18-24,360704,32968,True,,False,False,99,2410072
+529,2024-09-30 06:46:09.072336,2024-09-30,6,Monday,450.62,Retail,UPI,iOS,3G,Maharashtra,Pune,35-44,180253,52806,True,,False,False,709,7254467
+530,2024-01-20 07:46:40.072473,2024-01-20,7,Saturday,1834.13,Healthcare,UPI,Android,4G,Karnataka,Hubli,25-34,878761,20391,True,,False,False,920,8271837
+531,2024-02-29 19:36:16.072610,2024-02-29,19,Thursday,204.68,Subscriptions,Card,Android,4G,Maharashtra,Mumbai,35-44,294734,46287,True,,False,False,321,9414832
+532,2024-12-09 05:25:58.072747,2024-12-09,5,Monday,1199.08,Entertainment,UPI,iOS,5G,West Bengal,Siliguri,45-54,335745,12368,True,,False,False,701,6446032
+533,2024-04-23 05:18:46.072884,2024-04-23,5,Tuesday,221.8,Grocery,NetBanking,Android,4G,Gujarat,Surat,25-34,878642,75401,False,network_timeout,False,False,471,4533909
+534,2024-09-29 17:43:24.073021,2024-09-29,17,Sunday,1088.27,Entertainment,UPI,Web,3G,Karnataka,Bengaluru,35-44,430655,69178,True,,False,False,513,8841337
+535,2024-01-16 08:37:10.073158,2024-01-16,8,Tuesday,579.47,Retail,Card,Android,4G,West Bengal,Siliguri,45-54,990941,26186,True,,False,False,570,2627051
+536,2024-07-21 09:07:36.073295,2024-07-21,9,Sunday,823.65,Entertainment,NetBanking,Android,3G,Uttar Pradesh,Noida,55+,760891,23846,True,,False,False,415,6331381
+537,2024-09-14 13:25:14.073432,2024-09-14,13,Saturday,2430.56,Healthcare,UPI,Android,4G,Karnataka,Hubli,25-34,280638,99568,True,,False,False,371,2649587
+538,2024-07-15 14:26:26.073569,2024-07-15,14,Monday,1193.12,Utilities,Card,Android,5G,Gujarat,Surat,35-44,879055,88819,True,,False,False,162,7532030
+539,2024-10-09 13:12:54.073706,2024-10-09,13,Wednesday,3831.71,Education,UPI,Android,5G,Uttar Pradesh,Lucknow,25-34,581498,42118,True,,False,True,90,8443265
+540,2024-05-03 19:29:32.073843,2024-05-03,19,Friday,617.32,Retail,NetBanking,Web,3G,Maharashtra,Nagpur,55+,593050,60504,False,issuer_declined,False,False,556,2180539
+541,2024-08-01 22:56:45.073980,2024-08-01,22,Thursday,900.62,Retail,Card,Android,3G,Rajasthan,Jodhpur,35-44,759835,95148,False,issuer_declined,False,False,548,8382743
+542,2024-08-07 19:06:09.074117,2024-08-07,19,Wednesday,1184.31,Healthcare,Card,Android,4G,Punjab,Ludhiana,45-54,446057,94152,True,,False,False,509,2242680
+543,2024-08-22 21:31:48.074254,2024-08-22,21,Thursday,1367.87,Entertainment,UPI,iOS,WiFi,Maharashtra,Pune,45-54,331757,58608,True,,False,False,215,7085502
+544,2024-12-31 10:45:10.074391,2024-12-31,10,Tuesday,1446.1,Retail,UPI,Android,4G,Maharashtra,Mumbai,18-24,992253,37742,True,,False,False,307,6082767
+545,2024-03-16 14:16:23.074528,2024-03-16,14,Saturday,678.41,Grocery,Card,POS,WiFi,Delhi,New Delhi,35-44,608817,94984,True,,False,False,354,3837377
+546,2024-09-25 12:30:57.074665,2024-09-25,12,Wednesday,1064.16,Travel,Card,iOS,5G,West Bengal,Siliguri,18-24,697067,93707,True,,False,False,257,1204695
+547,2024-09-25 21:47:12.074802,2024-09-25,21,Wednesday,3837.59,Travel,UPI,Android,3G,Haryana,Panipat,25-34,935998,33944,False,issuer_declined,False,True,708,5111878
+548,2024-04-26 17:29:11.074939,2024-04-26,17,Friday,820.78,Food,Card,Android,5G,Tamil Nadu,Madurai,18-24,586823,22880,True,,False,False,631,1857027
+549,2024-06-12 19:04:12.075076,2024-06-12,19,Wednesday,1561.79,Utilities,UPI,Android,5G,Uttar Pradesh,Agra,35-44,773843,35532,False,network_timeout,False,False,857,8654679
+550,2024-01-01 09:26:38.075213,2024-01-01,9,Monday,1031.69,Entertainment,Card,Android,WiFi,Maharashtra,Nagpur,25-34,756326,67677,True,,False,False,773,2870157
+551,2024-04-03 13:20:57.075350,2024-04-03,13,Wednesday,865.31,Fuel,UPI,iOS,5G,West Bengal,Siliguri,25-34,323573,50265,True,,False,False,1007,9418465
+552,2024-06-05 10:33:30.075487,2024-06-05,10,Wednesday,453.04,Food,UPI,Android,4G,Gujarat,Surat,18-24,917632,45308,True,,False,False,731,4837345
+553,2024-05-14 12:54:53.075624,2024-05-14,12,Tuesday,2534.0,Travel,UPI,Android,WiFi,Maharashtra,Mumbai,45-54,528645,56348,True,,False,False,960,3347640
+554,2024-08-21 18:01:52.075761,2024-08-21,18,Wednesday,391.0,Grocery,UPI,Android,WiFi,Uttar Pradesh,Lucknow,25-34,627374,67685,True,,False,False,259,5596336
+555,2024-02-24 06:10:20.075898,2024-02-24,6,Saturday,881.02,Grocery,Wallet,Android,3G,Rajasthan,Jaipur,55+,714585,59154,True,,False,False,385,1995171
+556,2024-02-21 05:21:17.076035,2024-02-21,5,Wednesday,2651.66,Retail,UPI,iOS,WiFi,Gujarat,Vadodara,55+,559550,42142,True,,False,False,615,6500277
+557,2024-10-20 13:42:16.076172,2024-10-20,13,Sunday,3285.99,Retail,NetBanking,Android,5G,Maharashtra,Mumbai,45-54,883572,38155,True,,False,False,394,4089357
+558,2024-06-13 12:29:23.076309,2024-06-13,12,Thursday,2179.17,Travel,Card,Android,WiFi,Punjab,Amritsar,45-54,637145,58952,True,,False,False,560,1271812
+559,2024-10-16 12:02:32.076446,2024-10-16,12,Wednesday,806.39,Healthcare,UPI,Android,WiFi,Uttar Pradesh,Noida,25-34,701804,71400,True,,False,False,543,4202560
+560,2024-02-07 18:27:52.076583,2024-02-07,18,Wednesday,756.85,Entertainment,UPI,Web,4G,Delhi,New Delhi,35-44,702656,48510,True,,False,False,459,1106601
+561,2024-11-15 20:01:00.076720,2024-11-15,20,Friday,846.57,Entertainment,UPI,iOS,5G,Tamil Nadu,Coimbatore,35-44,849631,85609,True,,False,False,616,3560283
+562,2024-04-06 19:13:19.076857,2024-04-06,19,Saturday,1598.19,Entertainment,UPI,Android,4G,Tamil Nadu,Madurai,45-54,417644,31402,True,,False,False,284,8118298
+563,2024-05-18 09:58:13.076994,2024-05-18,9,Saturday,635.86,Grocery,UPI,Web,3G,Telangana,Hyderabad,18-24,631316,85799,True,,False,False,249,9665368
+564,2024-03-03 08:13:07.077131,2024-03-03,8,Sunday,791.5,Fuel,Card,Android,3G,Delhi,New Delhi,25-34,116929,10951,True,,False,False,688,7375830
+565,2024-08-03 11:54:06.077268,2024-08-03,11,Saturday,1088.28,Travel,Wallet,Web,WiFi,Rajasthan,Jodhpur,45-54,247572,42636,True,,False,False,721,3975579
+566,2024-10-16 01:33:09.077405,2024-10-16,1,Wednesday,526.53,Food,UPI,iOS,4G,Rajasthan,Udaipur,18-24,643791,29841,True,,False,False,447,4046988
+567,2024-07-05 21:07:50.077542,2024-07-05,21,Friday,410.19,Food,UPI,iOS,4G,Maharashtra,Pune,55+,148758,80710,True,,False,False,1413,7325627
+568,2024-11-02 17:10:10.077679,2024-11-02,17,Saturday,903.79,Food,UPI,iOS,WiFi,Haryana,Panipat,18-24,948743,93473,True,,False,False,467,1012106
+569,2024-06-08 12:57:57.077816,2024-06-08,12,Saturday,495.15,Entertainment,UPI,Android,3G,Gujarat,Rajkot,35-44,944572,28690,True,,False,False,250,4784131
+570,2024-12-03 06:06:45.077953,2024-12-03,6,Tuesday,1451.08,Utilities,NetBanking,iOS,5G,Rajasthan,Jaipur,18-24,379682,27263,True,,False,False,550,6501987
+571,2024-08-04 11:09:37.078090,2024-08-04,11,Sunday,1030.05,Grocery,NetBanking,Android,4G,West Bengal,Siliguri,35-44,296868,92406,True,,True,True,508,7805792
+572,2024-08-19 23:29:39.078227,2024-08-19,23,Monday,623.44,Entertainment,UPI,Android,4G,Tamil Nadu,Madurai,35-44,997805,54875,True,,False,False,483,9708598
+573,2024-05-14 05:23:27.078364,2024-05-14,5,Tuesday,625.5,Retail,Wallet,iOS,5G,Uttar Pradesh,Noida,25-34,186997,76155,True,,False,False,348,4063727
+574,2024-07-22 19:56:32.078501,2024-07-22,19,Monday,703.5,Entertainment,NetBanking,iOS,5G,Punjab,Amritsar,45-54,480272,80707,True,,False,False,556,4865865
+575,2024-12-21 22:33:10.078638,2024-12-21,22,Saturday,5266.88,Travel,UPI,iOS,4G,Karnataka,Mysuru,35-44,599694,71342,True,,False,True,1639,6400942
+576,2024-03-10 17:19:00.078775,2024-03-10,17,Sunday,597.47,Food,Card,Android,5G,Uttar Pradesh,Agra,45-54,946188,41780,True,,False,False,508,7563888
+577,2024-03-22 15:25:37.078912,2024-03-22,15,Friday,576.22,Entertainment,NetBanking,iOS,3G,Telangana,Nizamabad,25-34,759077,88439,True,,False,False,450,8903903
+578,2024-04-28 16:19:52.079049,2024-04-28,16,Sunday,893.34,Food,Card,Android,5G,Telangana,Warangal,55+,218318,92168,True,,False,False,412,8827002
+579,2024-08-06 14:56:45.079186,2024-08-06,14,Tuesday,703.16,Grocery,Card,Android,5G,Tamil Nadu,Chennai,18-24,542157,17425,True,,False,False,1221,2764796
+580,2024-05-23 20:46:17.079323,2024-05-23,20,Thursday,3935.83,Education,Card,Android,4G,Uttar Pradesh,Agra,25-34,918855,73945,True,,False,True,461,7305252
+581,2024-11-06 13:59:42.079460,2024-11-06,13,Wednesday,2844.6,Travel,Card,Android,4G,Karnataka,Mysuru,55+,542320,61608,True,,False,False,764,1668822
+582,2024-06-26 15:28:54.079597,2024-06-26,15,Wednesday,1780.46,Utilities,NetBanking,iOS,WiFi,Rajasthan,Jodhpur,45-54,444941,22950,True,,False,False,243,5903591
+583,2024-07-30 19:46:29.079734,2024-07-30,19,Tuesday,1128.42,Healthcare,UPI,Web,WiFi,Rajasthan,Jaipur,55+,437516,62601,True,,False,False,984,6847516
+584,2024-03-29 20:54:05.079871,2024-03-29,20,Friday,3239.9,Travel,Card,Android,4G,Maharashtra,Mumbai,25-34,295236,60160,True,,False,True,353,4391499
+585,2024-05-15 20:31:22.080008,2024-05-15,20,Wednesday,1537.22,Travel,UPI,Android,5G,Kerala,Kochi,18-24,748513,19952,True,,False,False,597,4332284
+586,2024-02-17 06:38:58.080145,2024-02-17,6,Saturday,669.76,Healthcare,UPI,iOS,4G,Karnataka,Bengaluru,35-44,408189,90402,True,,False,False,1128,2379281
+587,2024-06-14 23:28:52.080282,2024-06-14,23,Friday,450.94,Food,UPI,Android,WiFi,Telangana,Hyderabad,25-34,121783,90244,True,,False,False,56,9107980
+588,2024-08-12 11:35:36.080419,2024-08-12,11,Monday,1468.54,Entertainment,UPI,Android,WiFi,Gujarat,Vadodara,35-44,552266,58526,True,,False,False,397,7115538
+589,2024-04-30 10:22:04.080556,2024-04-30,10,Tuesday,960.01,Fuel,UPI,Web,3G,Tamil Nadu,Coimbatore,25-34,428712,23737,True,,False,False,686,4822259
+590,2024-06-27 17:41:35.080693,2024-06-27,17,Thursday,1502.67,Healthcare,UPI,iOS,4G,Maharashtra,Nashik,25-34,781865,17542,True,,False,False,76,6831812
+591,2024-09-01 20:09:04.080830,2024-09-01,20,Sunday,1229.06,Grocery,UPI,Android,WiFi,Rajasthan,Jodhpur,55+,325657,96743,True,,False,False,2222,8585176
+592,2024-06-07 13:43:19.080967,2024-06-07,13,Friday,2369.22,Travel,Card,Web,3G,Karnataka,Hubli,18-24,475756,86997,True,,True,True,849,3007953
+593,2024-02-06 15:33:26.081104,2024-02-06,15,Tuesday,575.81,Grocery,Card,iOS,4G,Karnataka,Bengaluru,45-54,523158,85235,True,,False,False,190,7500351
+594,2024-07-27 11:30:08.081241,2024-07-27,11,Saturday,1340.21,Healthcare,UPI,Android,5G,Uttar Pradesh,Kanpur,25-34,185530,54527,True,,False,False,385,8578729
+595,2024-02-18 13:01:56.081378,2024-02-18,13,Sunday,2018.02,Retail,Wallet,iOS,WiFi,Delhi,New Delhi,18-24,297637,93424,False,network_timeout,False,False,1336,9358431
+596,2024-04-03 13:22:06.081515,2024-04-03,13,Wednesday,1099.23,Healthcare,NetBanking,Android,4G,Kerala,Kochi,55+,932199,25765,True,,False,False,102,6228876
+597,2024-05-29 07:43:11.081652,2024-05-29,7,Wednesday,1103.97,Retail,UPI,iOS,5G,West Bengal,Kolkata,18-24,222034,97648,True,,False,False,1199,2098296
+598,2024-06-22 09:09:15.081789,2024-06-22,9,Saturday,1761.95,Fuel,UPI,Android,5G,Karnataka,Mysuru,18-24,988955,78136,True,,False,False,940,2525946
+599,2024-12-05 16:58:33.081926,2024-12-05,16,Thursday,1211.71,Retail,Card,Android,4G,Maharashtra,Pune,35-44,495383,20798,True,,False,False,688,9228643
+600,2024-01-13 13:20:35.082063,2024-01-13,13,Saturday,1316.8,Utilities,UPI,Android,4G,Haryana,Gurugram,25-34,884179,84878,True,,False,False,160,3908477
+601,2024-11-24 10:03:34.082200,2024-11-24,10,Sunday,1449.1,Food,Wallet,Android,WiFi,Maharashtra,Nashik,35-44,814220,15861,True,,False,False,1282,4598598
+602,2024-02-20 12:11:57.082337,2024-02-20,12,Tuesday,946.74,Entertainment,UPI,Android,WiFi,Uttar Pradesh,Lucknow,35-44,352064,96454,True,,False,False,187,6549075
+603,2024-03-31 23:52:14.082474,2024-03-31,23,Sunday,7543.35,Travel,NetBanking,iOS,5G,Telangana,Warangal,25-34,314828,95634,True,,False,True,1362,5573719
+604,2024-07-28 17:26:52.082611,2024-07-28,17,Sunday,1519.75,Utilities,UPI,Web,4G,Uttar Pradesh,Kanpur,25-34,333805,19243,True,,False,False,475,2918984
+605,2024-02-29 08:50:31.082748,2024-02-29,8,Thursday,746.29,Food,UPI,iOS,4G,West Bengal,Howrah,55+,311944,21338,True,,False,False,956,9354503
+606,2024-04-12 07:02:30.082885,2024-04-12,7,Friday,1219.34,Utilities,UPI,iOS,WiFi,West Bengal,Siliguri,18-24,906487,15380,True,,False,False,899,9449329
+607,2024-04-06 18:46:20.083022,2024-04-06,18,Saturday,355.29,Food,UPI,iOS,4G,Telangana,Warangal,25-34,630154,18342,True,,False,False,411,4778826
+608,2024-04-04 15:21:42.083159,2024-04-04,15,Thursday,625.19,Grocery,UPI,Android,4G,Uttar Pradesh,Agra,35-44,643211,80028,True,,False,False,182,1292960
+609,2024-11-12 17:46:59.083296,2024-11-12,17,Tuesday,2012.12,Travel,UPI,Web,4G,Maharashtra,Mumbai,18-24,120754,95047,True,,False,False,97,8993139
+610,2024-10-19 15:18:43.083433,2024-10-19,15,Saturday,867.08,Retail,UPI,Android,4G,Karnataka,Bengaluru,35-44,768040,32852,True,,False,False,393,7517139
+611,2024-05-11 21:23:47.083570,2024-05-11,21,Saturday,577.13,Food,NetBanking,iOS,WiFi,West Bengal,Howrah,35-44,541597,64752,True,,False,False,387,8727275
+612,2024-08-19 12:24:29.083707,2024-08-19,12,Monday,1618.83,Travel,UPI,Android,4G,Delhi,New Delhi,18-24,585884,81854,True,,False,False,741,7848595
+613,2024-07-10 15:13:25.083844,2024-07-10,15,Wednesday,903.72,Food,UPI,Android,WiFi,Gujarat,Vadodara,45-54,502957,77829,True,,False,False,587,8244130
+614,2024-04-02 22:01:44.083981,2024-04-02,22,Tuesday,1679.68,Entertainment,Card,iOS,3G,Telangana,Nizamabad,35-44,357633,27112,True,,False,False,278,9165219
+615,2024-06-10 15:48:39.084118,2024-06-10,15,Monday,1618.44,Retail,Card,iOS,5G,Telangana,Hyderabad,18-24,323359,50312,True,,False,False,390,2107683
+616,2024-07-04 15:20:37.084255,2024-07-04,15,Thursday,4099.99,Education,UPI,Android,5G,Tamil Nadu,Madurai,25-34,529580,30746,True,,False,True,189,8878038
+617,2024-12-24 23:44:54.084392,2024-12-24,23,Tuesday,4384.85,Education,Wallet,Android,5G,Uttar Pradesh,Noida,25-34,562355,86662,True,,False,True,792,4050662
+618,2024-08-17 21:31:42.084529,2024-08-17,21,Saturday,771.6,Retail,NetBanking,POS,3G,Delhi,New Delhi,18-24,436276,48318,True,,False,False,969,2393728
+619,2024-06-30 14:51:31.084666,2024-06-30,14,Sunday,408.23,Food,NetBanking,Android,5G,West Bengal,Kolkata,45-54,154537,95118,True,,False,False,517,5006465
+620,2024-12-24 10:28:27.084803,2024-12-24,10,Tuesday,2982.82,Travel,UPI,POS,4G,Karnataka,Hubli,35-44,417414,59895,True,,False,False,52,4349443
+621,2024-08-28 11:02:44.084940,2024-08-28,11,Wednesday,1135.23,Grocery,Card,Android,4G,Karnataka,Mysuru,45-54,612575,46915,True,,False,False,855,5474022
+622,2024-02-12 21:58:42.085077,2024-02-12,21,Monday,407.87,Food,Card,Android,WiFi,Maharashtra,Nagpur,18-24,747454,19225,True,,False,False,58,3621335
+623,2024-10-25 15:55:29.085214,2024-10-25,15,Friday,1463.14,Retail,UPI,Android,4G,Karnataka,Mangaluru,18-24,320430,16553,True,,False,False,460,2332311
+624,2024-07-17 10:33:12.085351,2024-07-17,10,Wednesday,784.35,Utilities,UPI,POS,4G,Maharashtra,Mumbai,18-24,250882,81040,True,,False,False,239,4176691
+625,2024-12-24 07:48:04.085488,2024-12-24,7,Tuesday,1548.14,Entertainment,NetBanking,Android,5G,Telangana,Hyderabad,25-34,461506,41558,True,,False,False,274,9901166
+626,2024-01-04 16:43:16.085625,2024-01-04,16,Thursday,660.55,Entertainment,UPI,iOS,WiFi,Uttar Pradesh,Lucknow,55+,479039,99270,True,,False,False,357,2105263
+627,2024-10-18 09:53:20.085762,2024-10-18,9,Friday,846.85,Utilities,Card,Android,WiFi,Karnataka,Mysuru,45-54,987600,62853,False,network_timeout,False,False,488,8778317
+628,2024-08-25 12:09:47.085899,2024-08-25,12,Sunday,777.28,Grocery,UPI,iOS,5G,Karnataka,Mysuru,25-34,292843,38441,True,,False,False,236,2591255
+629,2024-01-09 11:09:17.086036,2024-01-09,11,Tuesday,2474.17,Travel,UPI,Android,WiFi,Telangana,Hyderabad,55+,267584,73876,True,,False,False,460,2002613
+630,2024-06-29 22:04:20.086173,2024-06-29,22,Saturday,483.76,Grocery,Card,iOS,WiFi,Uttar Pradesh,Kanpur,25-34,748523,66229,True,,False,False,374,3044259
+631,2024-11-02 07:18:21.086310,2024-11-02,7,Saturday,456.79,Grocery,NetBanking,Web,WiFi,Punjab,Ludhiana,55+,427718,93082,True,,False,False,364,8989103
+632,2024-05-23 14:36:50.086447,2024-05-23,14,Thursday,3061.75,Travel,UPI,iOS,WiFi,Telangana,Warangal,35-44,635780,22528,True,,False,True,496,7444855
+633,2024-03-16 15:05:33.086584,2024-03-16,15,Saturday,1184.42,Utilities,Card,Web,3G,Karnataka,Mangaluru,25-34,161888,72094,True,,False,False,270,5137020
+634,2024-04-24 15:20:22.086721,2024-04-24,15,Wednesday,2026.48,Healthcare,UPI,iOS,WiFi,Maharashtra,Nashik,25-34,869046,17938,True,,False,False,647,4270602
+635,2024-09-25 19:18:15.086858,2024-09-25,19,Wednesday,1377.88,Grocery,UPI,Web,5G,Karnataka,Hubli,25-34,722691,68214,True,,False,False,688,6269505
+636,2024-02-25 22:29:17.086995,2024-02-25,22,Sunday,676.44,Entertainment,Card,iOS,4G,Karnataka,Bengaluru,25-34,555354,94715,True,,False,False,406,6433875
+637,2024-07-21 08:39:53.087132,2024-07-21,8,Sunday,666.1,Grocery,Card,Android,4G,Karnataka,Mysuru,18-24,848529,40803,True,,False,False,173,2541145
+638,2024-07-03 23:21:05.087269,2024-07-03,23,Wednesday,1789.68,Utilities,Card,Android,WiFi,Maharashtra,Pune,35-44,220847,44177,True,,False,False,1127,4815074
+639,2024-05-02 05:43:35.087406,2024-05-02,5,Thursday,386.72,Food,Card,Android,WiFi,Telangana,Hyderabad,18-24,124655,97771,True,,False,False,539,7961516
+640,2024-10-08 06:12:37.087543,2024-10-08,6,Tuesday,837.4,Food,UPI,Android,WiFi,Karnataka,Mysuru,18-24,378550,82910,True,,False,False,690,7279721
+641,2024-09-18 11:53:12.087680,2024-09-18,11,Wednesday,845.17,Grocery,UPI,iOS,3G,Punjab,Ludhiana,25-34,314528,34226,True,,False,False,976,2890683
+642,2024-01-22 11:06:47.087817,2024-01-22,11,Monday,1011.1,Fuel,UPI,Android,4G,Gujarat,Ahmedabad,25-34,340973,84297,True,,False,False,490,5233438
+643,2024-04-21 13:19:00.087954,2024-04-21,13,Sunday,1225.85,Entertainment,UPI,Android,WiFi,West Bengal,Kolkata,35-44,799425,42573,True,,False,False,646,2303155
+644,2024-11-11 07:00:54.088091,2024-11-11,7,Monday,462.88,Food,UPI,iOS,WiFi,Maharashtra,Mumbai,18-24,543721,58866,True,,False,False,400,2276737
+645,2024-05-23 12:01:19.088228,2024-05-23,12,Thursday,1204.87,Grocery,NetBanking,iOS,WiFi,Rajasthan,Jaipur,55+,707940,83065,False,merchant_error,False,False,288,5582437
+646,2024-05-18 03:36:30.088365,2024-05-18,3,Saturday,317.57,Food,Card,iOS,WiFi,Telangana,Warangal,25-34,788505,18258,True,,False,False,58,5711426
+647,2024-12-29 10:30:12.088502,2024-12-29,10,Sunday,1827.52,Grocery,UPI,iOS,3G,Rajasthan,Jaipur,25-34,149591,47554,True,,False,False,365,7107490
+648,2024-02-15 14:29:52.088639,2024-02-15,14,Thursday,491.7,Utilities,UPI,Android,WiFi,Gujarat,Rajkot,35-44,464314,48331,True,,False,False,430,3476873
+649,2024-12-10 18:31:43.088776,2024-12-10,18,Tuesday,1067.44,Retail,UPI,Android,4G,Telangana,Hyderabad,55+,755425,29012,True,,False,False,107,6731933
+650,2024-10-03 15:47:10.088913,2024-10-03,15,Thursday,1149.85,Healthcare,Card,POS,4G,Tamil Nadu,Coimbatore,45-54,703418,10529,True,,False,False,578,5273444
+651,2024-10-08 16:10:47.089050,2024-10-08,16,Tuesday,1637.59,Entertainment,Card,Android,5G,Karnataka,Mysuru,45-54,886249,63477,True,,False,False,422,2785542
+652,2024-04-25 15:29:09.089187,2024-04-25,15,Thursday,1897.24,Healthcare,NetBanking,iOS,5G,Maharashtra,Pune,45-54,668293,93656,True,,False,False,434,2620464
+653,2024-04-07 03:01:18.089324,2024-04-07,3,Sunday,936.61,Food,UPI,Android,5G,Haryana,Panipat,25-34,506582,59140,True,,False,False,811,4497183
+654,2024-06-04 12:37:58.089461,2024-06-04,12,Tuesday,1022.26,Utilities,Card,iOS,WiFi,Telangana,Warangal,18-24,202767,65404,True,,False,False,414,6889724
+655,2024-12-16 13:01:24.089598,2024-12-16,13,Monday,567.83,Food,UPI,Web,WiFi,Rajasthan,Udaipur,35-44,914915,69139,True,,False,False,95,4633195
+656,2024-11-10 11:00:43.089735,2024-11-10,11,Sunday,553.46,Food,NetBanking,Android,3G,Tamil Nadu,Coimbatore,25-34,832133,77729,True,,False,False,147,9239274
+657,2024-03-30 21:18:54.089872,2024-03-30,21,Saturday,673.73,Food,UPI,Android,5G,Maharashtra,Mumbai,18-24,285211,59377,True,,True,True,998,1736094
+658,2024-06-03 08:21:55.090009,2024-06-03,8,Monday,1631.43,Grocery,NetBanking,iOS,WiFi,Gujarat,Ahmedabad,35-44,765669,81235,True,,False,False,556,2783889
+659,2024-08-02 12:17:27.090146,2024-08-02,12,Friday,1009.31,Retail,UPI,iOS,WiFi,Maharashtra,Nashik,55+,796926,35757,True,,False,False,227,8484351
+660,2024-12-03 23:23:35.090283,2024-12-03,23,Tuesday,1160.41,Entertainment,UPI,Android,5G,Maharashtra,Pune,25-34,218229,78755,True,,False,False,129,5460852
+661,2024-10-26 13:19:56.090420,2024-10-26,13,Saturday,1646.09,Healthcare,UPI,iOS,WiFi,Gujarat,Rajkot,18-24,942918,19295,True,,False,False,589,3451359
+662,2024-12-07 07:32:09.090557,2024-12-07,7,Saturday,969.91,Healthcare,UPI,Android,3G,Delhi,New Delhi,35-44,162571,66606,True,,False,False,359,1719891
+663,2024-06-13 19:01:12.090694,2024-06-13,19,Thursday,886.34,Grocery,NetBanking,Android,4G,Punjab,Ludhiana,45-54,910653,19837,True,,False,False,649,8260198
+664,2024-11-03 03:04:35.090831,2024-11-03,3,Sunday,532.31,Food,NetBanking,iOS,4G,Maharashtra,Mumbai,25-34,442976,50388,True,,False,False,345,8883813
+665,2024-09-18 13:48:55.090968,2024-09-18,13,Wednesday,2067.76,Healthcare,Card,Android,4G,Uttar Pradesh,Noida,35-44,759681,45155,True,,False,False,673,5550839
+666,2024-05-27 14:14:20.091105,2024-05-27,14,Monday,2173.1,Education,UPI,iOS,5G,Gujarat,Rajkot,55+,297502,90354,True,,False,False,647,3336691
+667,2024-12-18 10:43:43.091242,2024-12-18,10,Wednesday,1152.57,Travel,UPI,Android,4G,Uttar Pradesh,Kanpur,35-44,970726,54220,True,,False,False,264,4071536
+668,2024-11-27 19:23:15.091379,2024-11-27,19,Wednesday,2688.7,Travel,Card,POS,WiFi,Karnataka,Mysuru,25-34,169778,34763,True,,False,False,586,5275016
+669,2024-09-10 12:35:37.091516,2024-09-10,12,Tuesday,2007.12,Healthcare,UPI,Android,WiFi,Telangana,Warangal,55+,228887,57360,True,,False,False,353,1914394
+670,2024-01-22 20:17:06.091653,2024-01-22,20,Monday,1161.43,Retail,UPI,Android,3G,Tamil Nadu,Salem,35-44,341684,38893,True,,False,False,413,5475083
+671,2024-10-09 11:15:09.091790,2024-10-09,11,Wednesday,426.21,Food,Card,Android,5G,Tamil Nadu,Coimbatore,55+,948875,73734,False,insufficient_funds,False,False,670,3089825
+672,2024-02-18 09:26:14.091927,2024-02-18,9,Sunday,573.63,Entertainment,Card,Web,3G,Rajasthan,Jodhpur,25-34,528379,68213,True,,False,False,366,8424380
+673,2024-03-17 18:24:54.092064,2024-03-17,18,Sunday,1045.13,Retail,UPI,Android,WiFi,Punjab,Amritsar,55+,978936,67958,True,,False,False,527,4447207
+674,2024-07-09 07:04:38.092201,2024-07-09,7,Tuesday,1263.18,Healthcare,Card,iOS,WiFi,Delhi,New Delhi,18-24,125455,99979,True,,False,False,410,5094863
+675,2024-11-26 17:28:45.092338,2024-11-26,17,Tuesday,544.01,Grocery,UPI,Android,WiFi,Gujarat,Surat,25-34,776340,77786,True,,False,False,233,9907637
+676,2024-04-10 20:24:23.092475,2024-04-10,20,Wednesday,607.51,Food,UPI,Android,5G,Gujarat,Surat,35-44,557067,46505,True,,False,False,216,4120898
+677,2024-04-27 11:10:33.092612,2024-04-27,11,Saturday,654.69,Food,NetBanking,Android,4G,Uttar Pradesh,Noida,45-54,382113,33426,True,,False,False,148,9958250
+678,2024-03-04 19:35:48.092749,2024-03-04,19,Monday,2165.87,Travel,UPI,Android,5G,Haryana,Gurugram,45-54,512935,27688,True,,False,False,529,3801816
+679,2024-01-25 12:54:08.092886,2024-01-25,12,Thursday,768.04,Entertainment,Card,Android,4G,Karnataka,Mysuru,25-34,495758,27813,True,,False,False,659,1009619
+680,2024-05-27 12:51:31.093023,2024-05-27,12,Monday,666.31,Grocery,UPI,Android,WiFi,Karnataka,Bengaluru,35-44,527481,31875,True,,False,False,932,9441498
+681,2024-09-12 07:02:13.093160,2024-09-12,7,Thursday,471.96,Food,Wallet,Web,5G,West Bengal,Howrah,55+,886796,29289,False,otp_failed,False,False,272,8548747
+682,2024-10-29 19:47:08.093297,2024-10-29,19,Tuesday,1192.31,Retail,UPI,iOS,5G,Karnataka,Mangaluru,25-34,252607,93889,True,,False,False,443,2699277
+683,2024-05-31 11:22:29.093434,2024-05-31,11,Friday,6136.88,Education,NetBanking,Web,5G,Karnataka,Bengaluru,25-34,425416,76416,False,merchant_error,False,True,138,3784101
+684,2024-01-06 23:09:47.093571,2024-01-06,23,Saturday,483.84,Grocery,UPI,iOS,5G,Maharashtra,Nashik,35-44,153389,77763,True,,False,False,681,3068593
+685,2024-08-12 18:27:48.093708,2024-08-12,18,Monday,1700.17,Retail,Card,Android,4G,Maharashtra,Nagpur,25-34,899128,35733,True,,False,False,702,2563462
+686,2024-11-11 11:25:14.093845,2024-11-11,11,Monday,514.99,Food,UPI,POS,5G,Tamil Nadu,Chennai,35-44,100594,18680,True,,False,False,305,3741253
+687,2024-01-20 09:30:50.093982,2024-01-20,9,Saturday,299.49,Food,UPI,POS,3G,Gujarat,Rajkot,25-34,953939,53332,True,,False,False,763,6478315
+688,2024-09-26 08:43:53.094119,2024-09-26,8,Thursday,727.62,Grocery,UPI,iOS,4G,Delhi,New Delhi,55+,720434,49366,True,,False,False,867,5322520
+689,2024-02-24 20:35:14.094256,2024-02-24,20,Saturday,826.59,Healthcare,UPI,POS,WiFi,Karnataka,Mangaluru,18-24,185070,41784,True,,False,False,447,3725382
+690,2024-11-15 12:59:42.094393,2024-11-15,12,Friday,387.73,Food,UPI,Web,WiFi,West Bengal,Kolkata,45-54,615753,61949,False,merchant_error,False,False,289,4590803
+691,2024-07-26 12:15:18.094530,2024-07-26,12,Friday,565.08,Entertainment,NetBanking,Android,4G,West Bengal,Siliguri,35-44,259265,16731,True,,False,False,1054,1035018
+692,2024-08-29 08:08:18.094667,2024-08-29,8,Thursday,404.57,Subscriptions,UPI,Android,4G,Tamil Nadu,Madurai,25-34,141433,90525,True,,False,False,102,1003575
+693,2024-04-08 19:57:25.094804,2024-04-08,19,Monday,735.81,Healthcare,UPI,iOS,WiFi,West Bengal,Kolkata,45-54,620529,89493,True,,False,False,999,4754605
+694,2024-12-18 10:25:54.094941,2024-12-18,10,Wednesday,1672.83,Travel,UPI,Android,WiFi,Haryana,Faridabad,55+,320774,41546,True,,False,False,1271,8739107
+695,2024-03-17 17:02:05.095078,2024-03-17,17,Sunday,515.71,Food,NetBanking,iOS,3G,Uttar Pradesh,Noida,18-24,529790,26071,True,,False,False,373,6075879
+696,2024-12-29 09:30:41.095215,2024-12-29,9,Sunday,703.02,Food,UPI,iOS,5G,Gujarat,Ahmedabad,18-24,843588,52412,True,,False,False,739,8543241
+697,2024-03-09 19:47:45.095352,2024-03-09,19,Saturday,2471.83,Utilities,UPI,Web,WiFi,West Bengal,Kolkata,35-44,351682,77211,True,,False,False,215,9310722
+698,2024-05-22 21:46:11.095489,2024-05-22,21,Wednesday,1168.36,Utilities,Card,Android,4G,Haryana,Gurugram,45-54,872323,76188,True,,False,False,369,5587663
+699,2024-09-28 11:33:37.095626,2024-09-28,11,Saturday,998.49,Retail,Card,Android,3G,Tamil Nadu,Coimbatore,45-54,757501,18231,True,,False,False,473,8961083
+700,2024-08-01 22:58:56.095763,2024-08-01,22,Thursday,712.1,Retail,UPI,Android,4G,Gujarat,Surat,25-34,656524,40044,False,insufficient_funds,False,False,304,1680217
+701,2024-04-23 22:28:15.095900,2024-04-23,22,Tuesday,4126.96,Travel,UPI,POS,4G,West Bengal,Howrah,25-34,729402,96941,True,,False,True,709,1858921
+702,2024-09-11 23:13:34.096037,2024-09-11,23,Wednesday,1194.35,Retail,UPI,iOS,5G,Kerala,Thiruvananthapuram,55+,778264,42190,True,,False,False,787,9050790
+703,2024-01-11 06:59:47.096174,2024-01-11,6,Thursday,472.22,Grocery,UPI,iOS,WiFi,Rajasthan,Jaipur,18-24,825150,81916,True,,False,False,333,2150745
+704,2024-02-09 23:55:07.096311,2024-02-09,23,Friday,997.73,Healthcare,UPI,iOS,4G,Maharashtra,Nagpur,45-54,228028,73077,True,,False,False,1009,5669108
+705,2024-02-12 11:05:22.096448,2024-02-12,11,Monday,572.56,Food,NetBanking,Android,WiFi,Karnataka,Bengaluru,18-24,660788,35450,True,,False,False,226,9031091
+706,2024-11-19 11:21:54.096585,2024-11-19,11,Tuesday,2340.28,Travel,Card,iOS,WiFi,Delhi,New Delhi,45-54,618389,83067,True,,False,False,737,8681501
+707,2024-07-17 10:23:12.096722,2024-07-17,10,Wednesday,2951.78,Education,UPI,iOS,4G,Uttar Pradesh,Kanpur,18-24,585995,21170,True,,False,False,43,3249482
+708,2024-02-19 14:35:49.096859,2024-02-19,14,Monday,358.8,Food,UPI,Android,3G,Gujarat,Ahmedabad,45-54,407706,15103,False,risk_declined,False,False,451,2788019
+709,2024-01-29 22:42:08.096996,2024-01-29,22,Monday,732.52,Grocery,NetBanking,POS,WiFi,Delhi,New Delhi,45-54,293751,22199,True,,False,False,83,3305604
+710,2024-09-25 14:54:06.097133,2024-09-25,14,Wednesday,1860.52,Travel,UPI,iOS,WiFi,Maharashtra,Nashik,55+,676935,80950,True,,False,False,322,2336525
+711,2024-12-30 13:36:55.097270,2024-12-30,13,Monday,1306.07,Grocery,UPI,Android,WiFi,West Bengal,Howrah,55+,592016,57333,True,,False,False,178,7811359
+712,2024-10-04 07:10:37.097407,2024-10-04,7,Friday,720.39,Fuel,NetBanking,iOS,WiFi,West Bengal,Howrah,18-24,350176,63465,True,,False,False,1158,1088692
+713,2024-12-14 13:17:36.097544,2024-12-14,13,Saturday,362.37,Grocery,Card,iOS,WiFi,Haryana,Gurugram,18-24,719467,63941,True,,False,False,379,5826180
+714,2024-05-17 09:54:56.097681,2024-05-17,9,Friday,503.97,Food,UPI,Android,WiFi,Telangana,Nizamabad,55+,225805,97952,True,,False,False,246,5173838
+715,2024-03-08 17:14:15.097818,2024-03-08,17,Friday,1030.7,Grocery,Card,Android,5G,Telangana,Hyderabad,18-24,251397,29265,True,,True,True,178,3067693
+716,2024-07-07 10:26:24.097955,2024-07-07,10,Sunday,1013.43,Retail,Card,Android,5G,Maharashtra,Nagpur,35-44,387202,67337,True,,False,False,746,1820966
+717,2024-05-09 00:29:10.098092,2024-05-09,0,Thursday,337.87,Food,NetBanking,iOS,WiFi,Maharashtra,Nashik,25-34,923861,79414,True,,False,False,453,2095468
+718,2024-10-27 12:19:41.098229,2024-10-27,12,Sunday,588.68,Entertainment,UPI,Web,4G,Tamil Nadu,Madurai,55+,503263,38688,True,,False,False,1014,9551308
+719,2024-11-24 22:07:17.098366,2024-11-24,22,Sunday,2281.77,Grocery,UPI,Android,WiFi,Delhi,New Delhi,35-44,949042,42020,False,otp_failed,False,False,293,9890570
+720,2024-04-03 15:33:00.098503,2024-04-03,15,Wednesday,440.17,Food,UPI,Android,4G,Karnataka,Mangaluru,25-34,829837,45643,True,,False,False,859,4346496
+721,2024-11-17 11:53:38.098640,2024-11-17,11,Sunday,529.92,Retail,UPI,Android,4G,Maharashtra,Nagpur,55+,551750,83719,True,,False,False,564,1275672
+722,2024-12-19 06:36:57.098777,2024-12-19,6,Thursday,753.17,Food,UPI,iOS,WiFi,Punjab,Ludhiana,35-44,324954,38635,True,,False,False,854,7222283
+723,2024-02-19 04:00:58.098914,2024-02-19,4,Monday,744.35,Retail,UPI,iOS,4G,Rajasthan,Udaipur,25-34,662971,92458,True,,False,False,1094,5046832
+724,2024-01-23 12:17:34.099051,2024-01-23,12,Tuesday,469.77,Food,Card,Android,3G,Gujarat,Rajkot,25-34,889921,69291,True,,True,True,1035,3756401
+725,2024-01-14 18:40:36.099188,2024-01-14,18,Sunday,650.09,Food,UPI,iOS,5G,Haryana,Panipat,45-54,336585,91087,True,,False,False,487,3256787
+726,2024-01-17 07:58:46.099325,2024-01-17,7,Wednesday,1565.85,Entertainment,Card,Web,WiFi,Punjab,Jalandhar,35-44,213796,21118,False,network_timeout,False,False,785,3642987
+727,2024-04-18 06:26:06.099462,2024-04-18,6,Thursday,2349.32,Utilities,Card,iOS,4G,West Bengal,Howrah,35-44,969034,87892,True,,False,False,367,9939702
+728,2024-12-04 14:28:27.099599,2024-12-04,14,Wednesday,935.43,Food,NetBanking,Android,WiFi,Karnataka,Mangaluru,35-44,709644,25118,True,,False,False,491,3126997
+729,2024-01-28 09:44:34.099736,2024-01-28,9,Sunday,1247.18,Fuel,UPI,Android,3G,Maharashtra,Nagpur,35-44,153223,76639,True,,False,False,366,2244415
+730,2024-05-03 13:05:21.099873,2024-05-03,13,Friday,612.63,Retail,UPI,iOS,WiFi,Uttar Pradesh,Lucknow,45-54,193724,77889,True,,False,False,1042,3480045
+731,2024-11-15 12:27:46.100010,2024-11-15,12,Friday,2586.04,Retail,UPI,Android,WiFi,Telangana,Warangal,35-44,947220,93498,False,insufficient_funds,False,False,361,2360014
+732,2024-02-12 17:30:51.100147,2024-02-12,17,Monday,798.48,Food,Card,Android,WiFi,West Bengal,Howrah,45-54,933292,76062,True,,False,False,353,5863073
+733,2024-05-29 09:05:34.100284,2024-05-29,9,Wednesday,584.68,Healthcare,Card,Android,WiFi,Kerala,Kozhikode,25-34,631778,66975,True,,False,False,354,8840207
+734,2024-01-14 04:03:00.100421,2024-01-14,4,Sunday,1190.59,Retail,NetBanking,Android,4G,Karnataka,Bengaluru,18-24,936449,45312,True,,False,False,193,9584609
+735,2024-04-26 23:23:42.100558,2024-04-26,23,Friday,533.52,Food,UPI,iOS,4G,Gujarat,Vadodara,45-54,744044,83172,True,,False,False,293,8717916
+736,2024-11-12 11:01:49.100695,2024-11-12,11,Tuesday,736.31,Retail,Card,POS,3G,Gujarat,Ahmedabad,18-24,105213,44289,False,insufficient_funds,False,False,758,5339621
+737,2024-11-25 08:30:31.100832,2024-11-25,8,Monday,3638.24,Education,UPI,iOS,4G,Telangana,Nizamabad,18-24,810832,48686,True,,False,True,209,3866741
+738,2024-09-24 14:42:42.100969,2024-09-24,14,Tuesday,1030.25,Grocery,UPI,iOS,WiFi,Maharashtra,Mumbai,25-34,916101,43010,True,,False,False,271,2378554
+739,2024-08-24 20:52:24.101106,2024-08-24,20,Saturday,564.17,Entertainment,Wallet,Android,WiFi,Delhi,New Delhi,45-54,408106,35122,True,,False,False,376,1390306
+740,2024-12-08 06:24:19.101243,2024-12-08,6,Sunday,1636.84,Utilities,UPI,iOS,4G,Delhi,New Delhi,45-54,625304,77993,True,,False,False,400,3993971
+741,2024-05-21 10:08:29.101380,2024-05-21,10,Tuesday,928.54,Retail,Card,Android,WiFi,West Bengal,Kolkata,25-34,843312,26014,True,,False,False,557,7622302
+742,2024-04-23 19:51:06.101517,2024-04-23,19,Tuesday,530.99,Food,Card,Android,WiFi,Rajasthan,Udaipur,45-54,136445,20071,True,,False,False,102,2407026
+743,2024-11-09 18:31:48.101654,2024-11-09,18,Saturday,2381.02,Fuel,Wallet,iOS,3G,Delhi,New Delhi,45-54,714560,23991,True,,True,True,107,6613463
+744,2024-07-31 07:08:53.101791,2024-07-31,7,Wednesday,1368.06,Retail,NetBanking,iOS,WiFi,West Bengal,Siliguri,25-34,535694,10402,True,,False,False,190,4585320
+745,2024-07-19 11:50:22.101928,2024-07-19,11,Friday,539.85,Food,UPI,Android,5G,Delhi,New Delhi,18-24,600534,54951,True,,False,False,281,1442518
+746,2024-10-27 07:26:12.102065,2024-10-27,7,Sunday,315.25,Food,Card,POS,4G,Haryana,Panipat,25-34,829197,48528,True,,False,False,163,3181918
+747,2024-09-23 13:47:02.102202,2024-09-23,13,Monday,1372.67,Healthcare,Card,Android,WiFi,Rajasthan,Udaipur,25-34,235042,65904,True,,False,False,803,1301466
+748,2024-01-22 22:55:03.102339,2024-01-22,22,Monday,541.46,Retail,UPI,Android,3G,Gujarat,Ahmedabad,18-24,329222,43295,True,,False,False,219,6713202
+749,2024-07-01 05:27:32.102476,2024-07-01,5,Monday,1834.29,Retail,UPI,iOS,4G,Tamil Nadu,Chennai,25-34,886078,15287,True,,False,False,555,2943280
+750,2024-05-03 10:35:00.102613,2024-05-03,10,Friday,1154.95,Grocery,Wallet,Android,WiFi,Delhi,New Delhi,25-34,230167,16999,True,,False,False,717,2719240
+751,2024-12-07 11:44:44.102750,2024-12-07,11,Saturday,427.56,Food,NetBanking,Android,3G,Delhi,New Delhi,35-44,367642,86401,True,,False,False,1082,3778324
+752,2024-07-25 18:45:36.102887,2024-07-25,18,Thursday,1435.19,Retail,Card,Android,4G,Punjab,Amritsar,25-34,811227,69795,True,,False,False,651,2504155
+753,2024-09-24 10:34:50.103024,2024-09-24,10,Tuesday,2609.64,Travel,UPI,POS,WiFi,Tamil Nadu,Coimbatore,25-34,299623,24202,True,,False,False,255,4103023
+754,2024-04-24 10:09:49.103161,2024-04-24,10,Wednesday,964.05,Fuel,UPI,Android,3G,Telangana,Hyderabad,25-34,424536,83617,True,,False,False,600,4827056
+755,2024-09-23 15:20:42.103298,2024-09-23,15,Monday,1507.87,Retail,NetBanking,Android,3G,Punjab,Ludhiana,35-44,249376,84221,False,issuer_declined,False,False,558,8283798
+756,2024-06-23 03:51:54.103435,2024-06-23,3,Sunday,686.98,Grocery,UPI,Android,WiFi,West Bengal,Siliguri,18-24,969494,38394,True,,False,False,380,1250535
+757,2024-10-14 12:27:06.103572,2024-10-14,12,Monday,1151.67,Grocery,Card,iOS,5G,Telangana,Hyderabad,35-44,934963,50729,True,,False,False,575,9540127
+758,2024-05-19 15:02:54.103709,2024-05-19,15,Sunday,699.55,Food,Wallet,Android,5G,Tamil Nadu,Coimbatore,18-24,628376,36484,True,,False,False,1207,2259243
+759,2024-02-11 16:52:39.103846,2024-02-11,16,Sunday,2347.62,Travel,Wallet,Web,5G,Karnataka,Mangaluru,18-24,437004,17120,True,,False,False,659,8602375
+760,2024-07-27 19:55:40.103983,2024-07-27,19,Saturday,869.59,Retail,NetBanking,POS,4G,Delhi,New Delhi,35-44,161008,68854,True,,False,False,648,3344288
+761,2024-07-25 18:26:42.104120,2024-07-25,18,Thursday,505.16,Food,UPI,iOS,4G,Uttar Pradesh,Kanpur,45-54,833248,88878,True,,False,False,114,2120619
+762,2024-05-14 03:59:33.104257,2024-05-14,3,Tuesday,1365.48,Grocery,UPI,POS,5G,Gujarat,Vadodara,25-34,586806,11394,True,,False,False,494,4437937
+763,2024-03-25 16:05:38.104394,2024-03-25,16,Monday,886.57,Food,UPI,iOS,WiFi,Uttar Pradesh,Kanpur,45-54,800318,81458,True,,False,False,251,5978272
+764,2024-06-06 09:03:46.104531,2024-06-06,9,Thursday,1419.93,Fuel,NetBanking,Android,5G,Karnataka,Bengaluru,25-34,206551,62213,True,,False,False,263,8891969
+765,2024-09-30 07:09:57.104668,2024-09-30,7,Monday,612.7,Utilities,Card,Android,5G,Gujarat,Ahmedabad,18-24,373781,78082,True,,False,False,245,8044211
+766,2024-03-28 14:21:47.104805,2024-03-28,14,Thursday,2302.22,Healthcare,Card,Android,WiFi,Haryana,Faridabad,45-54,669913,99329,True,,False,False,185,6342564
+767,2024-07-28 03:14:36.104942,2024-07-28,3,Sunday,989.04,Grocery,Wallet,iOS,4G,Tamil Nadu,Chennai,35-44,522218,75072,True,,False,False,480,4958582
+768,2024-07-26 13:51:09.105079,2024-07-26,13,Friday,1506.77,Healthcare,UPI,Android,WiFi,West Bengal,Siliguri,18-24,512464,98964,True,,False,False,766,7141140
+769,2024-01-08 19:34:28.105216,2024-01-08,19,Monday,418.66,Fuel,Card,Android,5G,Maharashtra,Mumbai,18-24,141350,83076,True,,False,False,483,9963387
+770,2024-12-15 09:27:39.105353,2024-12-15,9,Sunday,963.7,Retail,UPI,Android,5G,Punjab,Ludhiana,18-24,854124,88410,True,,False,False,746,5207244
+771,2024-09-16 23:41:08.105490,2024-09-16,23,Monday,680.07,Entertainment,Card,Web,4G,Gujarat,Ahmedabad,35-44,287739,40838,True,,False,False,733,7738624
+772,2024-08-17 11:12:34.105627,2024-08-17,11,Saturday,1517.01,Grocery,Card,iOS,4G,Karnataka,Mangaluru,25-34,557666,76296,True,,False,False,217,9342069
+773,2024-03-19 20:08:20.105764,2024-03-19,20,Tuesday,1194.78,Retail,UPI,POS,5G,Karnataka,Mysuru,35-44,154391,45301,True,,False,False,686,1501601
+774,2024-12-05 21:23:48.105901,2024-12-05,21,Thursday,328.33,Subscriptions,UPI,Android,4G,Gujarat,Surat,35-44,649018,61534,True,,False,False,406,8729025
+775,2024-10-30 11:08:22.106038,2024-10-30,11,Wednesday,2498.74,Healthcare,Card,iOS,WiFi,Gujarat,Rajkot,55+,373393,20434,True,,False,False,174,6500924
+776,2024-04-05 13:21:46.106175,2024-04-05,13,Friday,423.75,Subscriptions,UPI,Web,WiFi,Maharashtra,Nagpur,18-24,919653,99972,True,,False,False,278,7208440
+777,2024-02-22 09:32:06.106312,2024-02-22,9,Thursday,774.39,Retail,UPI,Android,3G,Punjab,Ludhiana,25-34,910552,99142,True,,False,False,850,5820173
+778,2024-05-13 09:12:19.106449,2024-05-13,9,Monday,1181.85,Retail,UPI,Android,WiFi,Kerala,Kochi,35-44,382207,14940,True,,False,False,825,2443011
+779,2024-07-05 09:19:05.106586,2024-07-05,9,Friday,2814.59,Travel,UPI,Android,WiFi,Telangana,Warangal,18-24,650004,22763,True,,False,False,502,4995474
+780,2024-08-06 12:20:02.106723,2024-08-06,12,Tuesday,939.13,Food,Card,POS,5G,Maharashtra,Pune,45-54,227940,87559,True,,False,False,413,9786580
+781,2024-08-30 14:38:46.106860,2024-08-30,14,Friday,1605.35,Healthcare,Card,iOS,WiFi,Rajasthan,Jodhpur,25-34,684483,66118,True,,False,False,1545,7980716
+782,2024-01-30 22:55:49.106997,2024-01-30,22,Tuesday,1606.63,Retail,UPI,Android,WiFi,Telangana,Nizamabad,25-34,868488,87112,True,,False,False,325,8079391
+783,2024-07-05 19:20:50.107134,2024-07-05,19,Friday,1068.29,Grocery,Card,iOS,5G,Uttar Pradesh,Agra,55+,144957,30439,True,,False,False,1291,6147942
+784,2024-07-09 15:37:41.107271,2024-07-09,15,Tuesday,1452.13,Healthcare,UPI,iOS,4G,Telangana,Nizamabad,45-54,764186,92969,True,,False,False,507,8141772
+785,2024-10-11 18:43:06.107408,2024-10-11,18,Friday,1226.97,Entertainment,UPI,Android,4G,Karnataka,Bengaluru,25-34,543623,68851,True,,False,False,797,8399823
+786,2024-05-29 15:09:47.107545,2024-05-29,15,Wednesday,365.89,Food,UPI,Android,4G,Rajasthan,Jaipur,18-24,872848,27527,True,,False,False,577,4194779
+787,2024-02-02 07:38:09.107682,2024-02-02,7,Friday,1226.17,Healthcare,Card,Android,4G,Punjab,Amritsar,18-24,658380,31634,True,,False,False,589,8913154
+788,2024-07-25 13:05:42.107819,2024-07-25,13,Thursday,1921.07,Utilities,Card,Web,WiFi,Karnataka,Mysuru,25-34,134281,52655,True,,False,False,410,3389843
+789,2024-11-12 06:52:49.107956,2024-11-12,6,Tuesday,4333.93,Healthcare,Card,Android,4G,Gujarat,Surat,25-34,325515,35994,True,,False,True,239,8430600
+790,2024-04-21 21:41:37.108093,2024-04-21,21,Sunday,920.92,Fuel,Wallet,Web,WiFi,Tamil Nadu,Chennai,18-24,868401,65980,True,,False,False,1479,6485389
+791,2024-12-02 20:04:40.108230,2024-12-02,20,Monday,2613.01,Travel,UPI,iOS,3G,Kerala,Thiruvananthapuram,25-34,585519,74631,True,,False,False,246,4671962
+792,2024-03-23 19:18:15.108367,2024-03-23,19,Saturday,1796.93,Fuel,Card,iOS,WiFi,Telangana,Hyderabad,45-54,710549,67513,True,,False,False,473,1045098
+793,2024-04-05 14:28:04.108504,2024-04-05,14,Friday,253.45,Food,UPI,Android,4G,Kerala,Thiruvananthapuram,45-54,129442,98502,True,,False,False,549,2653502
+794,2024-03-09 19:25:46.108641,2024-03-09,19,Saturday,493.18,Grocery,NetBanking,Android,5G,Rajasthan,Jodhpur,55+,466281,99600,True,,False,False,534,4533042
+795,2024-12-20 18:45:56.108778,2024-12-20,18,Friday,3553.19,Travel,UPI,iOS,4G,Karnataka,Mangaluru,25-34,701727,52039,True,,False,True,1129,2836783
+796,2024-08-23 05:53:55.108915,2024-08-23,5,Friday,659.84,Food,UPI,Android,3G,Uttar Pradesh,Lucknow,45-54,417499,36062,True,,False,False,490,9018984
+797,2024-05-21 16:47:32.109052,2024-05-21,16,Tuesday,856.19,Entertainment,Card,iOS,5G,Tamil Nadu,Madurai,25-34,259160,25146,True,,False,False,115,4477004
+798,2024-03-21 07:43:59.109189,2024-03-21,7,Thursday,783.55,Grocery,UPI,Android,4G,Haryana,Faridabad,18-24,289485,15485,True,,False,False,431,3029318
+799,2024-11-12 17:28:08.109326,2024-11-12,17,Tuesday,484.39,Grocery,Card,Web,4G,Telangana,Hyderabad,55+,453698,37315,True,,False,False,613,9995078
+800,2024-01-07 16:29:41.109463,2024-01-07,16,Sunday,1354.55,Healthcare,NetBanking,Android,5G,Rajasthan,Udaipur,45-54,247441,54191,True,,False,False,783,1146669
+801,2024-10-22 16:08:09.109600,2024-10-22,16,Tuesday,842.58,Retail,UPI,iOS,4G,Karnataka,Mysuru,18-24,917070,86475,True,,False,False,609,9330861
+802,2024-01-09 19:14:29.109737,2024-01-09,19,Tuesday,472.69,Food,UPI,Android,WiFi,Delhi,New Delhi,25-34,878720,30469,True,,False,False,84,1430260
+803,2024-03-13 23:59:03.109874,2024-03-13,23,Wednesday,592.16,Utilities,UPI,iOS,5G,Gujarat,Ahmedabad,25-34,395068,79605,True,,False,False,283,2795827
+804,2024-06-24 10:55:10.110011,2024-06-24,10,Monday,1435.88,Healthcare,Card,Android,5G,Punjab,Ludhiana,35-44,770919,69175,True,,False,False,524,7183513
+805,2024-08-04 21:19:39.110148,2024-08-04,21,Sunday,514.07,Food,UPI,Android,3G,Telangana,Warangal,25-34,363296,70521,True,,False,False,227,8284413
+806,2024-01-02 07:35:03.110285,2024-01-02,7,Tuesday,694.28,Grocery,Card,Android,5G,Maharashtra,Mumbai,18-24,641358,15586,True,,False,False,161,1220268
+807,2024-09-21 06:46:42.110422,2024-09-21,6,Saturday,1846.17,Travel,UPI,Android,4G,Telangana,Nizamabad,18-24,156500,70548,True,,False,False,437,4845153
+808,2024-06-19 06:03:52.110559,2024-06-19,6,Wednesday,2271.48,Healthcare,UPI,Android,WiFi,Delhi,New Delhi,25-34,657519,79222,True,,False,False,604,6961507
+809,2024-08-16 12:27:38.110696,2024-08-16,12,Friday,1930.73,Entertainment,UPI,iOS,5G,Gujarat,Surat,18-24,560824,43321,True,,False,False,1160,8339610
+810,2024-07-20 12:09:05.110833,2024-07-20,12,Saturday,1889.94,Travel,UPI,iOS,5G,Gujarat,Rajkot,45-54,568641,87137,True,,False,False,138,9147916
+811,2024-12-07 12:58:16.110970,2024-12-07,12,Saturday,766.92,Food,Card,iOS,5G,Tamil Nadu,Coimbatore,45-54,702059,10396,True,,False,False,831,6285611
+812,2024-05-07 16:45:04.111107,2024-05-07,16,Tuesday,2500.62,Travel,UPI,iOS,4G,Delhi,New Delhi,18-24,334546,94938,True,,False,False,561,2092509
+813,2024-04-11 12:28:43.111244,2024-04-11,12,Thursday,280.74,Food,UPI,Android,4G,Karnataka,Hubli,18-24,971279,32832,True,,False,False,611,6407624
+814,2024-08-11 08:47:44.111381,2024-08-11,8,Sunday,1634.57,Fuel,Card,Android,4G,West Bengal,Howrah,55+,792398,28293,False,issuer_declined,False,False,230,1441357
+815,2024-04-19 12:32:29.111518,2024-04-19,12,Friday,654.09,Healthcare,UPI,iOS,5G,Gujarat,Ahmedabad,18-24,672257,20969,False,issuer_declined,False,False,166,4946181
+816,2024-07-08 16:48:39.111655,2024-07-08,16,Monday,936.08,Retail,Card,Web,4G,Karnataka,Hubli,25-34,756367,87024,True,,False,False,882,5861477
+817,2024-12-04 13:52:52.111792,2024-12-04,13,Wednesday,1308.58,Healthcare,Wallet,Web,3G,Uttar Pradesh,Noida,25-34,558927,11511,True,,False,False,598,3895328
+818,2024-02-01 19:16:34.111929,2024-02-01,19,Thursday,874.81,Food,UPI,Android,5G,Maharashtra,Nagpur,45-54,188114,30687,True,,False,False,163,9571450
+819,2024-09-12 16:37:17.112066,2024-09-12,16,Thursday,758.77,Grocery,Card,Android,3G,Uttar Pradesh,Agra,18-24,152455,45013,True,,False,False,1632,1723680
+820,2024-10-28 11:45:07.112203,2024-10-28,11,Monday,958.31,Entertainment,Card,Android,WiFi,West Bengal,Kolkata,25-34,449497,59464,True,,False,False,798,6939848
+821,2024-02-24 19:29:37.112340,2024-02-24,19,Saturday,586.79,Grocery,NetBanking,Android,WiFi,Rajasthan,Udaipur,25-34,741522,66270,True,,False,False,581,1429849
+822,2024-05-16 12:19:09.112477,2024-05-16,12,Thursday,765.04,Food,UPI,Android,5G,Tamil Nadu,Coimbatore,18-24,231132,10044,True,,False,False,435,9431102
+823,2024-10-20 22:49:14.112614,2024-10-20,22,Sunday,673.54,Entertainment,UPI,Android,5G,West Bengal,Howrah,18-24,123126,91689,True,,False,False,653,2063842
+824,2024-02-15 10:13:53.112751,2024-02-15,10,Thursday,412.5,Food,NetBanking,POS,WiFi,Rajasthan,Jodhpur,35-44,366875,52102,True,,False,False,248,9573888
+825,2024-02-18 11:49:53.112888,2024-02-18,11,Sunday,682.83,Grocery,NetBanking,Android,3G,Punjab,Jalandhar,45-54,830872,47899,True,,False,False,929,5590247
+826,2024-01-15 19:26:25.113025,2024-01-15,19,Monday,800.08,Healthcare,UPI,Android,3G,Telangana,Hyderabad,55+,143862,81657,True,,False,False,786,1047841
+827,2024-07-24 12:35:09.113162,2024-07-24,12,Wednesday,1633.25,Food,UPI,iOS,WiFi,Maharashtra,Nashik,55+,664557,90924,True,,False,False,580,5177120
+828,2024-12-23 23:25:44.113299,2024-12-23,23,Monday,1340.66,Retail,UPI,POS,WiFi,Telangana,Hyderabad,25-34,857471,88526,True,,False,False,181,4029653
+829,2024-01-30 20:49:30.113436,2024-01-30,20,Tuesday,186.49,Subscriptions,UPI,Web,3G,Gujarat,Rajkot,18-24,889269,82776,True,,False,False,361,7625083
+830,2024-04-16 12:15:26.113573,2024-04-16,12,Tuesday,1003.76,Fuel,Card,iOS,4G,Rajasthan,Jodhpur,25-34,413223,79514,False,insufficient_funds,False,False,613,5197957
+831,2024-04-01 05:58:24.113710,2024-04-01,5,Monday,460.56,Subscriptions,Card,iOS,3G,Rajasthan,Jaipur,45-54,960032,50729,True,,False,False,592,6280588
+832,2024-08-04 20:31:48.113847,2024-08-04,20,Sunday,768.05,Utilities,UPI,iOS,WiFi,Tamil Nadu,Coimbatore,55+,370625,63010,True,,False,False,294,7396488
+833,2024-03-07 20:11:49.113984,2024-03-07,20,Thursday,1545.78,Utilities,Card,iOS,WiFi,Telangana,Nizamabad,25-34,295809,25520,True,,False,False,769,3934467
+834,2024-03-18 10:48:51.114121,2024-03-18,10,Monday,819.51,Utilities,Wallet,Android,4G,Tamil Nadu,Salem,25-34,204768,22097,True,,False,False,150,7249668
+835,2024-09-14 19:16:34.114258,2024-09-14,19,Saturday,831.57,Grocery,Card,POS,5G,Uttar Pradesh,Agra,55+,685975,26757,True,,False,False,508,4286384
+836,2024-02-10 08:38:56.114395,2024-02-10,8,Saturday,876.03,Fuel,UPI,Android,5G,Tamil Nadu,Salem,45-54,272620,17008,True,,False,False,147,4420722
+837,2024-09-27 09:47:48.114532,2024-09-27,9,Friday,5344.78,Education,UPI,Android,4G,West Bengal,Kolkata,45-54,804380,83071,True,,False,True,238,4901721
+838,2024-09-14 10:16:23.114669,2024-09-14,10,Saturday,482.05,Grocery,Wallet,iOS,5G,Karnataka,Mysuru,55+,986581,20053,True,,False,False,902,2869043
+839,2024-03-12 22:09:59.114806,2024-03-12,22,Tuesday,1288.5,Grocery,UPI,Android,4G,Telangana,Hyderabad,45-54,354695,97097,True,,False,False,992,5923606
+840,2024-11-26 15:47:10.114943,2024-11-26,15,Tuesday,1371.38,Utilities,UPI,Web,WiFi,Punjab,Jalandhar,25-34,505824,42366,True,,False,False,1269,1699652
+841,2024-05-10 10:40:12.115080,2024-05-10,10,Friday,644.57,Food,Card,Android,5G,Delhi,New Delhi,35-44,112389,14687,True,,False,False,1274,2742095
+842,2024-09-20 06:55:25.115217,2024-09-20,6,Friday,763.3,Utilities,UPI,Android,5G,West Bengal,Siliguri,25-34,959254,80134,True,,False,False,121,7067174
+843,2024-12-18 05:38:39.115354,2024-12-18,5,Wednesday,2682.98,Entertainment,Card,Android,5G,West Bengal,Howrah,35-44,578667,75842,True,,False,False,644,9598194
+844,2024-12-04 09:34:47.115491,2024-12-04,9,Wednesday,4354.4,Travel,Card,Android,3G,Rajasthan,Udaipur,35-44,978193,72828,True,,False,True,650,2755804
+845,2024-05-20 20:43:08.115628,2024-05-20,20,Monday,1800.6,Entertainment,UPI,Web,4G,Rajasthan,Jodhpur,55+,683791,95026,True,,False,False,201,4798095
+846,2024-10-30 12:33:15.115765,2024-10-30,12,Wednesday,987.5,Entertainment,Card,iOS,5G,Rajasthan,Jodhpur,35-44,151774,85769,True,,False,False,236,4558298
+847,2024-03-26 07:02:52.115902,2024-03-26,7,Tuesday,460.05,Food,UPI,iOS,5G,Tamil Nadu,Coimbatore,18-24,725859,98011,True,,False,False,88,9067264
+848,2024-07-16 07:35:05.116039,2024-07-16,7,Tuesday,1215.97,Healthcare,UPI,Android,5G,Delhi,New Delhi,18-24,924357,73253,True,,False,False,636,5636611
+849,2024-08-03 19:49:54.116176,2024-08-03,19,Saturday,714.99,Retail,UPI,Android,WiFi,Uttar Pradesh,Lucknow,55+,579245,62989,True,,True,True,887,4059819
+850,2024-01-02 11:52:17.116313,2024-01-02,11,Tuesday,913.57,Fuel,Wallet,Android,WiFi,Uttar Pradesh,Lucknow,18-24,413619,21343,True,,True,True,721,2514920
+851,2024-12-26 20:14:18.116450,2024-12-26,20,Thursday,901.9,Food,UPI,Android,WiFi,Rajasthan,Udaipur,45-54,688982,35512,True,,False,False,672,8212466
+852,2024-08-02 13:18:35.116587,2024-08-02,13,Friday,656.86,Food,UPI,Android,4G,Maharashtra,Mumbai,18-24,766138,84154,True,,False,False,595,2984967
+853,2024-08-29 13:43:42.116724,2024-08-29,13,Thursday,1247.21,Retail,Card,iOS,5G,Maharashtra,Mumbai,45-54,191200,27393,True,,False,False,643,8241263
+854,2024-12-25 18:22:29.116861,2024-12-25,18,Wednesday,1466.68,Healthcare,Card,Android,4G,Gujarat,Vadodara,18-24,176377,70422,True,,False,False,401,7060046
+855,2024-06-20 13:07:29.116998,2024-06-20,13,Thursday,1088.26,Utilities,UPI,iOS,4G,Kerala,Kozhikode,25-34,251680,46743,True,,False,False,1066,2541860
+856,2024-11-07 17:25:08.117135,2024-11-07,17,Thursday,1513.06,Utilities,UPI,iOS,3G,Punjab,Amritsar,25-34,238297,23793,True,,False,False,1130,6815175
+857,2024-12-14 10:31:53.117272,2024-12-14,10,Saturday,1081.13,Healthcare,UPI,Android,5G,Uttar Pradesh,Kanpur,45-54,458792,63740,True,,False,False,428,5615562
+858,2024-01-28 12:13:52.117409,2024-01-28,12,Sunday,452.56,Food,NetBanking,Android,5G,Tamil Nadu,Chennai,18-24,956505,77726,True,,False,False,550,4066341
+859,2024-03-23 17:45:28.117546,2024-03-23,17,Saturday,757.51,Entertainment,UPI,Android,WiFi,Maharashtra,Nashik,55+,161867,21988,True,,False,False,601,2948986
+860,2024-10-21 11:00:39.117683,2024-10-21,11,Monday,439.2,Food,UPI,Web,3G,Gujarat,Rajkot,35-44,932511,67748,True,,False,False,506,1893220
+861,2024-10-18 07:02:02.117820,2024-10-18,7,Friday,890.63,Utilities,NetBanking,Android,4G,Rajasthan,Jodhpur,18-24,833087,48408,True,,False,False,352,4808484
+862,2024-11-26 07:36:33.117957,2024-11-26,7,Tuesday,943.73,Utilities,Card,Android,4G,Tamil Nadu,Coimbatore,25-34,754736,77458,True,,False,False,441,3369793
+863,2024-08-30 08:19:51.118094,2024-08-30,8,Friday,781.14,Retail,UPI,Android,4G,West Bengal,Kolkata,18-24,172058,71377,True,,False,False,432,5978973
+864,2024-04-19 23:50:50.118231,2024-04-19,23,Friday,950.64,Grocery,UPI,Android,3G,Kerala,Thiruvananthapuram,25-34,140808,66264,True,,False,False,409,8512915
+865,2024-04-09 14:14:45.118368,2024-04-09,14,Tuesday,882.58,Subscriptions,NetBanking,POS,WiFi,Maharashtra,Mumbai,35-44,991090,49048,True,,False,False,1068,7809740
+866,2024-03-11 13:21:21.118505,2024-03-11,13,Monday,484.92,Food,NetBanking,Web,4G,Uttar Pradesh,Lucknow,25-34,864607,11275,True,,False,False,225,1570665
+867,2024-10-03 22:57:49.118642,2024-10-03,22,Thursday,2188.99,Travel,UPI,Android,WiFi,Delhi,New Delhi,18-24,838364,68351,True,,False,False,210,7527429
+868,2024-01-28 17:11:10.118779,2024-01-28,17,Sunday,1546.66,Retail,UPI,Android,3G,Tamil Nadu,Chennai,25-34,428987,84172,True,,False,False,965,6995244
+869,2024-01-31 01:55:26.118916,2024-01-31,1,Wednesday,1196.72,Grocery,Card,iOS,WiFi,Maharashtra,Mumbai,25-34,747637,54536,True,,False,False,634,1536713
+870,2024-08-12 10:53:31.119053,2024-08-12,10,Monday,389.04,Food,UPI,iOS,5G,Telangana,Hyderabad,35-44,798799,18619,True,,False,False,716,1807730
+871,2024-01-05 23:18:43.119190,2024-01-05,23,Friday,1931.12,Retail,Wallet,Android,5G,Gujarat,Vadodara,35-44,198351,39016,True,,False,False,577,6650746
+872,2024-11-11 15:11:34.119327,2024-11-11,15,Monday,1893.49,Travel,Card,iOS,WiFi,Uttar Pradesh,Agra,35-44,517106,84867,True,,False,False,620,8188586
+873,2024-10-07 05:34:24.119464,2024-10-07,5,Monday,756.42,Grocery,UPI,iOS,4G,Karnataka,Bengaluru,25-34,709278,59147,True,,False,False,610,4775348
+874,2024-01-11 00:31:29.119601,2024-01-11,0,Thursday,3601.67,Travel,NetBanking,iOS,WiFi,Maharashtra,Nagpur,18-24,292565,47469,False,insufficient_funds,False,True,305,2774490
+875,2024-08-23 13:11:37.119738,2024-08-23,13,Friday,624.06,Food,UPI,POS,4G,Rajasthan,Jaipur,18-24,542242,98705,True,,False,False,103,1778376
+876,2024-07-01 09:40:48.119875,2024-07-01,9,Monday,670.71,Fuel,UPI,Android,WiFi,Gujarat,Vadodara,18-24,450760,69839,True,,False,False,40,6604982
+877,2024-10-15 14:34:28.120012,2024-10-15,14,Tuesday,3727.81,Travel,Card,iOS,5G,Karnataka,Mangaluru,45-54,579800,58502,True,,False,True,46,6934489
+878,2024-09-23 08:16:29.120149,2024-09-23,8,Monday,547.43,Subscriptions,NetBanking,Android,5G,Kerala,Kochi,55+,276421,22972,True,,True,True,250,3867507
+879,2024-02-04 11:58:33.120286,2024-02-04,11,Sunday,897.0,Grocery,UPI,Web,4G,Maharashtra,Mumbai,35-44,676966,82168,True,,False,False,269,2368232
+880,2024-10-28 21:36:47.120423,2024-10-28,21,Monday,1398.01,Utilities,Wallet,iOS,4G,Telangana,Hyderabad,25-34,999762,38304,True,,False,False,969,2126904
+881,2024-10-07 23:38:09.120560,2024-10-07,23,Monday,2259.94,Utilities,Card,Web,4G,Karnataka,Mysuru,25-34,270407,10159,False,insufficient_funds,False,False,232,1905539
+882,2024-03-31 14:39:18.120697,2024-03-31,14,Sunday,1048.48,Retail,Card,Web,5G,Karnataka,Mysuru,35-44,238075,78799,True,,False,False,324,2840565
+883,2024-02-03 12:23:36.120834,2024-02-03,12,Saturday,1057.22,Retail,UPI,iOS,5G,Maharashtra,Nashik,35-44,149319,63367,True,,False,False,165,5252448
+884,2024-07-21 08:43:52.120971,2024-07-21,8,Sunday,469.53,Food,Card,Android,3G,Uttar Pradesh,Kanpur,25-34,817002,13003,True,,False,False,358,3716216
+885,2024-11-02 06:43:56.121108,2024-11-02,6,Saturday,6961.64,Healthcare,Wallet,iOS,WiFi,Kerala,Kochi,45-54,877911,80937,True,,False,True,87,5628929
+886,2024-02-04 15:25:10.121245,2024-02-04,15,Sunday,270.22,Food,UPI,Web,3G,West Bengal,Kolkata,25-34,513140,30050,True,,False,False,133,2411176
+887,2024-10-19 13:25:23.121382,2024-10-19,13,Saturday,3043.86,Travel,UPI,iOS,4G,Karnataka,Hubli,25-34,297724,39454,True,,False,True,786,7993284
+888,2024-06-25 01:41:38.121519,2024-06-25,1,Tuesday,1705.23,Travel,UPI,iOS,5G,Tamil Nadu,Chennai,18-24,460209,95792,True,,False,False,206,6378128
+889,2024-05-16 16:06:43.121656,2024-05-16,16,Thursday,3120.65,Retail,UPI,Web,5G,Delhi,New Delhi,45-54,770532,41470,True,,False,False,683,6219977
+890,2024-12-30 06:38:36.121793,2024-12-30,6,Monday,730.15,Grocery,UPI,iOS,WiFi,Gujarat,Ahmedabad,25-34,954837,14552,True,,False,False,309,5041390
+891,2024-02-09 06:53:23.121930,2024-02-09,6,Friday,1351.63,Healthcare,UPI,Android,WiFi,West Bengal,Kolkata,35-44,446895,69445,True,,False,False,602,7733982
+892,2024-10-27 17:46:51.122067,2024-10-27,17,Sunday,386.54,Subscriptions,Card,POS,3G,Tamil Nadu,Chennai,25-34,914660,75901,True,,False,False,533,7414059
+893,2024-02-02 12:57:17.122204,2024-02-02,12,Friday,359.22,Food,UPI,iOS,5G,Karnataka,Mangaluru,35-44,924733,58655,True,,False,False,428,7396931
+894,2024-07-22 10:28:11.122341,2024-07-22,10,Monday,212.52,Food,NetBanking,iOS,3G,Rajasthan,Udaipur,25-34,953160,47475,True,,False,False,312,1883138
+895,2024-12-07 22:41:34.122478,2024-12-07,22,Saturday,1178.39,Retail,UPI,Web,3G,Karnataka,Mysuru,45-54,330697,96217,True,,False,False,158,8682249
+896,2024-04-25 07:58:43.122615,2024-04-25,7,Thursday,3022.77,Education,UPI,Android,4G,Tamil Nadu,Coimbatore,25-34,568329,22108,True,,False,True,150,5711903
+897,2024-06-11 08:23:52.122752,2024-06-11,8,Tuesday,1382.22,Fuel,UPI,Web,WiFi,Telangana,Warangal,55+,271547,94948,True,,False,False,525,1424716
+898,2024-12-20 13:50:21.122889,2024-12-20,13,Friday,2146.29,Healthcare,NetBanking,iOS,WiFi,Karnataka,Mysuru,25-34,164954,94633,True,,False,False,494,1782511
+899,2024-11-18 17:52:09.123026,2024-11-18,17,Monday,2309.33,Healthcare,NetBanking,iOS,3G,Gujarat,Vadodara,25-34,435322,70701,False,insufficient_funds,False,False,253,4269335
+900,2024-03-02 12:38:19.123163,2024-03-02,12,Saturday,465.17,Entertainment,Card,Android,4G,Gujarat,Ahmedabad,18-24,462663,56014,True,,False,False,191,3586622
+901,2024-09-22 19:11:58.123300,2024-09-22,19,Sunday,986.2,Grocery,Card,iOS,4G,Punjab,Ludhiana,45-54,791298,99507,True,,False,False,386,4577047
+902,2024-04-30 07:09:40.123437,2024-04-30,7,Tuesday,810.62,Grocery,NetBanking,iOS,4G,Delhi,New Delhi,55+,919684,39105,True,,False,False,798,6939785
+903,2024-04-25 07:27:27.123574,2024-04-25,7,Thursday,527.14,Food,UPI,iOS,WiFi,Punjab,Jalandhar,55+,901627,76278,True,,False,False,526,3657425
+904,2024-04-12 11:06:00.123711,2024-04-12,11,Friday,1298.2,Utilities,UPI,iOS,4G,West Bengal,Kolkata,55+,555859,44359,True,,False,False,753,9961254
+905,2024-05-12 19:30:12.123848,2024-05-12,19,Sunday,1336.56,Travel,Card,iOS,5G,Karnataka,Mysuru,55+,406222,43260,True,,False,False,701,3583165
+906,2024-06-26 14:42:54.123985,2024-06-26,14,Wednesday,331.33,Grocery,UPI,Web,3G,Gujarat,Vadodara,35-44,453929,37664,True,,False,False,314,7234256
+907,2024-12-01 05:24:15.124122,2024-12-01,5,Sunday,2251.57,Healthcare,Card,Android,4G,West Bengal,Kolkata,25-34,106619,73644,False,network_timeout,False,False,322,6289106
+908,2024-04-27 20:19:49.124259,2024-04-27,20,Saturday,524.09,Food,Card,iOS,3G,Uttar Pradesh,Noida,18-24,698643,72066,True,,False,False,424,7129975
+909,2024-07-16 05:46:17.124396,2024-07-16,5,Tuesday,709.2,Grocery,UPI,Android,WiFi,Maharashtra,Mumbai,45-54,458844,53246,True,,False,False,605,8185097
+910,2024-05-19 02:59:42.124533,2024-05-19,2,Sunday,562.84,Food,Card,Android,5G,Gujarat,Surat,25-34,265985,97380,True,,False,False,303,1250130
+911,2024-02-06 15:41:31.124670,2024-02-06,15,Tuesday,641.12,Food,Card,iOS,WiFi,Telangana,Warangal,55+,778707,69494,True,,False,False,432,7811271
+912,2024-01-19 14:33:30.124807,2024-01-19,14,Friday,926.17,Entertainment,UPI,Android,WiFi,Kerala,Thiruvananthapuram,18-24,469535,41094,True,,False,False,502,4489742
+913,2024-11-19 16:57:58.124944,2024-11-19,16,Tuesday,837.7,Grocery,UPI,iOS,5G,Delhi,New Delhi,45-54,290514,40562,True,,False,False,1028,3091937
+914,2024-03-15 05:07:37.125081,2024-03-15,5,Friday,342.78,Food,NetBanking,Android,WiFi,Uttar Pradesh,Noida,25-34,424205,81402,True,,False,False,599,8302424
+915,2024-09-11 11:36:28.125218,2024-09-11,11,Wednesday,1112.96,Retail,NetBanking,Web,5G,Gujarat,Surat,45-54,832987,38913,True,,False,False,435,8889649
+916,2024-04-11 04:47:24.125355,2024-04-11,4,Thursday,461.03,Fuel,Card,Android,3G,Delhi,New Delhi,25-34,315889,16494,True,,False,False,1034,7223705
+917,2024-10-30 12:00:11.125492,2024-10-30,12,Wednesday,2350.8,Travel,UPI,Android,WiFi,Gujarat,Ahmedabad,35-44,991225,83346,True,,False,False,334,6627064
+918,2024-11-09 11:59:18.125629,2024-11-09,11,Saturday,1813.96,Utilities,UPI,iOS,WiFi,Gujarat,Surat,25-34,717703,42058,True,,False,False,425,5067771
+919,2024-12-27 22:16:17.125766,2024-12-27,22,Friday,2817.82,Retail,UPI,Android,WiFi,West Bengal,Kolkata,25-34,234536,89356,True,,False,False,641,9003202
+920,2024-04-21 23:42:52.125903,2024-04-21,23,Sunday,880.22,Retail,Card,Android,4G,Uttar Pradesh,Noida,25-34,220736,72749,False,risk_declined,False,False,198,1727321
+921,2024-09-02 10:57:54.126040,2024-09-02,10,Monday,1026.77,Retail,UPI,Android,4G,West Bengal,Siliguri,25-34,391648,84276,True,,False,False,296,8261804
+922,2024-06-04 11:04:09.126177,2024-06-04,11,Tuesday,927.57,Grocery,UPI,iOS,5G,Rajasthan,Udaipur,55+,841320,87975,True,,False,False,423,7570063
+923,2024-04-07 10:21:40.126314,2024-04-07,10,Sunday,326.51,Grocery,UPI,iOS,3G,Gujarat,Surat,55+,298340,43996,True,,False,False,1059,6490445
+924,2024-07-22 11:05:04.126451,2024-07-22,11,Monday,383.9,Entertainment,UPI,Android,3G,Kerala,Thiruvananthapuram,25-34,292006,44750,True,,False,False,326,7821238
+925,2024-04-16 16:01:19.126588,2024-04-16,16,Tuesday,1310.6,Entertainment,UPI,Android,WiFi,West Bengal,Kolkata,35-44,782754,51129,True,,False,False,93,3363377
+926,2024-10-18 20:24:48.126725,2024-10-18,20,Friday,2471.44,Retail,UPI,Web,4G,Delhi,New Delhi,35-44,262703,39934,True,,False,False,266,7150740
+927,2024-01-25 08:52:35.126862,2024-01-25,8,Thursday,2260.66,Retail,UPI,Android,5G,Tamil Nadu,Madurai,45-54,753900,40641,True,,False,False,202,1156351
+928,2024-03-10 02:21:25.126999,2024-03-10,2,Sunday,675.16,Retail,UPI,iOS,5G,Gujarat,Vadodara,18-24,921363,69807,True,,False,False,193,7127040
+929,2024-01-06 12:27:09.127136,2024-01-06,12,Saturday,818.19,Grocery,Card,Android,4G,Uttar Pradesh,Noida,25-34,342043,86247,True,,False,False,149,5333808
+930,2024-09-06 08:01:13.127273,2024-09-06,8,Friday,605.24,Entertainment,NetBanking,Android,5G,Maharashtra,Nashik,35-44,117181,21910,True,,False,False,1066,8620528
+931,2024-03-24 22:42:51.127410,2024-03-24,22,Sunday,411.25,Food,UPI,Android,WiFi,Delhi,New Delhi,45-54,972097,72427,True,,False,False,879,9307947
+932,2024-06-13 20:26:06.127547,2024-06-13,20,Thursday,1040.8,Retail,NetBanking,POS,5G,Uttar Pradesh,Noida,25-34,591950,92434,True,,False,False,467,3488697
+933,2024-06-22 13:59:04.127684,2024-06-22,13,Saturday,473.93,Food,UPI,iOS,3G,Karnataka,Bengaluru,45-54,361204,92208,True,,False,False,275,4147850
+934,2024-08-19 14:04:50.127821,2024-08-19,14,Monday,1290.95,Entertainment,UPI,iOS,5G,Maharashtra,Pune,35-44,177525,69561,True,,False,False,1803,1830199
+935,2024-09-05 10:02:51.127958,2024-09-05,10,Thursday,1642.64,Retail,UPI,iOS,5G,Telangana,Hyderabad,55+,617987,23372,True,,False,False,1510,3896812
+936,2024-03-30 07:31:24.128095,2024-03-30,7,Saturday,850.87,Grocery,UPI,Android,5G,Punjab,Jalandhar,18-24,373335,87477,True,,False,False,776,7417287
+937,2024-04-08 21:47:47.128232,2024-04-08,21,Monday,355.86,Food,UPI,iOS,3G,Telangana,Nizamabad,25-34,446652,11539,False,otp_failed,False,False,688,5545990
+938,2024-08-25 02:10:00.128369,2024-08-25,2,Sunday,2991.93,Healthcare,Card,Android,WiFi,Kerala,Kochi,25-34,290483,62069,True,,False,False,525,8166197
+939,2024-11-20 16:10:56.128506,2024-11-20,16,Wednesday,1144.56,Retail,UPI,iOS,5G,Rajasthan,Jodhpur,55+,518767,55782,True,,False,False,220,2404503
+940,2024-03-13 19:08:01.128643,2024-03-13,19,Wednesday,1063.45,Retail,Card,Web,5G,Karnataka,Bengaluru,25-34,557065,42029,True,,False,False,818,8772420
+941,2024-12-08 17:09:41.128780,2024-12-08,17,Sunday,762.61,Utilities,NetBanking,Android,4G,Rajasthan,Jaipur,55+,678001,54517,True,,False,False,544,2629001
+942,2024-04-09 08:06:14.128917,2024-04-09,8,Tuesday,3177.84,Retail,Card,iOS,WiFi,Telangana,Nizamabad,35-44,198944,32661,True,,False,False,155,2279588
+943,2024-07-09 18:32:42.129054,2024-07-09,18,Tuesday,2807.93,Education,UPI,Android,5G,Uttar Pradesh,Kanpur,25-34,656624,52823,True,,False,False,175,5398044
+944,2024-10-11 13:24:19.129191,2024-10-11,13,Friday,276.58,Subscriptions,Card,Web,4G,Uttar Pradesh,Agra,18-24,356431,51114,True,,False,False,469,9737254
+945,2024-06-16 19:24:40.129328,2024-06-16,19,Sunday,1867.63,Utilities,Wallet,Android,WiFi,Delhi,New Delhi,45-54,557303,28983,True,,False,False,182,4003888
+946,2024-02-08 08:01:19.129465,2024-02-08,8,Thursday,1026.98,Grocery,UPI,iOS,WiFi,Maharashtra,Pune,18-24,834021,24669,True,,False,False,1467,2510748
+947,2024-08-29 20:28:09.129602,2024-08-29,20,Thursday,1753.02,Healthcare,UPI,Android,3G,Punjab,Jalandhar,25-34,159782,38749,True,,False,False,232,8247606
+948,2024-08-04 11:47:44.129739,2024-08-04,11,Sunday,465.88,Grocery,Card,iOS,WiFi,Maharashtra,Pune,18-24,148667,52813,True,,False,False,167,4010846
+949,2024-05-18 09:33:57.129876,2024-05-18,9,Saturday,580.5,Entertainment,Card,POS,WiFi,Punjab,Jalandhar,18-24,553189,31497,True,,False,False,477,8673707
+950,2024-08-11 22:54:14.130013,2024-08-11,22,Sunday,1218.8,Food,UPI,Web,3G,Rajasthan,Jodhpur,25-34,883269,20918,True,,False,False,1444,9483536
+951,2024-06-21 15:56:40.130150,2024-06-21,15,Friday,716.66,Fuel,NetBanking,Android,4G,Uttar Pradesh,Noida,18-24,299095,30323,True,,False,False,179,9486611
+952,2024-03-21 08:14:45.130287,2024-03-21,8,Thursday,941.46,Retail,UPI,Android,WiFi,Punjab,Amritsar,55+,842650,12593,True,,False,False,133,7812566
+953,2024-09-03 13:06:41.130424,2024-09-03,13,Tuesday,461.92,Food,Card,Android,4G,Punjab,Amritsar,18-24,736169,68273,True,,False,False,146,7874490
+954,2024-02-29 12:32:44.130561,2024-02-29,12,Thursday,528.17,Food,Wallet,Android,4G,Uttar Pradesh,Noida,35-44,961833,29749,True,,False,False,769,7556355
+955,2024-07-11 11:52:25.130698,2024-07-11,11,Thursday,728.06,Retail,Card,Android,WiFi,Tamil Nadu,Madurai,45-54,460110,52749,True,,False,False,604,4749971
+956,2024-11-04 09:27:40.130835,2024-11-04,9,Monday,1500.55,Retail,Card,Android,3G,Uttar Pradesh,Noida,35-44,419304,18248,True,,False,False,864,8346285
+957,2024-10-20 15:31:01.130972,2024-10-20,15,Sunday,1028.65,Retail,UPI,Android,WiFi,Maharashtra,Mumbai,35-44,633786,35367,True,,False,False,434,9456863
+958,2024-06-03 07:29:15.131109,2024-06-03,7,Monday,1433.58,Entertainment,UPI,POS,WiFi,Telangana,Warangal,25-34,378104,48012,True,,False,False,1000,6302222
+959,2024-01-06 19:10:42.131246,2024-01-06,19,Saturday,699.91,Retail,NetBanking,Web,WiFi,Tamil Nadu,Coimbatore,18-24,164179,12369,True,,False,False,333,4005495
+960,2024-05-18 13:16:22.131383,2024-05-18,13,Saturday,597.03,Retail,Card,iOS,3G,West Bengal,Howrah,35-44,723907,72092,False,otp_failed,False,False,735,5394145
+961,2024-02-24 14:26:55.131520,2024-02-24,14,Saturday,1316.52,Entertainment,UPI,POS,4G,West Bengal,Kolkata,55+,725412,56647,True,,False,False,639,4410904
+962,2024-01-09 21:22:24.131657,2024-01-09,21,Tuesday,1012.68,Entertainment,UPI,Android,5G,Gujarat,Ahmedabad,25-34,603161,12556,True,,False,False,609,2984998
+963,2024-09-28 12:26:56.131794,2024-09-28,12,Saturday,558.78,Retail,UPI,iOS,4G,Rajasthan,Jaipur,25-34,685761,62542,True,,False,False,751,7278457
+964,2024-03-25 10:02:24.131931,2024-03-25,10,Monday,488.1,Food,Card,iOS,3G,Haryana,Gurugram,35-44,289582,26368,True,,False,False,309,1132781
+965,2024-06-18 09:59:40.132068,2024-06-18,9,Tuesday,1890.62,Retail,UPI,Android,WiFi,Maharashtra,Nagpur,25-34,558304,52763,True,,False,False,404,3864247
+966,2024-02-19 20:52:14.132205,2024-02-19,20,Monday,858.56,Retail,UPI,Android,5G,Karnataka,Mysuru,18-24,103485,42654,True,,False,False,1351,7616706
+967,2024-03-06 16:05:59.132342,2024-03-06,16,Wednesday,1877.71,Healthcare,NetBanking,Android,5G,Maharashtra,Pune,45-54,682678,52072,True,,False,False,883,6389326
+968,2024-10-10 10:11:37.132479,2024-10-10,10,Thursday,1266.97,Retail,UPI,Web,5G,Kerala,Kozhikode,45-54,654794,93457,True,,False,False,122,1791274
+969,2024-07-04 10:05:16.132616,2024-07-04,10,Thursday,1155.27,Utilities,UPI,Android,4G,Gujarat,Ahmedabad,35-44,217582,70456,True,,False,False,911,2997872
+970,2024-07-01 14:44:51.132753,2024-07-01,14,Monday,974.94,Fuel,UPI,iOS,4G,Kerala,Kochi,35-44,171982,36350,True,,False,False,449,5020591
+971,2024-11-25 13:38:11.132890,2024-11-25,13,Monday,1968.63,Utilities,UPI,Android,WiFi,Karnataka,Bengaluru,18-24,431318,99688,True,,True,True,1179,2050167
+972,2024-06-09 08:28:44.133027,2024-06-09,8,Sunday,2429.28,Travel,UPI,Android,3G,Maharashtra,Nashik,45-54,545493,99857,True,,False,False,772,9025652
+973,2024-04-06 10:55:24.133164,2024-04-06,10,Saturday,1804.63,Utilities,Card,Android,WiFi,Rajasthan,Udaipur,18-24,716206,89246,True,,False,False,267,5310948
+974,2024-07-11 15:27:16.133301,2024-07-11,15,Thursday,1085.57,Fuel,UPI,Android,4G,Kerala,Kochi,45-54,657099,40664,True,,False,False,506,6710639
+975,2024-03-24 06:05:34.133438,2024-03-24,6,Sunday,1000.01,Retail,Card,iOS,WiFi,Delhi,New Delhi,35-44,980145,97817,True,,False,False,678,8680964
+976,2024-10-25 11:10:35.133575,2024-10-25,11,Friday,4051.78,Education,UPI,Android,WiFi,Tamil Nadu,Coimbatore,35-44,287852,28803,True,,False,True,182,2198851
+977,2024-08-13 18:29:46.133712,2024-08-13,18,Tuesday,576.44,Retail,Card,Android,4G,Maharashtra,Nagpur,18-24,584570,11885,True,,False,False,1339,6505715
+978,2024-10-24 13:58:16.133849,2024-10-24,13,Thursday,2392.92,Education,NetBanking,Android,4G,Haryana,Panipat,18-24,861391,38526,True,,False,False,554,1498030
+979,2024-04-17 13:21:48.133986,2024-04-17,13,Wednesday,3506.51,Utilities,UPI,Android,4G,Delhi,New Delhi,35-44,210484,68365,True,,False,False,694,8851910
+980,2024-10-22 05:20:09.134123,2024-10-22,5,Tuesday,1058.45,Retail,UPI,Android,5G,Telangana,Hyderabad,45-54,856979,70906,True,,False,False,571,1199459
+981,2024-12-08 10:08:43.134260,2024-12-08,10,Sunday,1939.51,Travel,Card,iOS,4G,Maharashtra,Mumbai,45-54,240929,94714,True,,False,False,615,6287324
+982,2024-06-27 07:46:27.134397,2024-06-27,7,Thursday,1269.0,Food,UPI,Android,4G,Kerala,Kochi,45-54,316619,62489,False,network_timeout,False,False,341,2169016
+983,2024-06-24 22:50:50.134534,2024-06-24,22,Monday,949.77,Retail,UPI,Android,5G,Maharashtra,Nagpur,25-34,937266,91091,True,,False,False,297,2012566
+984,2024-12-26 01:21:34.134671,2024-12-26,1,Thursday,2398.6,Travel,NetBanking,Android,3G,Tamil Nadu,Madurai,18-24,493817,41379,True,,False,False,475,9176265
+985,2024-10-17 08:22:50.134808,2024-10-17,8,Thursday,1709.54,Healthcare,UPI,iOS,WiFi,West Bengal,Kolkata,35-44,542314,95217,True,,False,False,1313,7345316
+986,2024-07-28 00:58:15.134945,2024-07-28,0,Sunday,909.92,Entertainment,UPI,Android,WiFi,Uttar Pradesh,Kanpur,18-24,765432,36835,False,insufficient_funds,False,False,488,6616376
+987,2024-10-01 20:40:58.135082,2024-10-01,20,Tuesday,425.23,Entertainment,NetBanking,iOS,WiFi,Haryana,Gurugram,18-24,318660,65341,False,otp_failed,False,False,312,3253530
+988,2024-09-17 20:16:40.135219,2024-09-17,20,Tuesday,687.13,Entertainment,UPI,iOS,4G,Tamil Nadu,Chennai,25-34,828941,96412,False,network_timeout,False,False,446,1060293
+989,2024-10-18 08:32:34.135356,2024-10-18,8,Friday,930.32,Grocery,UPI,Android,WiFi,Uttar Pradesh,Lucknow,25-34,122306,94122,True,,False,False,480,8127267
+990,2024-10-10 22:07:50.135493,2024-10-10,22,Thursday,832.99,Food,UPI,Web,WiFi,Karnataka,Hubli,45-54,631897,74673,True,,False,False,954,4448496
+991,2024-10-07 12:41:47.135630,2024-10-07,12,Monday,2378.1,Travel,UPI,Android,5G,Tamil Nadu,Chennai,25-34,466064,35297,True,,False,False,1765,9600857
+992,2024-11-22 20:01:11.135767,2024-11-22,20,Friday,1043.5,Retail,UPI,Android,4G,Maharashtra,Pune,55+,393075,18688,False,otp_failed,False,False,203,1330180
+993,2024-01-29 17:31:44.135904,2024-01-29,17,Monday,1283.78,Retail,Card,iOS,5G,Telangana,Hyderabad,25-34,251459,28900,True,,False,False,350,5648091
+994,2024-10-05 22:01:37.136041,2024-10-05,22,Saturday,1222.96,Grocery,UPI,iOS,WiFi,Tamil Nadu,Salem,25-34,827603,94631,True,,False,False,60,4590071
+995,2024-03-29 12:06:34.136178,2024-03-29,12,Friday,1863.16,Healthcare,UPI,iOS,WiFi,Haryana,Faridabad,25-34,278085,17351,True,,False,False,428,3540849
+996,2024-01-18 03:21:49.136315,2024-01-18,3,Thursday,538.43,Grocery,UPI,Web,4G,Maharashtra,Pune,18-24,428192,13935,True,,False,False,375,2005500
+997,2024-02-19 13:08:21.136452,2024-02-19,13,Monday,686.96,Fuel,Card,iOS,4G,Tamil Nadu,Madurai,18-24,314112,80849,True,,False,False,236,7386662
+998,2024-10-16 04:32:30.136589,2024-10-16,4,Wednesday,3722.8,Education,Card,Android,5G,Tamil Nadu,Madurai,18-24,620070,24543,True,,False,True,911,3804879
+999,2024-10-07 19:04:30.136726,2024-10-07,19,Monday,1080.98,Healthcare,UPI,iOS,WiFi,Haryana,Gurugram,55+,516611,12018,True,,False,False,394,3417105
+1000,2024-06-24 08:58:37.136863,2024-06-24,8,Monday,1347.76,Entertainment,UPI,POS,3G,Rajasthan,Jaipur,35-44,807162,33937,True,,False,False,521,8057608
