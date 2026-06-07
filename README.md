@@ -184,6 +184,50 @@ The analytics layer is designed to support questions such as:
 - Which day of week is strongest for transaction volume?
 - How do fraud and review rates change for high-value transactions?
 
+## Analytics API Reference
+
+The core analytics functions live in [analytics.py](analytics.py#L57). Key entry points:
+
+- `load_transactions_csv(path)` — load and normalize CSV into Python records ([analytics.py](analytics.py#L57)).
+- `average_transaction_amount(records, filters)` — mean amount for a slice ([analytics.py](analytics.py#L148)).
+- `median_transaction_amount(records, filters)` — median amount for a slice ([analytics.py](analytics.py#L154)).
+- `transaction_amount_quantile(records, q, filters)` — interpolated quantile ([analytics.py](analytics.py#L160)).
+- `total_transaction_amount(records, filters)` — sum of amounts for a slice ([analytics.py](analytics.py#L142)).
+- `failure_rate(records, filters)` — percent of transactions that failed ([analytics.py](analytics.py#L178)).
+- `fraud_rate(records, filters)` — percent flagged as fraud ([analytics.py](analytics.py#L182)).
+- `review_rate(records, filters)` — percent flagged for review ([analytics.py](analytics.py#L186)).
+- `average_latency_ms(records, filters)` — mean latency in ms ([analytics.py](analytics.py#L190)).
+- `peak_hours(records, filters, category=None, top_n=3)` — busiest hours by volume ([analytics.py](analytics.py#L198)).
+- `transaction_volume_by(records, group_field, filters, top_n)` — volume breakdown by a field ([analytics.py](analytics.py#L216)).
+- `amount_by_group(records, group_field, filters, top_n)` — average amount by group ([analytics.py](analytics.py#L244)).
+- `failure_rate_by_group(records, group_field, filters, top_n)` — failure rate by group ([analytics.py](analytics.py#L261)).
+- `fraud_rate_by_group(records, group_field, filters, top_n)` — fraud rate by group ([analytics.py](analytics.py#L311)).
+- `failure_reason_breakdown(records, filters, top_n)` — most frequent failure reasons ([analytics.py](analytics.py#L340)).
+- `top_merchants(records, filters, top_n)` and `top_users(records, filters, top_n)` — concentration checks ([analytics.py](analytics.py#L355)).
+- `daily_trend(records, metric, filters)` — time-series by day for volume/amount/failure/fraud ([analytics.py](analytics.py#L369)).
+- `compare_groups(records, metric, group_a, group_b, group_field, filters)` — structured comparison across two groups ([analytics.py](analytics.py#L377)).
+- `describe_segment(records, filters)` — compact descriptive summary for a filtered slice ([analytics.py](analytics.py#L453)).
+- `question_catalog()` — curated set of 15 business questions supported ([analytics.py](analytics.py#L483)).
+
+Quick example:
+
+```python
+from analytics import load_transactions_csv, average_transaction_amount, failure_rate, compare_groups
+
+records = load_transactions_csv('data/synthetic_payments.csv')
+
+# Average Food tx amount in Maharashtra
+print(average_transaction_amount(records, {'category': 'Food', 'state': 'Maharashtra'}))
+
+# Failure-rate for 3G network
+print(failure_rate(records, {'network_type': '3G'}))
+
+# Compare iOS vs Android failure rate in Maharashtra
+print(compare_groups(records, 'failure_rate', 'iOS', 'Android', 'device_type', {'state': 'Maharashtra'}))
+```
+
+For implementation details and anchors, see the function definitions in [analytics.py](analytics.py#L57-L520).
+
 ## Suggested Next Steps
 
 1. Add a pure-Python analytics module for core metrics.
