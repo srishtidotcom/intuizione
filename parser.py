@@ -148,14 +148,20 @@ def parse_question(question: str) -> dict[str, Any]:
     }
 
     if intent == "comparison":
-        group_a, group_b, field = _extract_comparison(lowered, normalized_question)
+        groups, field = _extract_comparison(lowered, normalized_question)
+        filters.pop(_filter_key_for_group_field(field), None)
         parsed["comparison"] = {
-            "group_a": group_a,
-            "group_b": group_b,
+            "group_a": groups[0] if groups else None,
+            "group_b": groups[1] if len(groups) > 1 else None,
+            "groups": groups,
             "field": field,
         }
+        parsed["metrics"] = _detect_metrics(lowered)
+        parsed["metric"] = parsed["metrics"][0]
     elif intent == "ranking":
         parsed["metric"] = _detect_metric(lowered)
+    elif intent == "peak_hours":
+        parsed["metric"] = "peak_hours"
     elif intent == "anomaly_risk_summary":
         parsed["metrics"] = _detect_risk_metrics(lowered)
     elif intent == "trend":
@@ -169,7 +175,9 @@ def parse_question(question: str) -> dict[str, Any]:
 def _detect_intent(lowered: str) -> str:
     if re.search(r"\b(compare|comparison|vs|versus|differ|differ in|differ across)\b", lowered):
         return "comparison"
-    if re.search(r"\b(peak hours|trend|trendline|change over time|busiest|over time|hour)\b", lowered):
+    if re.search(r"\b(peak hours|busiest hours)\b", lowered):
+        return "peak_hours"
+    if re.search(r"\b(trend|trendline|change over time|over time)\b", lowered):
         return "trend"
     if re.search(r"\b(highest|top|rank|which .+ has the highest|most)\b", lowered):
         return "ranking"
@@ -194,6 +202,28 @@ def _detect_metric(lowered: str) -> str:
     return "average_transaction_amount"
 
 
+def _detect_metrics(lowered: str) -> list[str]:
+    checks = [
+        ("success_rate", "success"),
+        ("failure_rate", "failure"),
+        ("fraud_rate", "fraud"),
+        ("review_rate", "review"),
+        ("average_latency_ms", "latency"),
+        ("average_transaction_amount", "amount"),
+        ("volume", "volume"),
+    ]
+    matches: list[tuple[int, str]] = []
+    for metric, term in checks:
+        position = lowered.find(term)
+        if position >= 0:
+            matches.append((position, metric))
+    metrics: list[str] = []
+    for _, metric in sorted(matches):
+        if metric not in metrics:
+            metrics.append(metric)
+    return metrics or [_detect_metric(lowered)]
+
+
 def _detect_risk_metrics(lowered: str) -> list[str]:
     metrics: list[str] = []
     if "fraud" in lowered or "fraud-flagged" in lowered or "flagged" in lowered:
@@ -207,17 +237,17 @@ def _detect_risk_metrics(lowered: str) -> list[str]:
 
 def _extract_filters(lowered: str, original: str) -> dict[str, Any]:
     filters: dict[str, Any] = {}
-    filters.update(_extract_single_value_filter(CATEGORY_ALIASES, lowered, "category"))
-    filters.update(_extract_single_value_filter(STATE_ALIASES, lowered, "state"))
-    filters.update(_extract_single_value_filter(CITY_ALIASES, lowered, "city"))
+    filters.update(_extract_value_filter(CATEGORY_ALIASES, lowered, "category"))
+    filters.update(_extract_value_filter(STATE_ALIASES, lowered, "state"))
+    filters.update(_extract_value_filter(CITY_ALIASES, lowered, "city"))
 
-    device_value = _extract_single_value_filter(DEVICE_ALIASES, lowered, "device")
+    device_value = _extract_value_filter(DEVICE_ALIASES, lowered, "device")
     if device_value:
         filters.update(device_value)
 
-    filters.update(_extract_single_value_filter(NETWORK_ALIASES, lowered, "network"))
-    filters.update(_extract_single_value_filter(AGE_GROUP_ALIASES, lowered, "age_group"))
-    filters.update(_extract_single_value_filter(PAYMENT_METHOD_ALIASES, lowered, "payment_method"))
+    filters.update(_extract_value_filter(NETWORK_ALIASES, lowered, "network"))
+    filters.update(_extract_value_filter(AGE_GROUP_ALIASES, lowered, "age_group"))
+    filters.update(_extract_value_filter(PAYMENT_METHOD_ALIASES, lowered, "payment_method"))
 
     date_range = _extract_date_range(lowered, original)
     if date_range:
@@ -226,16 +256,20 @@ def _extract_filters(lowered: str, original: str) -> dict[str, Any]:
     return filters
 
 
-def _extract_single_value_filter(alias_map: dict[str, str], lowered: str, field: str) -> dict[str, Any]:
+def _extract_value_filter(alias_map: dict[str, str], lowered: str, field: str) -> dict[str, Any]:
+    matches: list[str] = []
     for alias, canonical in alias_map.items():
         if alias in lowered:
             if field == "device" and canonical == "mobile":
-                return {field: canonical}
-            return {field: canonical}
-    return {}
+                canonical = alias.title()
+            if canonical not in matches:
+                matches.append(canonical)
+    if not matches:
+        return {}
+    return {field: matches[0] if len(matches) == 1 else matches}
 
 
-def _extract_comparison(lowered: str, original: str) -> tuple[str, str, str]:
+def _extract_comparison(lowered: str, original: str) -> tuple[list[str], str]:
     comparison_domains: list[tuple[dict[str, str], str]] = [
         (CATEGORY_ALIASES, "category"),
         (DEVICE_ALIASES, "device_type"),
@@ -255,12 +289,12 @@ def _extract_comparison(lowered: str, original: str) -> tuple[str, str, str]:
                 if canonical not in matches:
                     matches.append(canonical)
         if len(matches) >= 2:
-            return _order_comparison_terms(original, matches, field)
+            return _order_terms(original, matches, field), field
 
-    return "iOS", "Android", "device_type"
+    return ["iOS", "Android"], "device_type"
 
 
-def _order_comparison_terms(original: str, matches: list[str], field: str) -> tuple[str, str, str]:
+def _order_terms(original: str, matches: list[str], field: str) -> list[str]:
     if field == "category":
         cleaned = re.sub(r"^(?:how do|how does|compare)\s+", "", original, flags=re.I)
         cleaned = re.sub(r"\s+(?:differ|compare|across|on|for)\b.*$", "", cleaned, flags=re.I)
@@ -268,12 +302,30 @@ def _order_comparison_terms(original: str, matches: list[str], field: str) -> tu
         if match:
             left = match.group("a").strip()
             right = match.group("b").strip()
-            return left, right, field
-    if field == "network_type":
-        network_terms = [term for term in matches if term in {"5G", "WiFi", "4G", "3G"}]
-        if len(network_terms) >= 2:
-            return network_terms[0], network_terms[1], field
-    return matches[0], matches[1], field
+            return [left, right]
+    positions = {term: _term_position(original, term) for term in matches}
+    return sorted(matches, key=lambda term: positions[term] if positions[term] >= 0 else len(original))
+
+
+def _term_position(original: str, term: str) -> int:
+    lowered = original.lower()
+    direct = lowered.find(term.lower())
+    if direct >= 0:
+        return direct
+    for alias_map in (CATEGORY_ALIASES, DEVICE_ALIASES, NETWORK_ALIASES, STATE_ALIASES, CITY_ALIASES, AGE_GROUP_ALIASES, PAYMENT_METHOD_ALIASES):
+        for alias, canonical in alias_map.items():
+            if canonical == term:
+                position = lowered.find(alias)
+                if position >= 0:
+                    return position
+    return -1
+
+
+def _filter_key_for_group_field(field: str) -> str:
+    return {
+        "device_type": "device",
+        "network_type": "network",
+    }.get(field, field)
 
 
 def _extract_date_range(lowered: str, original: str) -> dict[str, str] | None:

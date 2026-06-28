@@ -18,6 +18,7 @@ from analytics import (
     load_transactions_csv,
     peak_hours,
     review_rate,
+    success_rate,
     summarize_filters,
     transaction_volume_by,
 )
@@ -41,11 +42,15 @@ def execute_query(question: str | dict[str, Any], records: Iterable[dict[str, An
     if intent == "comparison":
         comparison = parsed.get("comparison") or {}
         field = comparison.get("field", "device_type")
-        group_a = comparison.get("group_a")
-        group_b = comparison.get("group_b")
-        if not group_a or not group_b:
+        groups = comparison.get("groups") or [comparison.get("group_a"), comparison.get("group_b")]
+        groups = [group for group in groups if group]
+        metrics = parsed.get("metrics") or [metric]
+        if len(groups) < 2:
             raise ValueError("Comparison query is missing one or both groups")
-        result = compare_groups(records_list, metric, group_a, group_b, field, filters)
+        if len(groups) == 2 and len(metrics) == 1:
+            result = compare_groups(records_list, metric, groups[0], groups[1], field, filters)
+        else:
+            result = _compare_many(records_list, metrics, groups, field, filters)
         return _build_response(parsed, intent, metric, filters, result, records_list)
 
     if intent == "ranking":
@@ -57,6 +62,11 @@ def execute_query(question: str | dict[str, Any], records: Iterable[dict[str, An
     if intent == "trend":
         trend = daily_trend(records_list, metric="volume", filters=filters)
         payload = {"metric": metric, "points": [item.__dict__ for item in trend]}
+        return _build_response(parsed, intent, metric, filters, payload, records_list)
+
+    if intent == "peak_hours":
+        hours = peak_hours(records_list, filters, top_n=5)
+        payload = {"metric": metric, "items": [item.__dict__ for item in hours]}
         return _build_response(parsed, intent, metric, filters, payload, records_list)
 
     if intent == "anomaly_risk_summary":
@@ -140,12 +150,49 @@ def _rank_by_metric(records: list[dict[str, Any]], metric: str, group_field: str
     return failure_rate_by_group(records, group_field, filters, top_n=top_n)
 
 
+def _compare_many(records: list[dict[str, Any]], metrics: list[str], groups: list[str], group_field: str, filters: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "group_field": group_field,
+        "metrics": metrics,
+        "groups": groups,
+        "items": [
+            {
+                "label": group,
+                "metrics": {
+                    metric: _metric_value(records, metric, {**filters, group_field: group})
+                    for metric in metrics
+                },
+            }
+            for group in groups
+        ],
+    }
+
+
+def _metric_value(records: list[dict[str, Any]], metric: str, filters: dict[str, Any]) -> float:
+    if metric == "average_transaction_amount":
+        return average_transaction_amount(records, filters)
+    if metric == "failure_rate":
+        return failure_rate(records, filters)
+    if metric == "fraud_rate":
+        return fraud_rate(records, filters)
+    if metric == "review_rate":
+        return review_rate(records, filters)
+    if metric == "success_rate":
+        return success_rate(records, filters)
+    if metric == "average_latency_ms":
+        return average_latency_ms(records, filters)
+    if metric == "volume":
+        return float(count_transactions(records, filters))
+    return average_transaction_amount(records, filters)
+
+
 def _validate_query(parsed: dict[str, Any], intent: str | None, metric: str) -> None:
     if not intent:
         raise ValueError("Query must include an intent")
     if intent == "comparison":
         comparison = parsed.get("comparison") or {}
-        if not comparison.get("group_a") or not comparison.get("group_b"):
+        groups = comparison.get("groups") or [comparison.get("group_a"), comparison.get("group_b")]
+        if len([group for group in groups if group]) < 2:
             raise ValueError("Comparison query is missing one or both groups")
     if intent == "ranking" and not metric:
         raise ValueError("Ranking query must include a metric")

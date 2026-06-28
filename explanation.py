@@ -22,6 +22,9 @@ def format_response(execution: dict[str, Any]) -> str:
     if intent == "trend":
         return _format_trend_response(metric, filters, result)
 
+    if intent == "peak_hours":
+        return _format_peak_hours_response(metric, filters, result)
+
     if intent == "anomaly_risk_summary":
         return _format_risk_response(metric, filters, result)
 
@@ -49,6 +52,16 @@ def _format_comparison_response(metric: str, filters: dict[str, Any], result: An
     delta = result.get("delta", 0)
     percent_delta = result.get("percent_delta")
 
+    if result.get("items"):
+        parts = []
+        for item in result["items"]:
+            metrics = ", ".join(
+                f"{_metric_label(name)} {_format_value(name, value)}"
+                for name, value in item.get("metrics", {}).items()
+            )
+            parts.append(f"{item['label']}: {metrics}")
+        return f"Comparison by {result.get('group_field', 'segment')} across { _describe_filters(filters)}: " + "; ".join(parts) + "."
+
     if value_a is None or value_b is None:
         return f"Comparison for { _describe_filters(filters)} is unavailable."
 
@@ -62,8 +75,8 @@ def _format_comparison_response(metric: str, filters: dict[str, Any], result: An
 
 def _format_ranking_response(metric: str, filters: dict[str, Any], result: Any) -> str:
     if isinstance(result, dict) and result.get("items"):
-        top = result["items"][0]
-        return f"Top ranked segment for {metric} is {top['label']} with a value of {top['value']:.2f}, based on { _describe_filters(filters)}."
+        items = ", ".join(f"{item['label']} ({_format_value(metric, item['value'])})" for item in result["items"])
+        return f"Top segments for {_metric_label(metric)} based on { _describe_filters(filters)} are {items}."
     return f"Ranking for {metric} is unavailable."
 
 
@@ -72,6 +85,13 @@ def _format_trend_response(metric: str, filters: dict[str, Any], result: Any) ->
         first = result["points"][0]
         return f"Trend for {metric} shows {first['label']} at {first['value']}, based on { _describe_filters(filters)}."
     return f"Trend for {metric} is unavailable."
+
+
+def _format_peak_hours_response(metric: str, filters: dict[str, Any], result: Any) -> str:
+    if isinstance(result, dict) and result.get("items"):
+        hours = ", ".join(f"{item['label']} ({item['count']} tx, {item['value']:.2f}%)" for item in result["items"])
+        return f"Peak hours for { _describe_filters(filters)} are {hours}."
+    return f"Peak hours for { _describe_filters(filters)} are unavailable."
 
 
 def _format_risk_response(metric: str, filters: dict[str, Any], result: Any) -> str:
@@ -87,6 +107,7 @@ def _metric_label(metric: str) -> str:
         "failure_rate": "Failure rate",
         "fraud_rate": "Fraud rate",
         "review_rate": "Review rate",
+        "success_rate": "Success rate",
         "average_latency_ms": "Average latency",
         "volume": "Transaction volume",
         "peak_hours": "Peak hours",
@@ -111,7 +132,11 @@ def _describe_filters(filters: dict[str, Any]) -> str:
     parts = []
     for key, value in filters.items():
         if isinstance(value, dict):
-            parts.append(f"{key} between {value.get('start')} and {value.get('end')}")
+            minimum = value.get("min", value.get("start"))
+            maximum = value.get("max", value.get("end"))
+            parts.append(f"{key} between {minimum} and {maximum}")
+        elif isinstance(value, (list, tuple, set, frozenset)):
+            parts.append(f"{key} in {', '.join(str(item) for item in value)}")
         else:
             parts.append(f"{key} = {value}")
     return ", ".join(parts)
