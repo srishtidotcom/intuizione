@@ -71,7 +71,27 @@ The generated data supports questions such as:
 ## Requirements
 
 - Python 3.10+
-- No third-party packages are required for the data generator
+- No third-party packages are required for the CLI demo or data generator
+
+## Business-User CLI Demo
+
+Ask one natural-language question against the bundled dataset:
+
+```bash
+python3 main.py "What is the average transaction amount for Food in Maharashtra?"
+```
+
+The CLI loads `data/synthetic_payments.csv`, executes the query, and prints:
+
+- the answer
+- a short explanation with the metric and matching row count
+- the underlying filters used by the analytics engine
+
+Use a different CSV file with:
+
+```bash
+python3 main.py "Which states have the highest fraud rate?" --dataset data/test_synthetic_payments.csv
+```
 
 ## How to Run the Generator
 
