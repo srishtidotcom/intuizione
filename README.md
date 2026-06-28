@@ -153,6 +153,8 @@ The orchestration layer in [planner.py](planner.py) validates the parsed structu
 
 The explanation engine in [explanation.py](explanation.py) turns those execution payloads into deterministic, human-readable summaries such as metric lookups, comparisons, rankings, trends, and anomaly/risk summaries.
 
+The conversation layer in [context_manager.py](context_manager.py) keeps track of the last filters, metric, segment, and time scope so follow-up questions like “Now compare iOS and Android” or “What about failure rate?” can reuse context while still supporting resets with “Start over” or “Ignore previous filters”.
+
 Example:
 
 ```python
