@@ -151,6 +151,8 @@ The repository now includes a lightweight parser module in [parser.py](parser.py
 
 The orchestration layer in [planner.py](planner.py) validates the parsed structure, routes the request to the appropriate analytics functions, and returns a structured payload with the result, metric, filters, and explanation inputs.
 
+The explanation engine in [explanation.py](explanation.py) turns those execution payloads into deterministic, human-readable summaries such as metric lookups, comparisons, rankings, trends, and anomaly/risk summaries.
+
 Example:
 
 ```python
