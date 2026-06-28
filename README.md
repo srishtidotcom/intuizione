@@ -64,6 +64,8 @@ The generated data supports questions such as:
 
 - `synthetic_data_generator.py`: deterministic generator for 250,000 transactions.
 - `analytics.py`: pure-Python metrics, comparisons, and segment summaries.
+- `parser.py`: lightweight natural-language query parser for intent and filter extraction.
+- `planner.py`: maps parsed questions to the analytics functions and returns executable results.
 - `README.md`: project overview, implementation notes, and usage instructions.
 
 ## Requirements
@@ -142,6 +144,24 @@ Once the analytics layer is added, the system should be able to answer queries t
 - `failure_rate(filters)`
 - `peak_hours(category)`
 - `compare_groups(metric, group_a, group_b)`
+
+## Query Understanding Layer
+
+The repository now includes a lightweight parser module in [parser.py](parser.py) that turns natural-language questions into structured requests. It recognizes intents such as metric lookup, comparison, trend, ranking, and anomaly/risk summary, while extracting filters for category, state, city, device, network, age group, payment method, and date ranges.
+
+The orchestration layer in [planner.py](planner.py) validates the parsed structure, routes the request to the appropriate analytics functions, and returns a structured payload with the result, metric, filters, and explanation inputs.
+
+Example:
+
+```python
+from parser import parse_question
+from planner import execute_query
+from analytics import load_transactions_csv
+
+records = load_transactions_csv("data/synthetic_payments.csv")
+print(parse_question("What is the average transaction amount for Food in Maharashtra?"))
+print(execute_query("How do iPhone and Android compare on failure rate?", records))
+```
 
 ## Analytics Module
 
