@@ -4,17 +4,14 @@ A deterministic, explainable conversational analytics starter for digital paymen
 
 ## What This Repository Provides
 
-This initial version includes two core deliverables:
+This version delivers a CLI-first MVP for business users:
 
-1. A fully documented README describing the system architecture, data methodology, and execution flow.
-2. A synthetic data generator that creates a reproducible payment dataset with 250,000 transactions.
-
-The generator is intentionally designed as the foundation for the rest of the stack:
-
-- intent parsing can be layered on top later
-- analytics functions can operate directly on the generated dataframe
-- explainability can cite deterministic statistics from the dataset
-- conversation memory can be added once the query planner exists
+1. A deterministic synthetic payment dataset.
+2. A lightweight natural-language parser for common analytics questions.
+3. A pure-Python analytics engine for metrics, rankings, trends, and comparisons.
+4. A planner that maps parsed questions to analytics functions.
+5. A deterministic explanation layer that prints the answer, scope, row counts, and filters used.
+6. A command-line demo flow through `main.py`.
 
 ## System Architecture
 
@@ -32,7 +29,7 @@ User Query
 
 - Intent and parameter extraction: convert natural-language business questions into a structured request.
 - Query planner: map structured requests to analytics functions.
-- Analytics engine: execute pandas and numpy operations on the dataset.
+- Analytics engine: execute pure-Python operations on CSV-backed transaction records.
 - Insight generator: compute statistics, trends, comparisons, and anomaly signals.
 - Explanation generator: translate results into plain-English reasoning with supporting numbers.
 - Conversation memory: preserve recent filters, last metric, and follow-up context.
@@ -62,10 +59,14 @@ The generated data supports questions such as:
 
 ## File Layout
 
+- `main.py`: CLI entry point for business-user demo queries.
 - `synthetic_data_generator.py`: deterministic generator for 250,000 transactions.
 - `analytics.py`: pure-Python metrics, comparisons, and segment summaries.
 - `parser.py`: lightweight natural-language query parser for intent and filter extraction.
 - `planner.py`: maps parsed questions to the analytics functions and returns executable results.
+- `explanation.py`: formats planner outputs into deterministic human-readable answers.
+- `context_manager.py`: keeps recent filters and metrics for follow-up questions.
+- `tests/`: unit tests for parsing, planning, explanations, context handling, and the CLI flow.
 - `README.md`: project overview, implementation notes, and usage instructions.
 
 ## Requirements
@@ -86,6 +87,23 @@ The CLI loads `data/synthetic_payments.csv`, executes the query, and prints:
 - the answer
 - a short explanation with the metric and matching row count
 - the underlying filters used by the analytics engine
+
+Example output:
+
+```text
+Answer: Average transaction amount for category = Food, state = Maharashtra is ₹623.89.
+
+Explanation:
+- Metric: average_transaction_amount
+- Rows matched: 6970 of 250000
+- Scope: category = Food, state = Maharashtra
+
+Underlying filters used:
+{
+  "category": "Food",
+  "state": "Maharashtra"
+}
+```
 
 Use a different CSV file with:
 
@@ -114,7 +132,7 @@ python synthetic_data_generator.py --rows 250000 --seed 42 --output data/synthet
 
 ## Output Schema
 
-The generator produces a dataframe with the following fields:
+The generator produces a CSV with the following fields:
 
 - `transaction_id`
 - `transaction_timestamp`
@@ -155,15 +173,6 @@ Failure probability and fraud review signals are introduced using deterministic 
 ### Explainability readiness
 
 Because the data is synthetic and seeded, every analytical result can be re-computed exactly and explained with consistent statistics, deltas, and group comparisons.
-
-## Example Analytics That Will Sit on Top of This Dataset
-
-Once the analytics layer is added, the system should be able to answer queries through reusable Python functions such as:
-
-- `average_transaction_amount(filters)`
-- `failure_rate(filters)`
-- `peak_hours(category)`
-- `compare_groups(metric, group_a, group_b)`
 
 ## Query Understanding Layer
 
@@ -272,14 +281,23 @@ print(compare_groups(records, 'failure_rate', 'iOS', 'Android', 'device_type', {
 
 For implementation details and anchors, see the function definitions in [analytics.py](analytics.py#L57-L520).
 
+## Testing
+
+Run the full test suite:
+
+```bash
+python3 -m pytest -q
+```
+
+The tests cover parsing, planning, explanation formatting, context handling, and the CLI demo helpers.
+
 ## Suggested Next Steps
 
-1. Add a pure-Python analytics module for core metrics.
-2. Add intent parsing that returns structured JSON from natural-language questions.
-3. Add a query planner that maps parsed intents to analytics functions.
-4. Add a conversational memory layer for follow-up questions.
-5. Build a lightweight CLI, notebook, or web UI for demo queries.
-6. Prepare a sample query set with at least 15 business questions and responses.
+1. Expand parser coverage for more business phrasing and explicit date years.
+2. Add richer explanations for rankings and trend summaries.
+3. Add multi-turn CLI mode using `ConversationContext`.
+4. Prepare a sample query set with expected answers for demos.
+5. Build a lightweight web UI later if a browser-based workflow becomes useful.
 
 ## Demo Video Outline
 
@@ -293,4 +311,4 @@ A 3-5 minute walkthrough can show:
 
 ## Notes for Evaluation
 
-This repository currently focuses on the foundational data and documentation layer. The generator is deterministic and is intended to be the canonical source of truth for the rest of the conversational analytics pipeline.
+This repository currently focuses on the CLI-first demo path. The user-facing flow is `question -> parsed intent and filters -> planner -> analytics -> deterministic answer and explanation`, with no web UI required.
